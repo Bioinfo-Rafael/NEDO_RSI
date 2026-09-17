@@ -1,0 +1,2 @@
+# GoT imports the MCP v1 FastMCP API; MCP v2 is incompatible.
+mcp==1.30.0

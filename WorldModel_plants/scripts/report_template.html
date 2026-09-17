@@ -1,0 +1,407 @@
+<title>実機の時間で動く炉と、その中で計画するAI</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Noto+Serif+JP:wght@600;700&display=swap">
+<style>
+  :root{
+    color-scheme:light;
+    --bg:#f5f6f7; --surface:#fff; --surface-2:#eceef0;
+    --ink:#12161a; --ink-2:#4d555d; --ink-3:#828c96;
+    --line:#dfe3e6; --line-2:#c4cbd1;
+    --accent:#c4442b; --accent-w:#fbeeea;
+    --data:#2a78d6; --ok:#1b6f53; --ok-w:#e6f1ec;
+    --warn:#8a6410; --warn-w:#f8f0dc; --stop:#8e2f33; --stop-w:#f6e4e5;
+    --agent:#7b2258;
+    --sans:"Noto Sans JP","Hiragino Sans",system-ui,sans-serif;
+    --serif:"Noto Serif JP","Hiragino Mincho ProN",serif;
+    --mono:ui-monospace,SFMono-Regular,Menlo,monospace;
+  }
+  @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+    color-scheme:dark;
+    --bg:#121519; --surface:#1a1e23; --surface-2:#232830;
+    --ink:#f2f4f6; --ink-2:#b4bcc4; --ink-3:#848e98;
+    --line:#2b3138; --line-2:#3d444d;
+    --accent:#f0795c; --accent-w:#33201b;
+    --data:#5b9df0; --ok:#47b98b; --ok-w:#17302a;
+    --warn:#d8a93f; --warn-w:#322a15; --stop:#ef7d80; --stop-w:#3a1f22;
+    --agent:#cc6aa4;
+  }}
+  :root[data-theme="dark"]{
+    color-scheme:dark;
+    --bg:#121519; --surface:#1a1e23; --surface-2:#232830;
+    --ink:#f2f4f6; --ink-2:#b4bcc4; --ink-3:#848e98;
+    --line:#2b3138; --line-2:#3d444d;
+    --accent:#f0795c; --accent-w:#33201b;
+    --data:#5b9df0; --ok:#47b98b; --ok-w:#17302a;
+    --warn:#d8a93f; --warn-w:#322a15; --stop:#ef7d80; --stop-w:#3a1f22;
+    --agent:#cc6aa4;
+  }
+  *{box-sizing:border-box}
+  body{background:var(--bg);color:var(--ink);font-family:var(--sans);
+       font-size:16px;line-height:1.85;-webkit-font-smoothing:antialiased}
+  .wrap{max-width:1000px;margin:0 auto;padding-inline:20px;padding-block:50px 92px;
+        display:flex;flex-direction:column;gap:60px}
+  .prose{max-width:40em}
+  p{margin:0 0 1em}p:last-child{margin-bottom:0}
+  code{font-family:var(--mono);font-size:.86em;background:var(--surface-2);
+       padding:.1em .36em;border-radius:3px}
+  a{color:var(--accent)}
+  header{border-bottom:3px solid var(--ink);padding-bottom:26px}
+  .kicker{font-size:13px;font-weight:700;letter-spacing:.11em;color:var(--accent);margin-bottom:15px}
+  h1{font-family:var(--serif);font-weight:700;font-size:clamp(27px,4.6vw,42px);
+     line-height:1.32;margin:0 0 18px;text-wrap:balance}
+  .lede{font-size:17px;color:var(--ink-2);max-width:40em}
+  .meta{margin-top:22px;font-size:13px;color:var(--ink-3);display:flex;flex-wrap:wrap;gap:6px 22px}
+  section{display:flex;flex-direction:column;gap:22px}
+  h2{font-family:var(--serif);font-weight:700;font-size:clamp(21px,3vw,27px);
+     line-height:1.45;margin:0;text-wrap:balance}
+  h2 .n{display:block;font-family:var(--sans);font-size:12px;font-weight:700;
+        letter-spacing:.13em;color:var(--accent);margin-bottom:8px}
+  h3{font-size:16px;font-weight:700;margin:0 0 6px}
+  figure{margin:0;display:flex;flex-direction:column;gap:12px}
+  figure img{display:block;width:100%;max-width:100%;height:auto;background:#fff;
+             border:1px solid var(--line)}
+  figcaption{font-size:14px;line-height:1.8;color:var(--ink-2);max-width:47em}
+  figcaption b{color:var(--ink)}
+  .thesis{background:var(--surface);border:1px solid var(--line);
+          border-left:5px solid var(--accent);padding:30px 34px}
+  .thesis p{font-family:var(--serif);font-size:clamp(18px,2.5vw,23px);
+            line-height:1.7;font-weight:600;margin:0}
+  .summary{background:var(--surface);border:1px solid var(--line);
+           border-top:3px solid var(--accent);padding:28px 32px;
+           display:flex;flex-direction:column;gap:16px}
+  .summary h2{font-size:19px}
+  .summary ol{margin:0;padding-left:1.3em;display:flex;flex-direction:column;gap:13px}
+  .summary li::marker{color:var(--accent);font-weight:700}
+  .scroll{overflow-x:auto}
+  table{width:100%;border-collapse:collapse;font-size:14.5px;font-variant-numeric:tabular-nums}
+  caption{text-align:left;font-size:13.5px;color:var(--ink-2);padding-bottom:9px}
+  th,td{text-align:left;padding:11px 15px 11px 0;border-bottom:1px solid var(--line);vertical-align:top}
+  th{font-size:12.5px;font-weight:700;color:var(--ink-3);border-bottom-color:var(--line-2)}
+  td.n{white-space:nowrap;font-variant-numeric:tabular-nums}
+  td.sha{font-family:var(--mono);font-size:12.5px;color:var(--ink-3);white-space:nowrap}
+  tr.hl td{background:var(--accent-w)}
+  .tag{font-size:11.5px;font-weight:700;padding:2px 9px;border-radius:3px;white-space:nowrap}
+  .tag.k{background:var(--ok-w);color:var(--ok)}
+  .tag.d{background:var(--surface-2);color:var(--ink-3)}
+  .tag.x{background:var(--stop-w);color:var(--stop)}
+  .tag.w{background:var(--warn-w);color:var(--warn)}
+  .note{border-left:4px solid var(--accent);background:var(--surface);padding:22px 26px}
+  .note.w{border-left-color:var(--warn);background:var(--warn-w)}
+  .note.g{border-left-color:var(--ok);background:var(--ok-w)}
+  .note h3{color:var(--accent)}.note.w h3{color:var(--warn)}.note.g h3{color:var(--ok)}
+  .quote{border-left:3px solid var(--agent);background:var(--surface);
+         padding:15px 20px;font-size:14.5px;color:var(--ink-2);line-height:1.75}
+  .quote b{color:var(--agent)}
+  .quote .ja{color:var(--ink-3);font-size:13.5px}
+  pre{margin:0;background:var(--surface-2);border:1px solid var(--line);
+      padding:13px 16px;overflow-x:auto;font-family:var(--mono);
+      font-size:12.5px;line-height:1.65;color:var(--ink-2)}
+  pre b{color:var(--ok);font-weight:700}
+  .nums{display:grid;grid-template-columns:repeat(auto-fit,minmax(162px,1fr));
+        gap:1px;background:var(--line);border:1px solid var(--line)}
+  .nums div{background:var(--surface);padding:19px 17px}
+  .nums .v{font-family:var(--serif);font-size:26px;font-weight:700;line-height:1.2;
+           color:var(--accent);font-variant-numeric:tabular-nums}
+  .nums .k{font-size:12.5px;color:var(--ink-2);margin-top:7px;line-height:1.6}
+  ul.plain{margin:0;padding-left:1.2em;display:flex;flex-direction:column;gap:9px}
+  ul.plain li::marker{color:var(--ink-3)}
+  footer{border-top:1px solid var(--line);padding-top:24px;font-size:13px;
+         color:var(--ink-3);line-height:1.9}
+</style>
+
+<div class="wrap">
+
+<header>
+  <div class="kicker">NEDO RSI ／ モック報告（第2版・暫定）</div>
+  <h1>実機の時間で動く炉と、<br>その中で計画するAI</h1>
+  <p class="lede">
+    ごみ焼却炉の物理シミュレータを「プラント」として、その未来を予測する World Model と、
+    予測の中で運転方法を探す Controller を動かしています。今回はシミュレータの時間を
+    <b>実機の時間</b>に合わせました。火格子の上をごみが通り抜けるのに約10分。
+    制御の難しさはそこにあり、それを短縮したままでは何を示しても実機の話になりません。
+  </p>
+  <div class="meta">
+    <span>2026年9月14日</span><span>暫定版 — 同定データ 24 本、Codex ループは投入前</span>
+    <span>数値はすべてリポジトリでの実測</span>
+  </div>
+</header>
+
+<div class="thesis">
+  <p>時間スケールを実機に合わせた瞬間、炉は消えました。<br>
+  <span style="color:var(--accent)">それを燃やし続けるために必要だったのは、実機が持っている装備そのものでした。</span></p>
+</div>
+
+<section class="summary">
+  <h2>要旨</h2>
+  <ol>
+    <li><b>シミュレータを実機の時間スケールで動かせるようにしました。</b>
+      制御周期 1 秒、火格子の滞留 400〜1200 秒（実機ログ 660〜720 秒を挟む）。
+      3 種の炉 × 操作範囲の全 16 隅で発散なし、183 件の検証を通過。</li>
+    <li><b>AI が炉を制御しています。</b>
+      World Model の中で未来を試し、その結果で火格子と空気を動かします。
+      暫定版では、人間が指定しない「床」のモデル（線形状態空間、学習 150 秒）で C を回した結果を載せています。</li>
+    <li><b>AI が World Model を書き換えています。</b>
+      アーキテクチャは人間が指定せず、Codex に「目標との差を下げよ」だけを渡します。
+      前世代のプラントでは 5 実験で 17 % 改善し、私たちのコードのバグを自力で見つけました。
+      実機時間スケールの新しいプラントへの投入はこの暫定版の直後です。</li>
+    <li><b>複数の炉への一般化は、母集団とデータの準備までできています。</b>
+      12 族のプラント生成器、火格子面積で正規化した操作範囲、プラント仕様ベクトル。
+      学習側での条件付けはこれから。</li>
+  </ol>
+</section>
+
+<section>
+  <h2><span class="n">全体像</span>3つの部品と、その時間スケール</h2>
+  <figure>
+    <img src="{{flow.png}}" alt="Simulator、World Model、Controller、Codex の関係と時間スケールを示す図">
+    <figcaption>
+      <b>M は「何が起こるか」、C は「何をすべきか」、Codex は「M をどう作るか」</b>に答えます。
+      C は 1 秒ごと、Codex は数分ごとに動きます。Codex は制御器ではありません。
+      チームの他のメンバーが持つのは、シミュレータを動かす Python の 1 メソッドと、
+      Codex のエントリーポイント <code>run.py</code> だけです。
+    </figcaption>
+  </figure>
+</section>
+
+<section>
+  <h2><span class="n">シミュレータ</span>時間を実機に合わせると、何が要るのか</h2>
+  <div class="prose">
+    <p>
+      これまでのシミュレータは火格子の動きを <b>4 倍に圧縮</b>していました。1 エピソードが安く済むからです。
+      それを外して滞留時間を実機の 600 秒にすると、炉はあらゆる条件で消えました。
+      調べると、圧縮された時間では<b>燃料が速く供給されることで炉が「支えられていた」</b>だけで、
+      実機なら当然ある装備がモデルにいくつも欠けていました。
+    </p>
+  </div>
+  <div class="scroll">
+    <table>
+      <caption><b>実機にはあって、モデルに無かったもの。</b>いずれか一つが欠けると炉は消えます。値は実測。</caption>
+      <thead><tr><th>実機の装備・現象</th><th>モデルで起きていたこと</th><th>効果（実測）</th></tr></thead>
+      <tbody>
+        <tr><td>一次空気は全量が火格子を通って予熱される</td><td>60% が 300 K のまま炉内へ</td><td class="n">冷却 −52 K/s 対 反応加熱 +35 K/s</td></tr>
+        <tr><td>蒸気式の一次空気予熱器（150〜250 ℃）</td><td>常温で投入</td><td class="n">層の熱収支 −210 kW/m²</td></tr>
+        <tr><td>層自体に温度と熱慣性がある</td><td>直上のガス温度で反応を判定</td><td class="n">空気の入口がそこなので 0.6 秒で「消火」判定</td></tr>
+        <tr><td>着火アーチ：炉全体が層を照らす</td><td>真上の柱だけ、しかも温度を先に平均</td><td class="n">放射が 7 分の 1、供給端が着火しない</td></tr>
+        <tr><td>二次空気ジェットは炉幅の 1/3 を貫通</td><td>壁の 1 セルに集中</td><td class="n">冷たいカーテンで火炎が分断</td></tr>
+        <tr><td>下部炉は耐火材（〜1250 K）、上部は水管壁</td><td>全面 600 K の壁</td><td class="n">539 K の混合気は自着火しない</td></tr>
+        <tr class="hl"><td><b>壁は断熱境界、伝熱は係数で</b></td><td><b>固体セルを 600 K に固定し拡散で結合</b></td><td class="n"><b>壁が 9.4 MW を吸収（燃料は 3.5 MW）</b></td></tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="note w prose">
+    <h3>最後の行が本当の原因でした</h3>
+    <p>
+      物理を一つずつ足していく 12 時間のあいだ、炉が消え続けた最大の理由は物理の欠落ではなく
+      <b>数値境界の扱い</b>でした。壁に接するセルが乱流拡散の速さで 600 K の壁に引きずられ、
+      燃料の 2.7 倍の熱を吸っていました。この一件は、
+      <b>症状に物理を足す前に大域のエネルギー収支を閉じるべきだった</b>という反省として記録しています。
+      いくつかの集中定数（壁損失・放射・予熱）は、運転点が実機の範囲
+      （炉温 1000〜1300 K、O₂ 6〜10 %、灰の未燃分 3 % 未満）に乗るよう<b>校正した値</b>です。
+    </p>
+  </div>
+  <figure>
+    <img src="{{deadtime.png}}" alt="同定データの1エピソード。一次空気と炉出口温度、火格子速度と灰の未燃分。後者に約10分のむだ時間">
+    <figcaption>
+      <b>速いループと遅いループが同居しています。</b>一次空気は数秒で炉出口温度に届きますが、
+      火格子速度が灰の未燃分に現れるまでには火格子の滞留時間ぶんかかります。
+      同定データ 24 本の増分の相互相関から測ったむだ時間は <b>約 500 秒（8 分）</b>。
+      実機ログで測った 11〜12 分と同じ桁です。一次空気 → 炉出口温度は 1〜2 秒。
+    </figcaption>
+  </figure>
+</section>
+
+<section>
+  <h2><span class="n">動いているもの</span>AIが炉を制御している</h2>
+  <div class="prose">
+    <p>
+      Controller は炉の中を見ていません。実機と同じく、出口で測れる 4 つの数（温度・O₂・未燃ガス・灰の未燃分）の
+      履歴だけを受け取り、World Model の中で 30 秒先までの未来を多数試して、最初の 1 手だけを実行します。
+      目標値は t = 150 s で段階的に変わります（下図の赤い破線）。動画版は完成版で載せます。
+    </p>
+  </div>
+  <div class="nums">
+    <div><div class="v">1 秒</div><div class="k">制御周期（実機の ACC と同じ桁）</div></div>
+    <div><div class="v">30 秒</div><div class="k">M の中で計画する先の長さ</div></div>
+    <div><div class="v">5,120 本</div><div class="k">毎回 World Model の中で試す未来の数<br>（256 候補 × 4 反復 × 5 体）</div></div>
+    <div><div class="v">≈ 500 秒</div><div class="k">投入 → 灰の未燃分のむだ時間<br>（同定データから実測）</div></div>
+  </div>
+</section>
+
+<section>
+  <h2><span class="n">比較</span>従来の制御（PID）と、どこで差がつくのか</h2>
+  <div class="prose">
+    <p>
+      焼却炉の自動燃焼制御には PID という確立した技術があります。「AI だから優れている」では説明になりません。
+      PI 制御は相対ゲイン行列で対を選び、同定データから測ったゲインとむだ時間で
+      SIMC 則により調整しました。<b>手加減はしていません。</b>
+    </p>
+  </div>
+  <figure>
+    <img src="{{tracking.png}}" alt="制御なし・PI制御・MPCの目標追従の比較">
+    <figcaption>
+      <b>目標（赤い破線）は 1107 K で始まり、t = 150 s で 1332 K に上がります。</b>
+      「制御なし」は初期状態から炉が自然に落ち着く 1338 K に向かうだけなので、前半は 160 K も外し、
+      後半は<b>偶然</b>目標に乗ります。PI（RGA で対を選び SIMC で調整）と MPC（線形の床モデルで計画）は
+      どちらも目標を追いますが、この暫定版の MPC は前半で目標より下へ行き過ぎています。
+      全 400 秒の追従誤差（σ 単位、整定区間を除く）: 制御なし 2.05、PI 1.21、MPC 1.39。
+      <b>MPC が勝っているのは O₂（0.30σ 対 0.52σ）と制約遵守で、温度は PI に負けています。</b>
+      これは M が「超えるべき床」のままだからで、Codex が改良する対象そのものです。
+    </figcaption>
+  </figure>
+  <figure>
+    <img src="{{constraints.png}}" alt="操作指令が設備の追従限界を超えた回数の比較">
+    <figcaption>
+      <b>PI は 400 秒のあいだに 9 回、設備が追従できない速さの操作変化を要求しました。MPC は 0 回。</b>
+      PID には制約という概念がなく、指令を後から頭打ちにするしかありません。
+      MPC は操作を変化量として候補生成するので、検討する時点で全候補が設備の限界を満たしています。
+    </figcaption>
+  </figure>
+  <div class="note w prose">
+    <h3>PID の対付けが、この炉では非自明でした</h3>
+    <p>
+      同定データから測った相対ゲイン行列は、常識的な対（一次空気 → 温度、二次空気 → O₂）に対して
+      <b>−0.22</b>、逆の対に <b>1.22</b> でした。負の相対ゲインの対で単独ループを閉じると、他のループが
+      動いた瞬間に利得の符号が反転して不安定化しうる。つまりこの炉では二次空気が温度も O₂ も支配しており
+      （入力の権限: 温度 1.44σ、O₂ 2.51σ）、PID を使うなら対を逆にしなければなりません。
+      前世代のプラントでは対角 0.79 / 0.81 / 0.98 とほぼ独立でした。実機時間スケールにした結果、
+      <b>干渉の強い、PID にとって難しい炉</b>になっています。
+    </p>
+  </div>
+  <div class="note prose">
+    <h3>差がつく場所は、むだ時間と制約</h3>
+    <p>
+      PI ループの帯域は、むだ時間 L に対しておよそ 1/L が上限です。
+      火格子速度 → 灰の未燃分のむだ時間は約 10 分なので、この 1 ループの PI は
+      <b>原理的に 10 分より速くは動けません</b>。M の中で計画する制御はむだ時間を「予測して越える」ことができます。
+      もう一つは制約です。PID には「火格子はこれより速く変えられない」という概念がなく、
+      指令を後から頭打ちにするしかありません。MPC は変化量として候補を生成するので、
+      検討する時点で全候補が設備の限界を満たしています。
+    </p>
+  </div>
+</section>
+
+<section>
+  <h2><span class="n">中核</span>AIがAIを書き換える</h2>
+  <div class="prose">
+    <p>
+      人間が与えたのは <b>「目標との差を下げよ」という一つの数字</b>と、
+      「アーキテクチャは決めていない、過去の仕事を捨ててよい」という指示です。
+      初期状態は線形の状態空間モデル — ニューラルネットではなく、どの方向も指さない<b>超えるべき床</b>です。
+    </p>
+  </div>
+  <div class="note w prose">
+    <h3>この暫定版には Codex の新しい履歴はまだありません</h3>
+    <p>
+      シミュレータを実機時間スケールに変えたため、旧プラントで得た 5 実験の履歴（GRU の隠れ層縮小、早期打ち切り、
+      アンサンブル状態のバグ修正 …）はそのままでは比較できません。新プラントの同定データが揃った時点で
+      <code>scripts/run_control_research.sh</code> を投入し、コミット履歴・差分・採否をこの節に載せます。
+      課題文 <code>program.md</code> は「アーキテクチャは決めていない、過去の仕事を捨ててよい」と明記し、
+      入力の権限とむだ時間の実測表を同梱しています。
+    </p>
+  </div>
+</section>
+
+<section>
+  <h2><span class="n">複数設備</span>1 つのモデルで多くの炉を賄うために</h2>
+  <figure>
+    <img src="{{plants.png}}" alt="手書き3プラントと12族から生成したプラントの幾何">
+    <figcaption>
+      <b>World Model が賄うべき母集団。</b>3 つの手書きプラントと、12 族（3 サイズ × 4 ゾーン数）から
+      手続き生成した炉。幅・高さ・傾斜・ゾーン数・ノズル数・煙道位置・ごみ性状が違います。
+      格子は全部 64×64 に固定してあり、幾何の違いはマスクとして同じ形の配列に載ります。
+    </figcaption>
+  </figure>
+  <div class="prose">
+    <p>
+      操作範囲もプラントごとに違います。実機のファンと投入機は火格子に合わせて設計されるので、
+      <b>火格子面積あたりの熱負荷と空気量を一定</b>にする形で自動的にスケールします。
+      これを入れる前は、長い炉が冷え、小さい炉が過燃焼していました — 同じ絶対値の空気を送っていたからです。
+    </p>
+    <p>
+      各プラントは 12 次元の仕様ベクトル <code>mu</code>（正規化した幅・高さ・傾斜・ゾーン数・煙道位置・
+      水分・発熱量 …）を持ち、同定データに同梱されます。M がこれを毎ステップ条件として受け取るかどうかは
+      Codex の裁量で、評価を「学習していない族の炉を制御できるか」に変えるのが次の段階です。
+    </p>
+  </div>
+</section>
+
+<section>
+  <h2><span class="n">実データ</span>実運転データだけでは、制御AIは作れない</h2>
+  <div class="prose">
+    <p>
+      実プラントの運転記録（2020年8月・10秒間隔・276,392行・121項目）を解析しました。
+      乾燥ストーカ速度と燃焼ストーカ速度の相関は 1.00、給じん装置とも 0.98。
+      既存の自動燃焼制御がこれらを<b>固定比率で連動</b>させているためで、
+      「乾燥段だけ速くしたら何が起きるか」という情報は<b>原理的に含まれていません</b>。
+      入力相関行列の条件数は 5,320。データ量を増やしても解決しません。
+    </p>
+    <p>
+      むだ時間も実測しました。<b>火格子速度から燃切点位置までは 11〜12 分</b>。
+      シミュレータの滞留時間はこの値を挟むように決めています。
+    </p>
+  </div>
+  <div class="note prose">
+    <h3>これがシミュレータ主体のアプローチの理由です</h3>
+    <p>
+      各操作端を<b>独立に振ったデータ</b>が必要で、それは実炉では危険かつ規制上困難です。
+      物理シミュレータでそれを作り、実データの役割は同定ではなく<b>較正とずれの補正</b>に置きます。
+    </p>
+  </div>
+</section>
+
+<section>
+  <h2><span class="n">現在地</span>できたこと・できていないこと</h2>
+  <div class="scroll">
+    <table>
+      <thead><tr><th>項目</th><th>状態</th><th>根拠</th></tr></thead>
+      <tbody>
+        <tr><td>炉の物理シミュレータ（実機の時間スケール）</td><td><span class="tag k">動作</span></td><td>3 プラント × 16 隅で発散・クランプなし、183 件通過</td></tr>
+        <tr><td>チームへの引き渡し</td><td><span class="tag k">動作</span></td><td>純 Python、<code>env.step()</code> 1 メソッド、<code>run.py</code> と README</td></tr>
+        <tr><td>World Model（M）</td><td><span class="tag w">床のみ</span></td><td>線形状態空間・学習 150 s・同定データ 16 本。Codex 投入前</td></tr>
+        <tr><td>Controller（C）</td><td><span class="tag k">動作</span></td><td>1 s 周期・制約違反 0 回・O₂ は PI より良い・温度は PI に劣る</td></tr>
+        <tr><td>Codex による自己改良</td><td><span class="tag w">投入前</span></td><td>前世代で 2 ループ 10 実験の実績。新プラントは同定データ完了後に投入</td></tr>
+        <tr><td>複数設備：母集団・操作範囲・仕様ベクトル・データ</td><td><span class="tag w">準備済</span></td><td>12 族生成器、面積正規化、<code>mu</code> 同梱</td></tr>
+        <tr><td>複数設備：M の条件付けと未知の族での評価</td><td><span class="tag x">未実装</span></td><td>評価指標の変更が先</td></tr>
+        <tr><td>物理とNNの融合</td><td><span class="tag x">未実装</span></td><td>M は現状ブラックボックス（Codex の選択次第）</td></tr>
+        <tr><td>実炉データとの接続</td><td><span class="tag x">未着手</span></td><td>解析のみ</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section>
+  <h2><span class="n">次の段階</span>優先順位</h2>
+  <div class="prose">
+    <ul class="plain">
+      <li><b>評価を「学習していない族の炉を制御できるか」に変える。</b>
+        指標が独自性そのものになれば、Codex はその方向に最適化を始めます。母集団とデータは揃っています。</li>
+      <li><b>World Model に設備情報 <code>mu</code> を毎ステップ与える。</b> 入力に一度足すのではなく、状態更新のたびに。</li>
+      <li><b>物理を土台にする。</b> 粗い物理モデルの上に「現実とのずれ」だけを AI が学ぶ構成を、Codex の選択肢として明示する。</li>
+      <li><b>シミュレータのエネルギー監査を常設テストにする。</b> 今回の 12 時間を二度と払わないために。</li>
+      <li><b>実炉データとの較正。</b> 同定ではなく、シミュレータのずれを実機に合わせ込む用途で。</li>
+    </ul>
+  </div>
+  <div class="prose">
+    <p>
+      実炉への適用は段階的に行います。<b>並行運転（AI は予測のみ）→ 運転支援（AI が提案・人が承認）→
+      安全制約内での自動制御</b>。いきなり運転を任せる形は取りません。
+    </p>
+  </div>
+</section>
+
+<footer>
+  <p>
+    本書の数値はすべてリポジトリ内で実測したものです。Codex のコミット履歴と差分は、
+    Codex 自身が作成した git リポジトリから直接抽出しています。
+    CO・NOx は一段反応モデルのため実在せず、記録しているのは代理指標です。
+    人工圧縮性ソルバのため圧力チャンネルは定性的です（最大 Mach 0.73）。
+    現段階の成果物は「シミュレータで訓練された World Model」であり、実炉のデジタルツインではありません。
+  </p>
+  <p>
+    接続仕様は <code>INTERFACES.md</code>、実行手順は <code>README.md</code>。
+    物理モデル・World Model・Controller はそれぞれ独立に差し替え可能な形で分離してあります。
+  </p>
+</footer>
+
+</div>

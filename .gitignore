@@ -1,0 +1,33 @@
+# Local Codex state and credentials
+.codex-got/
+.codex-swarm/
+
+# Raw/private inputs kept only on this machine
+_ingest_raw/
+200801-0831 (1).csv
+
+# Nested repository metadata (source files are vendored in this repository)
+**/.git/
+
+# Python and Node environments/caches
+**/.venv/
+**/__pycache__/
+**/.pytest_cache/
+**/node_modules/
+*.py[cod]
+*.egg-info/
+
+# Local runtime output
+.DS_Store
+**/.DS_Store
+*.log
+*.pid
+*.sqlite-shm
+*.sqlite-wal
+Graph-of-Trace/.cache/
+Graph-of-Trace/runs/
+Graph-of-Trace/demo.mp4
+WorldModel_plants/out/
+WorldModel_plants/research/runs/
+autoresearch/csv_experiment/data/
+autoresearch/csv_experiment/results/

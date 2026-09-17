@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wmf"
+version = "0.1.0"
+description = "2D stoker incinerator simulator for NEDO RSI world-model demo"
+requires-python = ">=3.10"
+dependencies = [
+    "jax>=0.4.28",
+    "numpy>=1.26",
+    "pyyaml>=6.0",
+    "matplotlib>=3.8",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+# NVIDIA box:  pip install -e ".[cuda12]"   (same code; JAX picks the GPU)
+cuda12 = ["jax[cuda12]>=0.4.28"]
+# figures / report
+figs = ["matplotlib>=3.8", "pillow>=10"]
+
+[project.scripts]
+wmf-selfcheck = "wmf.selfcheck:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

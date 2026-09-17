@@ -1,0 +1,25 @@
+# Plant A - 標準的なストーカ炉。メインの学習対象。
+plant_id: plant_a
+furnace:
+  width:  12.0      # m
+  height:  7.0      # m
+stoker:
+  length:      12.0  # m  (炉幅いっぱい)
+  inclination:  8.0  # deg
+  zones:        5
+primary_air:
+  zones: 5           # ストーカ下部に等分割配置
+secondary_air:
+  nozzles: 6         # 炉上部側壁
+flue:
+  diameter_ratio: 0.25    # 炉幅に対する煙道幅の比
+  position: top_right
+waste:
+  moisture:      0.35     # 含水率 [-]
+  lhv:           9.0      # MJ/kg 低位発熱量
+  # volatile_frac / ash_frac は乾燥基準 (char = 1 - volatile - ash)
+  volatile_frac: 0.60
+  ash_frac:      0.10
+wall:
+  heat_transfer: 25.0     # W/m2K
+  temperature: 600.0      # K 壁面温度

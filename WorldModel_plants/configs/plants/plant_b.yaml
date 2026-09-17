@@ -1,0 +1,25 @@
+# Plant B - 長い炉・6ゾーン・煙道が左上。hold-out 候補（分布内 interpolation）。
+plant_id: plant_b
+furnace:
+  width:  15.0
+  height:  6.0
+stoker:
+  length:      15.0
+  inclination:  5.0
+  zones:        6
+primary_air:
+  zones: 6
+secondary_air:
+  nozzles: 8
+flue:
+  diameter_ratio: 0.30
+  position: top_left
+waste:
+  moisture:      0.45
+  lhv:           7.5
+  # volatile_frac / ash_frac は乾燥基準 (char = 1 - volatile - ash)
+  volatile_frac: 0.55
+  ash_frac:      0.12
+wall:
+  heat_transfer: 30.0
+  temperature: 580.0

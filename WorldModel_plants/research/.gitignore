@@ -1,0 +1,4 @@
+runs/
+
+# Initial experiment snapshots are explicitly tracked on rafael/Initial_run.
+# Keep future runs ignored; add selected archives explicitly.

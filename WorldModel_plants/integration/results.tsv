@@ -1,0 +1,6 @@
+commit	val_nrmse	gen_gap_b	status	description
+1adcbb0	0.304394	2.527	keep	sep14 exp1: unmodified baseline
+ffde804	0.311973	2.459	discard	sep14 exp2: add geometry and cell-spacing inputs
+3658e59	0.289023	2.955	keep	sep14 exp3: dilate second hidden convolution by 2
+38ebf3f	0.287277	2.934	keep	sep14 exp4: train on two-step open-loop predictions
+9bc13b3	0.299081	2.808	discard	sep14 exp5: cosine learning-rate decay to 10 percent

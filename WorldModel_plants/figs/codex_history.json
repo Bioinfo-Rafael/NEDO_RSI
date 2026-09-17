@@ -1,0 +1,166 @@
+{
+ "prediction": {
+  "label": "第1ループ：予測誤差で採点",
+  "metric": "val_nrmse",
+  "items": [
+   {
+    "n": 1,
+    "sha": "1adcbb0",
+    "metric": 0.304394,
+    "status": "keep",
+    "description": "sep14 exp1: unmodified baseline",
+    "added": 0,
+    "removed": 0,
+    "diff": []
+   },
+   {
+    "n": 2,
+    "sha": "ffde804",
+    "metric": 0.311973,
+    "status": "discard",
+    "description": "sep14 exp2: add geometry and cell-spacing inputs",
+    "added": 4,
+    "removed": 6,
+    "diff": [
+     "  * geometry and cell spacing are supplied as static input channels.",
+     "    \"\"\"Condition state increments on plant geometry and physical cell size.\"\"\"",
+     "    spacing = jnp.broadcast_to(dx[:, None, None, None] / 0.1875, x.shape[:-1] + (1,))",
+     "    return jnp.concatenate([x, a, g, spacing], axis=-1)"
+    ]
+   },
+   {
+    "n": 3,
+    "sha": "3658e59",
+    "metric": 0.289023,
+    "status": "keep",
+    "description": "sep14 exp3: dilate second hidden convolution by 2",
+    "added": 5,
+    "removed": 4,
+    "diff": [
+     "def _conv(x, w, b, dilation=1):",
+     "        x, w, (1, 1), \"SAME\", dimension_numbers=(\"NHWC\", \"HWIO\", \"NHWC\"),",
+     "        rhs_dilation=(dilation, dilation),",
+     "    for depth, (w, b) in enumerate(params[:-1]):",
+     "        x = jax.nn.gelu(_conv(x, w, b, dilation=2 ** depth))"
+    ]
+   },
+   {
+    "n": 4,
+    "sha": "38ebf3f",
+    "metric": 0.287277,
+    "status": "keep",
+    "description": "sep14 exp4: train on two-step open-loop predictions",
+    "added": 29,
+    "removed": 7,
+    "diff": [
+     "  * two-step training, though it is scored on a 16-step rollout.",
+     "TRAIN_HORIZON = 2",
+     "def loss_fn(params, x, a, g, dx, y, dq_scale):",
+     "    \"\"\"Train on open-loop predictions, including the model's own feedback.\"\"\"",
+     "    cumulative = jnp.zeros_like(x)",
+     "    loss = 0.0",
+     "    for k in range(TRAIN_HORIZON):",
+     "        inp = build_input(x + cumulative * dq_scale, a[:, k], g, dx)",
+     "        cumulative = cumulative + forward(params, inp)",
+     "        loss = loss + jnp.mean((cumulative - y[:, k]) ** 2)",
+     "    return loss / TRAIN_HORIZON",
+     "def rollout_batches(d, batch_size, rng):",
+     "    \"\"\"Sample consecutive training frames with cumulative increment targets.\"\"\"",
+     "    q, a = d[\"train_q\"], d[\"train_a\"]"
+    ]
+   },
+   {
+    "n": 5,
+    "sha": "9bc13b3",
+    "metric": 0.299081,
+    "status": "discard",
+    "description": "sep14 exp5: cosine learning-rate decay to 10 percent",
+    "added": 6,
+    "removed": 3,
+    "diff": [
+     "    def step(params, opt, x, a, g, dx, y, lr):",
+     "        params, opt = adam_update(params, grads, opt, lr)",
+     "        progress = min((time.time() - t_train) / args.seconds, 1.0)",
+     "        lr = LR * (0.1 + 0.45 * (1.0 + np.cos(np.pi * progress)))",
+     "                                 jnp.asarray(g), jnp.asarray(dx), jnp.asarray(y),",
+     "                                 jnp.asarray(lr, dtype=jnp.float32))"
+    ]
+   }
+  ]
+ },
+ "control": {
+  "label": "第2ループ：制御性能で採点",
+  "metric": "control_cost",
+  "items": [
+   {
+    "n": 1,
+    "sha": "e659dbf",
+    "metric": 0.957452,
+    "status": "keep",
+    "description": "sep14 1/5: unmodified baseline; hidden=48; full 150s training budget",
+    "added": 0,
+    "removed": 0,
+    "diff": []
+   },
+   {
+    "n": 2,
+    "sha": "5092ba9",
+    "metric": 0.876167,
+    "status": "keep",
+    "description": "sep14 2/5: reduce hidden size 48 to 4; full training budget",
+    "added": 1,
+    "removed": 1,
+    "diff": [
+     "HIDDEN = 4"
+    ]
+   },
+   {
+    "n": 3,
+    "sha": "86bc43c",
+    "metric": 0.822848,
+    "status": "keep",
+    "description": "sep14 3/5: early-stop ensemble training at 5s",
+    "added": 2,
+    "removed": 1,
+    "diff": [
+     "    # Early stopping preserves diversity between ensemble members.",
+     "    per_member = min(seconds, 5.0) / ENSEMBLE"
+    ]
+   },
+   {
+    "n": 4,
+    "sha": "c9eb9b9",
+    "metric": 0.791582,
+    "status": "keep",
+    "description": "sep14 4/5: encode each member warm state from shared raw history",
+    "added": 10,
+    "removed": 0,
+    "diff": [
+     "    # C averages warm states across members. Raw histories have shared",
+     "    # coordinates, whereas each GRU learns its own latent coordinates.",
+     "    history = jnp.concatenate([y_hist, u_hist], axis=-1)",
+     "    return history.reshape(history.shape[0], -1)",
+     "def _encode_history(p, y_hist, u_hist):",
+     "    history = state.reshape(state.shape[0], -1, N_CV + N_MV)",
+     "    state = _encode_history(p, history[:, :, :N_CV], history[:, :, N_CV:])"
+    ]
+   },
+   {
+    "n": 5,
+    "sha": "5da3db8",
+    "metric": 1.010012,
+    "status": "discard",
+    "description": "sep14 5/5: bootstrap training episodes independently per member",
+    "added": 5,
+    "removed": 1,
+    "diff": [
+     "        # Bootstrap entire episodes so members see different dynamics samples.",
+     "        n_episodes = data[\"y\"].shape[0]",
+     "        episodes = rng.integers(0, n_episodes, n_episodes)",
+     "        member_data = {name: values[episodes] for name, values in data.items()}",
+     "        gen = windows(member_data, stats, TRAIN_HORIZON, BATCH, rng, WARMUP)"
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,26 @@
+# Plant C - 小型・急傾斜ストーカ・4ゾーン・煙道が中央。
+# hold-out 候補（意図的に分布外 extrapolation: 傾斜と炉高が A/B の範囲外）。
+plant_id: plant_c
+furnace:
+  width:   9.0
+  height:  9.0
+stoker:
+  length:       9.0
+  inclination: 15.0
+  zones:        4
+primary_air:
+  zones: 4
+secondary_air:
+  nozzles: 4
+flue:
+  diameter_ratio: 0.26
+  position: top_center
+waste:
+  moisture:      0.25
+  lhv:          11.0
+  # volatile_frac / ash_frac は乾燥基準 (char = 1 - volatile - ash)
+  volatile_frac: 0.65
+  ash_frac:      0.08
+wall:
+  heat_transfer: 20.0
+  temperature: 620.0

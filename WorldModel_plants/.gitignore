@@ -1,0 +1,45 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+data/**/*.npz
+*.mp4
+*.png
+!docs/**/*.png
+.DS_Store
+
+# artefacts
+data/prepared.npz
+integration/params.npz
+out/
+
+# secrets — never commit, never publish
+.env
+.env.*
+*.key
+*.pem
+auth.json
+credentials.json
+secrets.*
+**/api_key*
+external/
+
+figs/*.npz
+figs/params*.npz
+integration/.sep14/
+integration/run.log
+autoresearch_*.jsonl
+
+data_ctrl/
+# data_ctrl_v2/ is small (CVs and MVs only) and is committed so run.py works from a clone
+
+control_research/results.tsv
+control_research/run.log
+control_research/.*/
+
+report.html
+figs/*_web.gif
+
+data_multi/
