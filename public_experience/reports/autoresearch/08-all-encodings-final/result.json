@@ -1,0 +1,41 @@
+{
+  "sweagent": {
+    "development": {
+      "nodes": 20443,
+      "edges": 19654,
+      "roots": 789,
+      "action": 20443,
+      "result": 19655,
+      "score": 0,
+      "provenance": 20443,
+      "cycles": 0,
+      "duplicate_ids": 0,
+      "invalid_parents": 0,
+      "fake_scores": 0,
+      "unknown_parents": 0,
+      "raw_events": 20443,
+      "max_depth": 119,
+      "objective": 3.961453798366189
+    },
+    "held_out": {
+      "nodes": 5528,
+      "edges": 5317,
+      "roots": 211,
+      "action": 5528,
+      "result": 5319,
+      "score": 0,
+      "provenance": 5528,
+      "cycles": 0,
+      "duplicate_ids": 0,
+      "invalid_parents": 0,
+      "fake_scores": 0,
+      "unknown_parents": 0,
+      "raw_events": 5528,
+      "max_depth": 150,
+      "objective": 3.962192474674385
+    },
+    "runs_evaluated": 1000,
+    "errors": [],
+    "seconds": 4.167464971542358
+  }
+}

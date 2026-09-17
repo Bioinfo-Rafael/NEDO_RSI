@@ -1,0 +1,127 @@
+[
+  {
+    "file": "public_experience/raw/rest_mcts/zd21__ReST-MCTS-Llama3-8b-Instruct-PRM-1st/test.json",
+    "records": 23692,
+    "estimated_steps": 82190
+  },
+  {
+    "file": "public_experience/raw/rest_mcts/zd21__ReST-MCTS-Llama3-8b-Instruct-PRM-1st/train_math.json",
+    "records": 426449,
+    "estimated_steps": 1481986
+  },
+  {
+    "file": "public_experience/raw/rest_mcts/zd21__ReST-MCTS-Llama3-8b-Instruct-PRM-1st/train_sci.json",
+    "records": 199659,
+    "estimated_steps": 200731
+  },
+  {
+    "file": "public_experience/raw/rest_mcts/zd21__ReST-MCTS-Llama3-8b-Instruct-PRM-1st/valid.json",
+    "records": 23692,
+    "estimated_steps": 82479
+  },
+  {
+    "file": "public_experience/raw/rest_mcts/zd21__ReST-MCTS-PRM-0th/test_en.json",
+    "records": 23692,
+    "estimated_steps": 82190
+  },
+  {
+    "file": "public_experience/raw/rest_mcts/zd21__ReST-MCTS-PRM-0th/train_en.json",
+    "records": 426449,
+    "estimated_steps": 1481986
+  },
+  {
+    "file": "public_experience/raw/rest_mcts/zd21__ReST-MCTS-PRM-0th/valid_en.json",
+    "records": 23692,
+    "estimated_steps": 82479
+  },
+  {
+    "file": "public_experience/raw/rest_mcts/zd21__ReST-MCTS_Llama3-8b-Instruct_ReST-EM-CoT_1st/ReST-MCTS_Llama3-8b-Instruct_ReST-EM-CoT_1st.json",
+    "records": 73142,
+    "estimated_steps": 99451
+  },
+  {
+    "file": "public_experience/raw/rest_mcts/zd21__ReST-MCTS_Llama3-8b-Instruct_ReST-EM-CoT_2nd/ReST-MCTS_Llama3-8b-Instruct_ReST-EM-CoT_2nd.json",
+    "records": 33201,
+    "estimated_steps": 59406
+  },
+  {
+    "file": "public_experience/raw/rest_mcts/zd21__ReST-MCTS_Llama3-8b-Instruct_ReST-MCTS_Policy_1st/ReST-MCTS_Llama3-8b-Instruct_ReST-MCTS_Policy_1st.json",
+    "records": 33722,
+    "estimated_steps": 77693
+  },
+  {
+    "file": "public_experience/raw/rest_mcts/zd21__ReST-MCTS_Llama3-8b-Instruct_ReST-MCTS_Policy_2nd/ReST-MCTS_Llama3-8b-Instruct_ReST-MCTS_Policy_2nd.json",
+    "records": 32346,
+    "estimated_steps": 68966
+  },
+  {
+    "file": "public_experience/raw/rest_mcts/zd21__ReST-MCTS_Llama3-8b-Instruct_Self-Rewarding-DPO_1st/ReST-MCTS_Llama3-8b-Instruct_Self-Rewarding-DPO_1st.json",
+    "records": 28041,
+    "estimated_steps": 140014
+  },
+  {
+    "file": "public_experience/raw/rest_mcts/zd21__ReST-MCTS_Llama3-8b-Instruct_Self-Rewarding-DPO_2nd/ReST-MCTS_Llama3-8b-Instruct_Self-Rewarding-DPO_2nd.json",
+    "records": 12073,
+    "estimated_steps": 50492
+  },
+  {
+    "file": "public_experience/raw/rest_mcts/zd21__ReST-MCTS_Mistral-MetaMATH-7b-Instruct_ReST-EM-CoT_1st/ReST-MCTS_Mistral-MetaMATH-7b-Instruct_ReST-EM-CoT_1st.json",
+    "records": 73989,
+    "estimated_steps": 74433
+  },
+  {
+    "file": "public_experience/raw/rest_mcts/zd21__ReST-MCTS_Mistral-MetaMATH-7b-Instruct_ReST-EM-CoT_2nd/ReST-MCTS_Mistral-MetaMATH-7b-Instruct_ReST-EM-CoT_2nd.json",
+    "records": 36592,
+    "estimated_steps": 49702
+  },
+  {
+    "file": "public_experience/raw/rest_mcts/zd21__ReST-MCTS_Mistral-MetaMATH-7b-Instruct_ReST-MCTS_1st/ReST-MCTS_Mistral-MetaMATH-7b-Instruct_ReST-MCTS_1st.json",
+    "records": 38734,
+    "estimated_steps": 94797
+  },
+  {
+    "file": "public_experience/raw/rest_mcts/zd21__ReST-MCTS_Mistral-MetaMATH-7b-Instruct_ReST-MCTS_2nd/ReST-MCTS_Mistral-MetaMATH-7b-Instruct_ReST-MCTS_2nd.json",
+    "records": 25979,
+    "estimated_steps": 47758
+  },
+  {
+    "file": "public_experience/raw/rest_mcts/zd21__ReST-MCTS_Mistral-MetaMATH-7b-Instruct_Self-Rewarding-DPO_1st/ReST-MCTS_Mistral-MetaMATH-7b-Instruct_Self-Rewarding-DPO_1st.json",
+    "records": 26693,
+    "estimated_steps": 53541
+  },
+  {
+    "file": "public_experience/raw/rest_mcts/zd21__ReST-MCTS_Mistral-MetaMATH-7b-Instruct_Self-Rewarding-DPO_2nd/ReST-MCTS_Mistral-MetaMATH-7b-Instruct_Self-Rewarding-DPO_2nd.json",
+    "records": 26693,
+    "estimated_steps": 53541
+  },
+  {
+    "file": "public_experience/raw/rest_mcts/zd21__ReST-MCTS_SciGLM-6B_ReST-EM-CoT_1st/ReST-MCTS_SciGLM-6B_ReST-EM-CoT_1st.json",
+    "records": 55754,
+    "estimated_steps": 59689
+  },
+  {
+    "file": "public_experience/raw/rest_mcts/zd21__ReST-MCTS_SciGLM-6B_ReST-EM-CoT_2nd/ReST-MCTS_SciGLM-6B_ReST-EM-CoT_2nd.json",
+    "records": 28869,
+    "estimated_steps": 39139
+  },
+  {
+    "file": "public_experience/raw/rest_mcts/zd21__ReST-MCTS_SciGLM-6B_ReST-MCTS_Policy_1st/ReST-MCTS_SciGLM-6B_ReST-MCTS_Policy_1st.json",
+    "records": 30096,
+    "estimated_steps": 102226
+  },
+  {
+    "file": "public_experience/raw/rest_mcts/zd21__ReST-MCTS_SciGLM-6B_ReST-MCTS_Policy_2nd/ReST-MCTS_SciGLM-6B_ReST-MCTS_Policy_2nd.json",
+    "records": 40931,
+    "estimated_steps": 136797
+  },
+  {
+    "file": "public_experience/raw/rest_mcts/zd21__ReST-MCTS_SciGLM-6B_Self-Rewarding-DPO_1st/ReST-MCTS_SciGLM-6B_Self-Rewarding-DPO_1st.json",
+    "records": 33541,
+    "estimated_steps": 77391
+  },
+  {
+    "file": "public_experience/raw/rest_mcts/zd21__ReST-MCTS_SciGLM-6B_Self-Rewarding-DPO_2nd/ReST-MCTS_SciGLM-6B_Self-Rewarding-DPO_2nd.json",
+    "records": 14956,
+    "estimated_steps": 56609
+  }
+]

@@ -1,0 +1,299 @@
+[
+  {
+    "source": "rest_mcts",
+    "dataset": "zd21/ReST-MCTS-Llama3-8b-Instruct-PRM-1st",
+    "url": "https://huggingface.co/datasets/zd21/ReST-MCTS-Llama3-8b-Instruct-PRM-1st/resolve/94eb8649c399ce57090d65749ac7affc67a92719/test.json",
+    "path": "raw/rest_mcts/zd21__ReST-MCTS-Llama3-8b-Instruct-PRM-1st/test.json",
+    "sha256": "529ba4e9499f8d3883669ffdbe2db3bd6e0f1b20ad03b5cedda2f0aac8e32318",
+    "bytes": 13580406,
+    "revision": "94eb8649c399ce57090d65749ac7affc67a92719"
+  },
+  {
+    "source": "rest_mcts",
+    "dataset": "zd21/ReST-MCTS-Llama3-8b-Instruct-PRM-1st",
+    "url": "https://huggingface.co/datasets/zd21/ReST-MCTS-Llama3-8b-Instruct-PRM-1st/resolve/94eb8649c399ce57090d65749ac7affc67a92719/train_math.json",
+    "path": "raw/rest_mcts/zd21__ReST-MCTS-Llama3-8b-Instruct-PRM-1st/train_math.json",
+    "sha256": "0e8decc5d30244dae3c143b5ca9a16e7fae0a0a70265cfbe897034233a654d04",
+    "bytes": 244589612,
+    "revision": "94eb8649c399ce57090d65749ac7affc67a92719"
+  },
+  {
+    "source": "rest_mcts",
+    "dataset": "zd21/ReST-MCTS-Llama3-8b-Instruct-PRM-1st",
+    "url": "https://huggingface.co/datasets/zd21/ReST-MCTS-Llama3-8b-Instruct-PRM-1st/resolve/94eb8649c399ce57090d65749ac7affc67a92719/train_sci.json",
+    "path": "raw/rest_mcts/zd21__ReST-MCTS-Llama3-8b-Instruct-PRM-1st/train_sci.json",
+    "sha256": "f559bf1f4a7bab9b8696a3b186a4ac768e1e9d972536fcf33c4a7318f5213bd3",
+    "bytes": 268595966,
+    "revision": "94eb8649c399ce57090d65749ac7affc67a92719"
+  },
+  {
+    "source": "rest_mcts",
+    "dataset": "zd21/ReST-MCTS-Llama3-8b-Instruct-PRM-1st",
+    "url": "https://huggingface.co/datasets/zd21/ReST-MCTS-Llama3-8b-Instruct-PRM-1st/resolve/94eb8649c399ce57090d65749ac7affc67a92719/valid.json",
+    "path": "raw/rest_mcts/zd21__ReST-MCTS-Llama3-8b-Instruct-PRM-1st/valid.json",
+    "sha256": "9478e9dfe0c95a1ecea615ff6dc645c6bc8868d5b80166778135fd07e72ecf2a",
+    "bytes": 13544797,
+    "revision": "94eb8649c399ce57090d65749ac7affc67a92719"
+  },
+  {
+    "source": "rest_mcts",
+    "dataset": "zd21/ReST-MCTS-PRM-0th",
+    "url": "https://huggingface.co/datasets/zd21/ReST-MCTS-PRM-0th/resolve/4318a214504f641641e5e35bb0471a8ff0544295/test_en.json",
+    "path": "raw/rest_mcts/zd21__ReST-MCTS-PRM-0th/test_en.json",
+    "sha256": "529ba4e9499f8d3883669ffdbe2db3bd6e0f1b20ad03b5cedda2f0aac8e32318",
+    "bytes": 13580406,
+    "revision": "4318a214504f641641e5e35bb0471a8ff0544295"
+  },
+  {
+    "source": "rest_mcts",
+    "dataset": "zd21/ReST-MCTS-PRM-0th",
+    "url": "https://huggingface.co/datasets/zd21/ReST-MCTS-PRM-0th/resolve/4318a214504f641641e5e35bb0471a8ff0544295/train_en.json",
+    "path": "raw/rest_mcts/zd21__ReST-MCTS-PRM-0th/train_en.json",
+    "sha256": "0e8decc5d30244dae3c143b5ca9a16e7fae0a0a70265cfbe897034233a654d04",
+    "bytes": 244589612,
+    "revision": "4318a214504f641641e5e35bb0471a8ff0544295"
+  },
+  {
+    "source": "rest_mcts",
+    "dataset": "zd21/ReST-MCTS-PRM-0th",
+    "url": "https://huggingface.co/datasets/zd21/ReST-MCTS-PRM-0th/resolve/4318a214504f641641e5e35bb0471a8ff0544295/valid_en.json",
+    "path": "raw/rest_mcts/zd21__ReST-MCTS-PRM-0th/valid_en.json",
+    "sha256": "9478e9dfe0c95a1ecea615ff6dc645c6bc8868d5b80166778135fd07e72ecf2a",
+    "bytes": 13544797,
+    "revision": "4318a214504f641641e5e35bb0471a8ff0544295"
+  },
+  {
+    "source": "rest_mcts",
+    "dataset": "zd21/ReST-MCTS_Llama3-8b-Instruct_ReST-EM-CoT_1st",
+    "url": "https://huggingface.co/datasets/zd21/ReST-MCTS_Llama3-8b-Instruct_ReST-EM-CoT_1st/resolve/e6f575bc15dd1e3e4e89055d7a0b347e035c6353/ReST-MCTS_Llama3-8b-Instruct_ReST-EM-CoT_1st.json",
+    "path": "raw/rest_mcts/zd21__ReST-MCTS_Llama3-8b-Instruct_ReST-EM-CoT_1st/ReST-MCTS_Llama3-8b-Instruct_ReST-EM-CoT_1st.json",
+    "sha256": "30654e5c6da041a0df3d8fb7b88cb5046f0936dad926ad3d1ec9b13e533c41e4",
+    "bytes": 65861448,
+    "revision": "e6f575bc15dd1e3e4e89055d7a0b347e035c6353"
+  },
+  {
+    "source": "rest_mcts",
+    "dataset": "zd21/ReST-MCTS_Llama3-8b-Instruct_ReST-EM-CoT_2nd",
+    "url": "https://huggingface.co/datasets/zd21/ReST-MCTS_Llama3-8b-Instruct_ReST-EM-CoT_2nd/resolve/80239655d307e9c04d3170774f293643dbb3f83f/ReST-MCTS_Llama3-8b-Instruct_ReST-EM-CoT_2nd.json",
+    "path": "raw/rest_mcts/zd21__ReST-MCTS_Llama3-8b-Instruct_ReST-EM-CoT_2nd/ReST-MCTS_Llama3-8b-Instruct_ReST-EM-CoT_2nd.json",
+    "sha256": "77c715608ac54356eb89d0c84cf2cd8dbec6fa716191de34736869fa8b26bb35",
+    "bytes": 20640910,
+    "revision": "80239655d307e9c04d3170774f293643dbb3f83f"
+  },
+  {
+    "source": "rest_mcts",
+    "dataset": "zd21/ReST-MCTS_Llama3-8b-Instruct_ReST-MCTS_Policy_1st",
+    "url": "https://huggingface.co/datasets/zd21/ReST-MCTS_Llama3-8b-Instruct_ReST-MCTS_Policy_1st/resolve/df0e56ab5d6584a75522b122d6bc59f7b9e1ae7d/ReST-MCTS_Llama3-8b-Instruct_ReST-MCTS_Policy_1st.json",
+    "path": "raw/rest_mcts/zd21__ReST-MCTS_Llama3-8b-Instruct_ReST-MCTS_Policy_1st/ReST-MCTS_Llama3-8b-Instruct_ReST-MCTS_Policy_1st.json",
+    "sha256": "c91be320d4462e8c570ff82d3d25ee7fe7f20802f7ef3ecada4ae9452d1c7100",
+    "bytes": 24034975,
+    "revision": "df0e56ab5d6584a75522b122d6bc59f7b9e1ae7d"
+  },
+  {
+    "source": "rest_mcts",
+    "dataset": "zd21/ReST-MCTS_Llama3-8b-Instruct_ReST-MCTS_Policy_2nd",
+    "url": "https://huggingface.co/datasets/zd21/ReST-MCTS_Llama3-8b-Instruct_ReST-MCTS_Policy_2nd/resolve/cd41836e87f03a4cd7009e9da6894bf7a1bddf10/ReST-MCTS_Llama3-8b-Instruct_ReST-MCTS_Policy_2nd.json",
+    "path": "raw/rest_mcts/zd21__ReST-MCTS_Llama3-8b-Instruct_ReST-MCTS_Policy_2nd/ReST-MCTS_Llama3-8b-Instruct_ReST-MCTS_Policy_2nd.json",
+    "sha256": "092a871174993ea51dd0485e36bd82909e14fcc909cdaf586b998a82bebd7785",
+    "bytes": 22185728,
+    "revision": "cd41836e87f03a4cd7009e9da6894bf7a1bddf10"
+  },
+  {
+    "source": "rest_mcts",
+    "dataset": "zd21/ReST-MCTS_Llama3-8b-Instruct_Self-Rewarding-DPO_1st",
+    "url": "https://huggingface.co/datasets/zd21/ReST-MCTS_Llama3-8b-Instruct_Self-Rewarding-DPO_1st/resolve/5aabf7b405fe561fbd385c673c24f72edecf4d09/ReST-MCTS_Llama3-8b-Instruct_Self-Rewarding-DPO_1st.json",
+    "path": "raw/rest_mcts/zd21__ReST-MCTS_Llama3-8b-Instruct_Self-Rewarding-DPO_1st/ReST-MCTS_Llama3-8b-Instruct_Self-Rewarding-DPO_1st.json",
+    "sha256": "4472eefa52f6dbb86eaac580ebc2780a18cf0971c0fd5ea7c3bddcf6ca7768dc",
+    "bytes": 55504329,
+    "revision": "5aabf7b405fe561fbd385c673c24f72edecf4d09"
+  },
+  {
+    "source": "rest_mcts",
+    "dataset": "zd21/ReST-MCTS_Llama3-8b-Instruct_Self-Rewarding-DPO_2nd",
+    "url": "https://huggingface.co/datasets/zd21/ReST-MCTS_Llama3-8b-Instruct_Self-Rewarding-DPO_2nd/resolve/cf2b9dadc33709095bcb61711dc78669b2b5676f/ReST-MCTS_Llama3-8b-Instruct_Self-Rewarding-DPO_2nd.json",
+    "path": "raw/rest_mcts/zd21__ReST-MCTS_Llama3-8b-Instruct_Self-Rewarding-DPO_2nd/ReST-MCTS_Llama3-8b-Instruct_Self-Rewarding-DPO_2nd.json",
+    "sha256": "cffe983c4912eaee9241e90d2fcb09a5890c5efa7890a50f2543b63809824244",
+    "bytes": 14110233,
+    "revision": "cf2b9dadc33709095bcb61711dc78669b2b5676f"
+  },
+  {
+    "source": "rest_mcts",
+    "dataset": "zd21/ReST-MCTS_Mistral-MetaMATH-7b-Instruct_ReST-EM-CoT_1st",
+    "url": "https://huggingface.co/datasets/zd21/ReST-MCTS_Mistral-MetaMATH-7b-Instruct_ReST-EM-CoT_1st/resolve/0366b4c05ba105d37b09981b7f88b47f198436fe/ReST-MCTS_Mistral-MetaMATH-7b-Instruct_ReST-EM-CoT_1st.json",
+    "path": "raw/rest_mcts/zd21__ReST-MCTS_Mistral-MetaMATH-7b-Instruct_ReST-EM-CoT_1st/ReST-MCTS_Mistral-MetaMATH-7b-Instruct_ReST-EM-CoT_1st.json",
+    "sha256": "7c648509fe1c87b7c6a0ceb0ab6a7cca8e80f57efcc6a1ca677c2c0c2d40cc22",
+    "bytes": 51957334,
+    "revision": "0366b4c05ba105d37b09981b7f88b47f198436fe"
+  },
+  {
+    "source": "rest_mcts",
+    "dataset": "zd21/ReST-MCTS_Mistral-MetaMATH-7b-Instruct_ReST-EM-CoT_2nd",
+    "url": "https://huggingface.co/datasets/zd21/ReST-MCTS_Mistral-MetaMATH-7b-Instruct_ReST-EM-CoT_2nd/resolve/b7d81acfc0d47d94037b7e76559a17b0c1bf7080/ReST-MCTS_Mistral-MetaMATH-7b-Instruct_ReST-EM-CoT_2nd.json",
+    "path": "raw/rest_mcts/zd21__ReST-MCTS_Mistral-MetaMATH-7b-Instruct_ReST-EM-CoT_2nd/ReST-MCTS_Mistral-MetaMATH-7b-Instruct_ReST-EM-CoT_2nd.json",
+    "sha256": "2846d59ea9385ec0694d0f6c71d5e33ab537195ff4797612c3024721177b00df",
+    "bytes": 26045688,
+    "revision": "b7d81acfc0d47d94037b7e76559a17b0c1bf7080"
+  },
+  {
+    "source": "rest_mcts",
+    "dataset": "zd21/ReST-MCTS_Mistral-MetaMATH-7b-Instruct_ReST-MCTS_1st",
+    "url": "https://huggingface.co/datasets/zd21/ReST-MCTS_Mistral-MetaMATH-7b-Instruct_ReST-MCTS_1st/resolve/6e47b2fa78e2799ab7859a407adca1081731410c/ReST-MCTS_Mistral-MetaMATH-7b-Instruct_ReST-MCTS_1st.json",
+    "path": "raw/rest_mcts/zd21__ReST-MCTS_Mistral-MetaMATH-7b-Instruct_ReST-MCTS_1st/ReST-MCTS_Mistral-MetaMATH-7b-Instruct_ReST-MCTS_1st.json",
+    "sha256": "8a7c807458103e6cae5f5f2c0e50c79952600ade17d58696d84856dda341d4ca",
+    "bytes": 37166756,
+    "revision": "6e47b2fa78e2799ab7859a407adca1081731410c"
+  },
+  {
+    "source": "rest_mcts",
+    "dataset": "zd21/ReST-MCTS_Mistral-MetaMATH-7b-Instruct_ReST-MCTS_2nd",
+    "url": "https://huggingface.co/datasets/zd21/ReST-MCTS_Mistral-MetaMATH-7b-Instruct_ReST-MCTS_2nd/resolve/4f7fcc3acd8efc391d264e1e0dad23d2d2f093d8/ReST-MCTS_Mistral-MetaMATH-7b-Instruct_ReST-MCTS_2nd.json",
+    "path": "raw/rest_mcts/zd21__ReST-MCTS_Mistral-MetaMATH-7b-Instruct_ReST-MCTS_2nd/ReST-MCTS_Mistral-MetaMATH-7b-Instruct_ReST-MCTS_2nd.json",
+    "sha256": "13dedf3f959218256d3258eb102dcaeddb453f7df5441cdabc4e4918af45bf1d",
+    "bytes": 19361812,
+    "revision": "4f7fcc3acd8efc391d264e1e0dad23d2d2f093d8"
+  },
+  {
+    "source": "rest_mcts",
+    "dataset": "zd21/ReST-MCTS_Mistral-MetaMATH-7b-Instruct_Self-Rewarding-DPO_1st",
+    "url": "https://huggingface.co/datasets/zd21/ReST-MCTS_Mistral-MetaMATH-7b-Instruct_Self-Rewarding-DPO_1st/resolve/398a673b8ceaea965285d52d98d3b151c191d458/ReST-MCTS_Mistral-MetaMATH-7b-Instruct_Self-Rewarding-DPO_1st.json",
+    "path": "raw/rest_mcts/zd21__ReST-MCTS_Mistral-MetaMATH-7b-Instruct_Self-Rewarding-DPO_1st/ReST-MCTS_Mistral-MetaMATH-7b-Instruct_Self-Rewarding-DPO_1st.json",
+    "sha256": "b7c02fc801452daefcc52ea24f9cc4a1fd474553d83ccc6c188e493e29388f7d",
+    "bytes": 30633397,
+    "revision": "398a673b8ceaea965285d52d98d3b151c191d458"
+  },
+  {
+    "source": "rest_mcts",
+    "dataset": "zd21/ReST-MCTS_Mistral-MetaMATH-7b-Instruct_Self-Rewarding-DPO_2nd",
+    "url": "https://huggingface.co/datasets/zd21/ReST-MCTS_Mistral-MetaMATH-7b-Instruct_Self-Rewarding-DPO_2nd/resolve/d97b11b19a7f2901974c097866bb72ad2f9c1004/ReST-MCTS_Mistral-MetaMATH-7b-Instruct_Self-Rewarding-DPO_2nd.json",
+    "path": "raw/rest_mcts/zd21__ReST-MCTS_Mistral-MetaMATH-7b-Instruct_Self-Rewarding-DPO_2nd/ReST-MCTS_Mistral-MetaMATH-7b-Instruct_Self-Rewarding-DPO_2nd.json",
+    "sha256": "b7c02fc801452daefcc52ea24f9cc4a1fd474553d83ccc6c188e493e29388f7d",
+    "bytes": 30633397,
+    "revision": "d97b11b19a7f2901974c097866bb72ad2f9c1004"
+  },
+  {
+    "source": "rest_mcts",
+    "dataset": "zd21/ReST-MCTS_SciGLM-6B_ReST-EM-CoT_1st",
+    "url": "https://huggingface.co/datasets/zd21/ReST-MCTS_SciGLM-6B_ReST-EM-CoT_1st/resolve/0119d196a7926998b1aef6d75896547bb9a3313f/ReST-MCTS_SciGLM-6B_ReST-EM-CoT_1st.json",
+    "path": "raw/rest_mcts/zd21__ReST-MCTS_SciGLM-6B_ReST-EM-CoT_1st/ReST-MCTS_SciGLM-6B_ReST-EM-CoT_1st.json",
+    "sha256": "5a471e591d4b5158350441161bc3a48db07384cf0086e555a13d306d96c00f6f",
+    "bytes": 41550255,
+    "revision": "0119d196a7926998b1aef6d75896547bb9a3313f"
+  },
+  {
+    "source": "rest_mcts",
+    "dataset": "zd21/ReST-MCTS_SciGLM-6B_ReST-EM-CoT_2nd",
+    "url": "https://huggingface.co/datasets/zd21/ReST-MCTS_SciGLM-6B_ReST-EM-CoT_2nd/resolve/48c8fdb41a9a96e0608cb74fa594483ea2e5ed18/ReST-MCTS_SciGLM-6B_ReST-EM-CoT_2nd.json",
+    "path": "raw/rest_mcts/zd21__ReST-MCTS_SciGLM-6B_ReST-EM-CoT_2nd/ReST-MCTS_SciGLM-6B_ReST-EM-CoT_2nd.json",
+    "sha256": "87497f5c914362aca7d011eb854e495d4379da573ad53d3e472cc25e6238bcb0",
+    "bytes": 16089822,
+    "revision": "48c8fdb41a9a96e0608cb74fa594483ea2e5ed18"
+  },
+  {
+    "source": "rest_mcts",
+    "dataset": "zd21/ReST-MCTS_SciGLM-6B_ReST-MCTS_Policy_1st",
+    "url": "https://huggingface.co/datasets/zd21/ReST-MCTS_SciGLM-6B_ReST-MCTS_Policy_1st/resolve/95c2103912c33c2dffce015dbf6a3b448f9cdc8f/ReST-MCTS_SciGLM-6B_ReST-MCTS_Policy_1st.json",
+    "path": "raw/rest_mcts/zd21__ReST-MCTS_SciGLM-6B_ReST-MCTS_Policy_1st/ReST-MCTS_SciGLM-6B_ReST-MCTS_Policy_1st.json",
+    "sha256": "6e0dc7ba29309c23a022baca718a5b6e6e39f1e70ebc2605b1e94f740c128b69",
+    "bytes": 16086691,
+    "revision": "95c2103912c33c2dffce015dbf6a3b448f9cdc8f"
+  },
+  {
+    "source": "rest_mcts",
+    "dataset": "zd21/ReST-MCTS_SciGLM-6B_ReST-MCTS_Policy_2nd",
+    "url": "https://huggingface.co/datasets/zd21/ReST-MCTS_SciGLM-6B_ReST-MCTS_Policy_2nd/resolve/953ce4fc2b04d6fc0f4887d28cb509f206b84494/ReST-MCTS_SciGLM-6B_ReST-MCTS_Policy_2nd.json",
+    "path": "raw/rest_mcts/zd21__ReST-MCTS_SciGLM-6B_ReST-MCTS_Policy_2nd/ReST-MCTS_SciGLM-6B_ReST-MCTS_Policy_2nd.json",
+    "sha256": "67e912b1a7c2fd6ea29ec49d76c2a2c7cd1ddd6d52b3112559ee6d04a65d68ce",
+    "bytes": 21209008,
+    "revision": "953ce4fc2b04d6fc0f4887d28cb509f206b84494"
+  },
+  {
+    "source": "rest_mcts",
+    "dataset": "zd21/ReST-MCTS_SciGLM-6B_Self-Rewarding-DPO_1st",
+    "url": "https://huggingface.co/datasets/zd21/ReST-MCTS_SciGLM-6B_Self-Rewarding-DPO_1st/resolve/98b4b2ad9708838bd83ac4ba4c7806abbeda0ba2/ReST-MCTS_SciGLM-6B_Self-Rewarding-DPO_1st.json",
+    "path": "raw/rest_mcts/zd21__ReST-MCTS_SciGLM-6B_Self-Rewarding-DPO_1st/ReST-MCTS_SciGLM-6B_Self-Rewarding-DPO_1st.json",
+    "sha256": "f054049db2b3b5439220d05f87f982a7da6cec9c5f3de3624de32cd0ad49e295",
+    "bytes": 48067649,
+    "revision": "98b4b2ad9708838bd83ac4ba4c7806abbeda0ba2"
+  },
+  {
+    "source": "rest_mcts",
+    "dataset": "zd21/ReST-MCTS_SciGLM-6B_Self-Rewarding-DPO_2nd",
+    "url": "https://huggingface.co/datasets/zd21/ReST-MCTS_SciGLM-6B_Self-Rewarding-DPO_2nd/resolve/3851fda926813e8b847e4ad45f0fa18ecc6d78bd/ReST-MCTS_SciGLM-6B_Self-Rewarding-DPO_2nd.json",
+    "path": "raw/rest_mcts/zd21__ReST-MCTS_SciGLM-6B_Self-Rewarding-DPO_2nd/ReST-MCTS_SciGLM-6B_Self-Rewarding-DPO_2nd.json",
+    "sha256": "4ad4e3e0e189a3c8de8c38d1eedcf20f58052c8c8b053d57c45964220b661d6f",
+    "bytes": 15851002,
+    "revision": "3851fda926813e8b847e4ad45f0fa18ecc6d78bd"
+  },
+  {
+    "source": "swe_agent",
+    "dataset": "SWE-bench/SWE-smith-trajectories",
+    "url": "https://huggingface.co/datasets/SWE-bench/SWE-smith-trajectories/resolve/08e109b4a59eaeebf80e4675cd125d42e7ac99a4/data/tool-00000-of-00008.parquet",
+    "path": "raw/swe_agent/SWE-bench__SWE-smith-trajectories/data/tool-00000-of-00008.parquet",
+    "sha256": "ac76e9efe75978f83d4daec98a55604587dd58b0f1509364893b8778cbf5b487",
+    "bytes": 248851790,
+    "revision": "08e109b4a59eaeebf80e4675cd125d42e7ac99a4"
+  },
+  {
+    "source": "swe_agent",
+    "dataset": "SWE-bench/SWE-smith-trajectories",
+    "url": "https://huggingface.co/datasets/SWE-bench/SWE-smith-trajectories/resolve/08e109b4a59eaeebf80e4675cd125d42e7ac99a4/data/tool-00001-of-00008.parquet",
+    "path": "raw/swe_agent/SWE-bench__SWE-smith-trajectories/data/tool-00001-of-00008.parquet",
+    "sha256": "2d3a4fcdb89bf4ec4485a1abc41d92645a446d115705cbe882dd5fe148afec3a",
+    "bytes": 115563238,
+    "revision": "08e109b4a59eaeebf80e4675cd125d42e7ac99a4"
+  },
+  {
+    "source": "swe_agent",
+    "dataset": "SWE-bench/SWE-smith-trajectories",
+    "url": "https://huggingface.co/datasets/SWE-bench/SWE-smith-trajectories/resolve/08e109b4a59eaeebf80e4675cd125d42e7ac99a4/data/tool-00002-of-00008.parquet",
+    "path": "raw/swe_agent/SWE-bench__SWE-smith-trajectories/data/tool-00002-of-00008.parquet",
+    "sha256": "13a95587cfc2fac8e2d6130b25167c02362add1cf969888574328a49dc8ad319",
+    "bytes": 99575331,
+    "revision": "08e109b4a59eaeebf80e4675cd125d42e7ac99a4"
+  },
+  {
+    "source": "swe_agent",
+    "dataset": "SWE-bench/SWE-smith-trajectories",
+    "url": "https://huggingface.co/datasets/SWE-bench/SWE-smith-trajectories/resolve/08e109b4a59eaeebf80e4675cd125d42e7ac99a4/data/tool-00003-of-00008.parquet",
+    "path": "raw/swe_agent/SWE-bench__SWE-smith-trajectories/data/tool-00003-of-00008.parquet",
+    "sha256": "677831f640fb14e5b7bc02fd2aa729c05cd2068750777eaf877084de03157594",
+    "bytes": 138356054,
+    "revision": "08e109b4a59eaeebf80e4675cd125d42e7ac99a4"
+  },
+  {
+    "source": "swe_agent",
+    "dataset": "SWE-bench/SWE-smith-trajectories",
+    "url": "https://huggingface.co/datasets/SWE-bench/SWE-smith-trajectories/resolve/08e109b4a59eaeebf80e4675cd125d42e7ac99a4/data/tool-00004-of-00008.parquet",
+    "path": "raw/swe_agent/SWE-bench__SWE-smith-trajectories/data/tool-00004-of-00008.parquet",
+    "sha256": "e41ffbd3f9d1571917ac5b9f4d0108ded4799d9776f597a054203467135a5715",
+    "bytes": 77754558,
+    "revision": "08e109b4a59eaeebf80e4675cd125d42e7ac99a4"
+  },
+  {
+    "source": "swe_agent",
+    "dataset": "SWE-bench/SWE-smith-trajectories",
+    "url": "https://huggingface.co/datasets/SWE-bench/SWE-smith-trajectories/resolve/08e109b4a59eaeebf80e4675cd125d42e7ac99a4/data/tool-00005-of-00008.parquet",
+    "path": "raw/swe_agent/SWE-bench__SWE-smith-trajectories/data/tool-00005-of-00008.parquet",
+    "sha256": "487a3a6bc8d00c4d2e6ace23da10a82c03349ada8b0f6758d5abf8c7f7fa61d4",
+    "bytes": 122628947,
+    "revision": "08e109b4a59eaeebf80e4675cd125d42e7ac99a4"
+  },
+  {
+    "source": "swe_agent",
+    "dataset": "SWE-bench/SWE-smith-trajectories",
+    "url": "https://huggingface.co/datasets/SWE-bench/SWE-smith-trajectories/resolve/08e109b4a59eaeebf80e4675cd125d42e7ac99a4/data/tool-00006-of-00008.parquet",
+    "path": "raw/swe_agent/SWE-bench__SWE-smith-trajectories/data/tool-00006-of-00008.parquet",
+    "sha256": "c20d2fc45e67af5d5c6d4c91ca7dfeac69cbaf40442bc2bfe7bac528a99e4b59",
+    "bytes": 152807260,
+    "revision": "08e109b4a59eaeebf80e4675cd125d42e7ac99a4"
+  },
+  {
+    "source": "swe_agent",
+    "dataset": "SWE-bench/SWE-smith-trajectories",
+    "url": "https://huggingface.co/datasets/SWE-bench/SWE-smith-trajectories/resolve/08e109b4a59eaeebf80e4675cd125d42e7ac99a4/data/tool-00007-of-00008.parquet",
+    "path": "raw/swe_agent/SWE-bench__SWE-smith-trajectories/data/tool-00007-of-00008.parquet",
+    "sha256": "29b684a990ec25345e9c7ade1b8287a6e41fa7fbabd4734f45420ed29280c868",
+    "bytes": 121734685,
+    "revision": "08e109b4a59eaeebf80e4675cd125d42e7ac99a4"
+  }
+]

@@ -1,0 +1,46 @@
+{
+  "openevolve": {
+    "unit": "program checkpoint JSON snapshot",
+    "records": 3704,
+    "note": "同一UUIDのsnapshotをまとめる。metadata/issue attachmentsは別の補助raw。"
+  },
+  "searchagents": {
+    "unit": "render HTML",
+    "records": 910,
+    "nonempty_files": 892,
+    "empty_files": 18,
+    "rendered_pages": 3201,
+    "note": "page内のcandidateも展開するためnode数とは一致しない。"
+  },
+  "evomcts": {
+    "unit": "evaluation log record",
+    "records": 2101,
+    "paper_records": 38,
+    "breakthrough_records": 6,
+    "note": "paper/breakthroughは既存evaluation nodeへの追加payload。"
+  },
+  "restmcts": {
+    "unit": "published JSON/JSONL row",
+    "records": 1792677,
+    "files": 25,
+    "note": "DPO rowからchosen/rejected各1 run。各pathを明示stepに分割。dataset間重複を含む。"
+  },
+  "sweagent": {
+    "unit": "parquet trajectory row",
+    "records": 102078,
+    "unique_trajectory_ids": 49897,
+    "demonstration_files": 18,
+    "note": "traj_idでencoding重複を除外。demonstrationは別run。"
+  },
+  "dreamrsi": {
+    "unit": "published trajectory",
+    "records": 0,
+    "note": "公開実履歴なし。"
+  },
+  "treeofthoughts": {
+    "unit": "search log top-level run",
+    "records": 240,
+    "converted_files": 4,
+    "note": "4 search logs対象。別の8 naive/cache JSONはraw保管のみ。"
+  }
+}

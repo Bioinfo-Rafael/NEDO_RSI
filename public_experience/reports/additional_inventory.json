@@ -1,0 +1,402 @@
+[
+  {
+    "source": "treeofthoughts",
+    "repo": "princeton-nlp/tree-of-thought-llm",
+    "sha": "8050e67d0e3a0fddc424d7fa5801538722a4c4cc",
+    "repo_kib": 2225,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "tree_truncated": false,
+    "files": 64,
+    "candidates": [
+      {
+        "path": "logs/crosswords/env_cache.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "da34a174b64763c1d0bca90ac42b7249bfcf32f8",
+        "size": 370824,
+        "url": "https://api.github.com/repos/princeton-nlp/tree-of-thought-llm/git/blobs/da34a174b64763c1d0bca90ac42b7249bfcf32f8"
+      },
+      {
+        "path": "logs/crosswords/env_prompt_status_cache.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ed70776a9498e3cb4bbe330b86630aa1e0c3b979",
+        "size": 7990044,
+        "url": "https://api.github.com/repos/princeton-nlp/tree-of-thought-llm/git/blobs/ed70776a9498e3cb4bbe330b86630aa1e0c3b979"
+      },
+      {
+        "path": "logs/crosswords/gpt-4_0.7_naive_cot_sample_10_start0_end20.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "99d77c5bebe19b3a166fc89aa44fced080f67615",
+        "size": 125142,
+        "url": "https://api.github.com/repos/princeton-nlp/tree-of-thought-llm/git/blobs/99d77c5bebe19b3a166fc89aa44fced080f67615"
+      },
+      {
+        "path": "logs/crosswords/gpt-4_0.7_naive_standard_sample_10_start0_end20.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0e10af90f718d042644c641649f91727013ff506",
+        "size": 49586,
+        "url": "https://api.github.com/repos/princeton-nlp/tree-of-thought-llm/git/blobs/0e10af90f718d042644c641649f91727013ff506"
+      },
+      {
+        "path": "logs/crosswords/infoss_dfs_no_prune.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4fcea4fa331c44f73322e29fbc976d3d2c3d5269",
+        "size": 1102335,
+        "url": "https://api.github.com/repos/princeton-nlp/tree-of-thought-llm/git/blobs/4fcea4fa331c44f73322e29fbc976d3d2c3d5269"
+      },
+      {
+        "path": "logs/crosswords/infoss_dfs_prune.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9f22312754239d7793b4a1b254f94583b3238296",
+        "size": 396937,
+        "url": "https://api.github.com/repos/princeton-nlp/tree-of-thought-llm/git/blobs/9f22312754239d7793b4a1b254f94583b3238296"
+      },
+      {
+        "path": "logs/game24/gpt-4_0.7_naive_cot_sample_100_start900_end1000.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a97cb4ca0ff9310789f6fd827d91e08772c3909d",
+        "size": 1385874,
+        "url": "https://api.github.com/repos/princeton-nlp/tree-of-thought-llm/git/blobs/a97cb4ca0ff9310789f6fd827d91e08772c3909d"
+      },
+      {
+        "path": "logs/game24/gpt-4_0.7_naive_standard_sample_100_start900_end1000.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1f197b7c83ec93f6a27ac6f022def880ca80b72a",
+        "size": 681441,
+        "url": "https://api.github.com/repos/princeton-nlp/tree-of-thought-llm/git/blobs/1f197b7c83ec93f6a27ac6f022def880ca80b72a"
+      },
+      {
+        "path": "logs/game24/gpt-4_0.7_propose1_value3_greedy5_start900_end1000.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2560d12ed56e5acd9ebeec22c4ad01bfe9225b95",
+        "size": 1558836,
+        "url": "https://api.github.com/repos/princeton-nlp/tree-of-thought-llm/git/blobs/2560d12ed56e5acd9ebeec22c4ad01bfe9225b95"
+      },
+      {
+        "path": "logs/text/gpt-4_1.0_generate_sample_select_greedy_sample5_start0_end100.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d0c4e9004e9efb6d51c23e5a4f773801901b7817",
+        "size": 1911161,
+        "url": "https://api.github.com/repos/princeton-nlp/tree-of-thought-llm/git/blobs/d0c4e9004e9efb6d51c23e5a4f773801901b7817"
+      },
+      {
+        "path": "logs/text/gpt-4_1.0_naive_cot_sample_10_start0_end100.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d2e6be219ed1b7126b512483eafbf9063e10d187",
+        "size": 2178133,
+        "url": "https://api.github.com/repos/princeton-nlp/tree-of-thought-llm/git/blobs/d2e6be219ed1b7126b512483eafbf9063e10d187"
+      },
+      {
+        "path": "logs/text/gpt-4_1.0_naive_standard_sample_10_start0_end100.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8c3fbbf90cbdf420b09e490ce109059e16b06448",
+        "size": 1864534,
+        "url": "https://api.github.com/repos/princeton-nlp/tree-of-thought-llm/git/blobs/8c3fbbf90cbdf420b09e490ce109059e16b06448"
+      },
+      {
+        "path": "src/tot/data/crosswords/mini0505.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f56b583c19d3d39bf9ae6b318a16df3aabe1c7e8",
+        "size": 134771,
+        "url": "https://api.github.com/repos/princeton-nlp/tree-of-thought-llm/git/blobs/f56b583c19d3d39bf9ae6b318a16df3aabe1c7e8"
+      },
+      {
+        "path": "src/tot/data/crosswords/mini0505_0_100_5.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b0cdc5b12ec5367e8cd96fdfe01c2ac6203e0dd6",
+        "size": 17315,
+        "url": "https://api.github.com/repos/princeton-nlp/tree-of-thought-llm/git/blobs/b0cdc5b12ec5367e8cd96fdfe01c2ac6203e0dd6"
+      }
+    ],
+    "links": [
+      "https://arxiv.org/abs/2305.10601",
+      "https://badge.fury.io/py/tree-of-thoughts-llm",
+      "https://badge.fury.io/py/tree-of-thoughts-llm.svg",
+      "https://copyright.princeton.edu/policy",
+      "https://github.com/princeton-nlp/tree-of-thought-llm",
+      "https://help.openai.com/en/articles/5112595-best-practices-for-api-key-safety",
+      "https://img.shields.io/badge/License-MIT-blue",
+      "https://img.shields.io/badge/Python-3.7+-1f425f.svg?color=purple",
+      "https://twitter.com/ShunyuYao12/status/1659357547474681857",
+      "https://www.python.org/",
+      "https://zenodo.org/badge/642099326.svg",
+      "https://zenodo.org/badge/latestdoi/642099326"
+    ],
+    "release_assets": []
+  },
+  {
+    "source": "lats",
+    "repo": "lapisrocks/LanguageAgentTreeSearch",
+    "sha": "853d81614607dd27433faf17c7b0a7d660f95d22",
+    "repo_kib": 24452,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "tree_truncated": false,
+    "files": 135,
+    "candidates": [
+      {
+        "path": "hotpot/data/hotpot_dev_v1_simplified.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "91c0a8bd7ac80a479d5d6dee6f24f40ab010adfe",
+        "size": 1179017,
+        "url": "https://api.github.com/repos/andyz245/LanguageAgentTreeSearch/git/blobs/91c0a8bd7ac80a479d5d6dee6f24f40ab010adfe"
+      },
+      {
+        "path": "hotpot/data/hotpot_test_v1_simplified.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3e6b720a7a85d5f71f5ef33a8bcc85fe27982e62",
+        "size": 819900,
+        "url": "https://api.github.com/repos/andyz245/LanguageAgentTreeSearch/git/blobs/3e6b720a7a85d5f71f5ef33a8bcc85fe27982e62"
+      },
+      {
+        "path": "hotpot/data/hotpot_train_v1.1_simplified.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "cf2290265829bb58d36178d89dd8ef492e3da84b",
+        "size": 15461857,
+        "url": "https://api.github.com/repos/andyz245/LanguageAgentTreeSearch/git/blobs/cf2290265829bb58d36178d89dd8ef492e3da84b"
+      },
+      {
+        "path": "hotpot/data/paper_dev.jsonl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "722231a8bda19c99a80919900b13c084123ca37a",
+        "size": 2168767,
+        "url": "https://api.github.com/repos/andyz245/LanguageAgentTreeSearch/git/blobs/722231a8bda19c99a80919900b13c084123ca37a"
+      },
+      {
+        "path": "programming/benchmarks/humaneval-go.jsonl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d8579adbb7a015c9da23d81f0cd295ba3596abe2",
+        "size": 216462,
+        "url": "https://api.github.com/repos/andyz245/LanguageAgentTreeSearch/git/blobs/d8579adbb7a015c9da23d81f0cd295ba3596abe2"
+      },
+      {
+        "path": "programming/benchmarks/humaneval-py.jsonl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "68c708d655cd9abd6b9eb5385a9a74b044628d3d",
+        "size": 204851,
+        "url": "https://api.github.com/repos/andyz245/LanguageAgentTreeSearch/git/blobs/68c708d655cd9abd6b9eb5385a9a74b044628d3d"
+      },
+      {
+        "path": "programming/benchmarks/humaneval-py_hardest50.jsonl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b545eab3e2543d6d202c8852e53d5fc914c1e21f",
+        "size": 79585,
+        "url": "https://api.github.com/repos/andyz245/LanguageAgentTreeSearch/git/blobs/b545eab3e2543d6d202c8852e53d5fc914c1e21f"
+      },
+      {
+        "path": "programming/benchmarks/humaneval-rs-hardest50.jsonl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3bcfa779ea7543fc23df057e13e8786e5b1f7b9a",
+        "size": 83635,
+        "url": "https://api.github.com/repos/andyz245/LanguageAgentTreeSearch/git/blobs/3bcfa779ea7543fc23df057e13e8786e5b1f7b9a"
+      },
+      {
+        "path": "programming/benchmarks/humaneval-rs-sorted.jsonl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fc788a6187ca72076eb8e37fc48a61cb3c6b6b2b",
+        "size": 215363,
+        "url": "https://api.github.com/repos/andyz245/LanguageAgentTreeSearch/git/blobs/fc788a6187ca72076eb8e37fc48a61cb3c6b6b2b"
+      },
+      {
+        "path": "programming/benchmarks/humaneval-rs.jsonl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f4083478822390932a20dfbd47fedc0bfc699344",
+        "size": 215363,
+        "url": "https://api.github.com/repos/andyz245/LanguageAgentTreeSearch/git/blobs/f4083478822390932a20dfbd47fedc0bfc699344"
+      },
+      {
+        "path": "programming/benchmarks/leetcode-hard-py.jsonl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "acd6fada1a81ba65f349e0f55743f77bc7eeb36e",
+        "size": 2682,
+        "url": "https://api.github.com/repos/andyz245/LanguageAgentTreeSearch/git/blobs/acd6fada1a81ba65f349e0f55743f77bc7eeb36e"
+      },
+      {
+        "path": "programming/benchmarks/mbpp-py.jsonl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "84bc9def257dfe871d21eb862ec1a9e4e71e7029",
+        "size": 314873,
+        "url": "https://api.github.com/repos/andyz245/LanguageAgentTreeSearch/git/blobs/84bc9def257dfe871d21eb862ec1a9e4e71e7029"
+      },
+      {
+        "path": "programming/benchmarks/mbpp-rs.jsonl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8c614051c5c5c5d42b25bc91c1833acec2d5c559",
+        "size": 270255,
+        "url": "https://api.github.com/repos/andyz245/LanguageAgentTreeSearch/git/blobs/8c614051c5c5c5d42b25bc91c1833acec2d5c559"
+      },
+      {
+        "path": "programming/human-eval/data/example_problem.jsonl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "06236282a45e10e92233e2b8f84cea10ae25be46",
+        "size": 178,
+        "url": "https://api.github.com/repos/andyz245/LanguageAgentTreeSearch/git/blobs/06236282a45e10e92233e2b8f84cea10ae25be46"
+      },
+      {
+        "path": "programming/human-eval/data/example_samples.jsonl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ddd5e6baefab8b478021e813d16c094efb0a4a3c",
+        "size": 419,
+        "url": "https://api.github.com/repos/andyz245/LanguageAgentTreeSearch/git/blobs/ddd5e6baefab8b478021e813d16c094efb0a4a3c"
+      },
+      {
+        "path": "programming/root/new_gpt4_humaneval/humaneval.jsonl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c947bbda0d939f47802d93ab6a5beb2cfa082c25",
+        "size": 1322982,
+        "url": "https://api.github.com/repos/andyz245/LanguageAgentTreeSearch/git/blobs/c947bbda0d939f47802d93ab6a5beb2cfa082c25"
+      },
+      {
+        "path": "programming/root/new_gpt4_humaneval/humaneval_164.jsonl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1603ba1265517c95d1d82e7e3473b1dd670015b1",
+        "size": 1454586,
+        "url": "https://api.github.com/repos/andyz245/LanguageAgentTreeSearch/git/blobs/1603ba1265517c95d1d82e7e3473b1dd670015b1"
+      },
+      {
+        "path": "programming/root/test_dfs/humaneval-py._dfs_8_gpt-3.5-turbo_pass_at_k_1_py.jsonl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "38e184afb6376b12eb1b802a425c65861568d5c3",
+        "size": 764989,
+        "url": "https://api.github.com/repos/andyz245/LanguageAgentTreeSearch/git/blobs/38e184afb6376b12eb1b802a425c65861568d5c3"
+      },
+      {
+        "path": "programming/root/test_dfs/mbpp-py._dfs_8_gpt-3.5-turbo_pass_at_k_1_py.jsonl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2f55889a3a2b472d5da64e0e7673b922397ca0de",
+        "size": 1856024,
+        "url": "https://api.github.com/repos/andyz245/LanguageAgentTreeSearch/git/blobs/2f55889a3a2b472d5da64e0e7673b922397ca0de"
+      },
+      {
+        "path": "programming/root/test_dfs_humaneval/humaneval-py._dfs_8_gpt-3.5-turbo_pass_at_k_1_py.jsonl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "41749127c14eeaaeecd4df7850dd2a175e0de64b",
+        "size": 857683,
+        "url": "https://api.github.com/repos/andyz245/LanguageAgentTreeSearch/git/blobs/41749127c14eeaaeecd4df7850dd2a175e0de64b"
+      },
+      {
+        "path": "programming/root/test_dfs_humaneval2/humaneval-py._dfs_8_gpt-3.5-turbo_pass_at_k_1_py.jsonl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0810db409cc82bffa9daf5be66f3f1650bdbf82f",
+        "size": 854886,
+        "url": "https://api.github.com/repos/andyz245/LanguageAgentTreeSearch/git/blobs/0810db409cc82bffa9daf5be66f3f1650bdbf82f"
+      },
+      {
+        "path": "programming/root/test_mcts_hard_acc_full_4tst_temp/humaneval-py._mcts_8_gpt-3.5-turbo_pass_at_k_1_py.jsonl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8fbd9e7db1d2fe5b7440848aa3a61807ea67c90d",
+        "size": 3713745,
+        "url": "https://api.github.com/repos/andyz245/LanguageAgentTreeSearch/git/blobs/8fbd9e7db1d2fe5b7440848aa3a61807ea67c90d"
+      },
+      {
+        "path": "programming/root/test_mcts_hard_acc_full_4tst_temp/mbpp-py._mcts_8_gpt-3.5-turbo_pass_at_k_1_py.jsonl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3c1a8768cef8731c10b95041d2a57b9b600690b9",
+        "size": 8684887,
+        "url": "https://api.github.com/repos/andyz245/LanguageAgentTreeSearch/git/blobs/3c1a8768cef8731c10b95041d2a57b9b600690b9"
+      },
+      {
+        "path": "programming/root/test_mcts_hard_acc_full_4tst_temp_2/humaneval-py._mcts_8_gpt-3.5-turbo_pass_at_k_1_py.jsonl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "14bcbd8677ff3adbc2219984b4daaa4dc48df68c",
+        "size": 11049627,
+        "url": "https://api.github.com/repos/andyz245/LanguageAgentTreeSearch/git/blobs/14bcbd8677ff3adbc2219984b4daaa4dc48df68c"
+      },
+      {
+        "path": "programming/root/test_mcts_hard_acc_full_4tst_temp_2/mbpp-py._mcts_8_gpt-3.5-turbo_pass_at_k_1_py.jsonl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "acda9a77780bc844cc9ee8e918d9d72d3a4214b7",
+        "size": 6321453,
+        "url": "https://api.github.com/repos/andyz245/LanguageAgentTreeSearch/git/blobs/acda9a77780bc844cc9ee8e918d9d72d3a4214b7"
+      },
+      {
+        "path": "programming/root/test_mcts_hard_acc_full_4tst_temp_gpt4/humaneval-py._mcts_8_gpt-4_pass_at_k_1_py.jsonl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "bcc1028c470252ebbce3109b2184cf5b86601d15",
+        "size": 4057312,
+        "url": "https://api.github.com/repos/andyz245/LanguageAgentTreeSearch/git/blobs/bcc1028c470252ebbce3109b2184cf5b86601d15"
+      },
+      {
+        "path": "programming/root/test_rap/humaneval-py._mcts_8_gpt-3.5-turbo_pass_at_k_1_py.jsonl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7c5c2b7110eded7e10165023b6fc9d49e14a4827",
+        "size": 5070704,
+        "url": "https://api.github.com/repos/andyz245/LanguageAgentTreeSearch/git/blobs/7c5c2b7110eded7e10165023b6fc9d49e14a4827"
+      },
+      {
+        "path": "programming/root/testacc_humaneval_py/humaneval-py..gz_test-acc_1_gpt-4_pass_at_k_1_py.jsonl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3cbe17b358a915b92c0e9f165c65614cae2172fa",
+        "size": 262114,
+        "url": "https://api.github.com/repos/andyz245/LanguageAgentTreeSearch/git/blobs/3cbe17b358a915b92c0e9f165c65614cae2172fa"
+      }
+    ],
+    "links": [
+      "https://arxiv.org/abs/2310.04406",
+      "https://copyright.illinois.edu/",
+      "https://docs.llamaindex.ai/en/latest/api_reference/agent/lats/",
+      "https://github.com/andyz245/LanguageAgentTreeSearch",
+      "https://github.com/langchain-ai/langgraph/tree/main/examples/lats",
+      "https://github.com/noahshinn024/reflexion/tree/main",
+      "https://github.com/princeton-nlp/WebShop",
+      "https://huggingface.co/spaces/AIatUIUC/CodeLATS/tree/main",
+      "https://img.shields.io/badge/License-MIT-blue",
+      "https://img.shields.io/badge/Python-3.7+-1f425f.svg?color=purple",
+      "https://lapisrocks.github.io/LanguageAgentTreeSearch/",
+      "https://www.python.org/"
+    ],
+    "release_assets": []
+  }
+]

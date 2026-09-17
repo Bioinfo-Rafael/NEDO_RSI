@@ -1,0 +1,2062 @@
+[
+  {
+    "dataset": "zd21/ReST-MCTS-Llama3-8b-Instruct-PRM-1st",
+    "info": {
+      "_id": "665900b7c6ed5d7b6c59bd06",
+      "id": "zd21/ReST-MCTS-Llama3-8b-Instruct-PRM-1st",
+      "author": "zd21",
+      "sha": "94eb8649c399ce57090d65749ac7affc67a92719",
+      "lastModified": "2024-05-30T22:43:14.000Z",
+      "private": false,
+      "gated": false,
+      "disabled": false,
+      "tags": [
+        "license:cc-by-4.0",
+        "size_categories:100K<n<1M",
+        "format:json",
+        "modality:text",
+        "library:datasets",
+        "library:dask",
+        "library:mlcroissant",
+        "region:us"
+      ],
+      "downloads": 33,
+      "likes": 9,
+      "cardData": {
+        "license": "cc-by-4.0"
+      },
+      "siblings": [
+        {
+          "rfilename": ".gitattributes"
+        },
+        {
+          "rfilename": "README.md"
+        },
+        {
+          "rfilename": "test.json"
+        },
+        {
+          "rfilename": "train_math.json"
+        },
+        {
+          "rfilename": "train_sci.json"
+        },
+        {
+          "rfilename": "valid.json"
+        }
+      ],
+      "createdAt": "2024-05-30T22:41:59.000Z",
+      "usedStorage": 843737481
+    },
+    "files": [
+      {
+        "type": "file",
+        "oid": "50e759c274cd4c8272a7ada54bf00518bf4b6e23",
+        "size": 2503,
+        "path": ".gitattributes"
+      },
+      {
+        "type": "file",
+        "oid": "7da79263d0e701a53a0d662d245c4fc3db39b287",
+        "size": 30,
+        "path": "README.md"
+      },
+      {
+        "type": "file",
+        "oid": "94fc9b7da1e5fa842d9780a353614cb29f7bbeaa",
+        "size": 13580406,
+        "lfs": {
+          "oid": "529ba4e9499f8d3883669ffdbe2db3bd6e0f1b20ad03b5cedda2f0aac8e32318",
+          "size": 13580406,
+          "pointerSize": 133
+        },
+        "xetHash": "055eba6036f37fb9f7aae7137f5f7ae11bb7c36333740b6cd3dc6c0863d45b42",
+        "path": "test.json"
+      },
+      {
+        "type": "file",
+        "oid": "bb65b50dee91a6f8ef895742c83773313969570a",
+        "size": 244589612,
+        "lfs": {
+          "oid": "0e8decc5d30244dae3c143b5ca9a16e7fae0a0a70265cfbe897034233a654d04",
+          "size": 244589612,
+          "pointerSize": 134
+        },
+        "xetHash": "d3d03324d3b10cbc7fa07ca430826273af45c7adc7fbcdc8f85cab94a971cab1",
+        "path": "train_math.json"
+      },
+      {
+        "type": "file",
+        "oid": "3e28fa402ccf2a4af165e21110f3edebeb08993f",
+        "size": 268595966,
+        "lfs": {
+          "oid": "f559bf1f4a7bab9b8696a3b186a4ac768e1e9d972536fcf33c4a7318f5213bd3",
+          "size": 268595966,
+          "pointerSize": 134
+        },
+        "xetHash": "a830a10c7ca1c2546427dc8453e9694da79861d38cab5f18e0cb1f97c048a84c",
+        "path": "train_sci.json"
+      },
+      {
+        "type": "file",
+        "oid": "bea15c29d7aaa190233fe59602b21e33a65f1230",
+        "size": 13544797,
+        "lfs": {
+          "oid": "9478e9dfe0c95a1ecea615ff6dc645c6bc8868d5b80166778135fd07e72ecf2a",
+          "size": 13544797,
+          "pointerSize": 133
+        },
+        "xetHash": "de0338fbc72ab457dd47a678b4a468562209748c7ce4a9d2918c5891f03aba64",
+        "path": "valid.json"
+      }
+    ]
+  },
+  {
+    "dataset": "zd21/ReST-MCTS-PRM-0th",
+    "info": {
+      "_id": "670e564427d36b2e255ba5a2",
+      "id": "zd21/ReST-MCTS-PRM-0th",
+      "author": "zd21",
+      "sha": "4318a214504f641641e5e35bb0471a8ff0544295",
+      "lastModified": "2024-10-15T11:52:51.000Z",
+      "private": false,
+      "gated": false,
+      "disabled": false,
+      "tags": [
+        "license:apache-2.0",
+        "size_categories:100K<n<1M",
+        "format:json",
+        "modality:text",
+        "library:datasets",
+        "library:pandas",
+        "library:mlcroissant",
+        "library:polars",
+        "region:us"
+      ],
+      "downloads": 53,
+      "likes": 2,
+      "cardData": {
+        "license": "apache-2.0"
+      },
+      "siblings": [
+        {
+          "rfilename": ".gitattributes"
+        },
+        {
+          "rfilename": "README.md"
+        },
+        {
+          "rfilename": "test_en.json"
+        },
+        {
+          "rfilename": "train_en.json"
+        },
+        {
+          "rfilename": "valid_en.json"
+        }
+      ],
+      "createdAt": "2024-10-15T11:47:16.000Z",
+      "usedStorage": 391550203
+    },
+    "files": [
+      {
+        "type": "file",
+        "oid": "7235460fc40a05c5948938a1206061d789d8203e",
+        "size": 2568,
+        "path": ".gitattributes"
+      },
+      {
+        "type": "file",
+        "oid": "7b95401dc46245ac339fc25059d4a56d90b4cde5",
+        "size": 31,
+        "path": "README.md"
+      },
+      {
+        "type": "file",
+        "oid": "94fc9b7da1e5fa842d9780a353614cb29f7bbeaa",
+        "size": 13580406,
+        "lfs": {
+          "oid": "529ba4e9499f8d3883669ffdbe2db3bd6e0f1b20ad03b5cedda2f0aac8e32318",
+          "size": 13580406,
+          "pointerSize": 133
+        },
+        "xetHash": "055eba6036f37fb9f7aae7137f5f7ae11bb7c36333740b6cd3dc6c0863d45b42",
+        "path": "test_en.json"
+      },
+      {
+        "type": "file",
+        "oid": "bb65b50dee91a6f8ef895742c83773313969570a",
+        "size": 244589612,
+        "lfs": {
+          "oid": "0e8decc5d30244dae3c143b5ca9a16e7fae0a0a70265cfbe897034233a654d04",
+          "size": 244589612,
+          "pointerSize": 134
+        },
+        "xetHash": "d3d03324d3b10cbc7fa07ca430826273af45c7adc7fbcdc8f85cab94a971cab1",
+        "path": "train_en.json"
+      },
+      {
+        "type": "file",
+        "oid": "bea15c29d7aaa190233fe59602b21e33a65f1230",
+        "size": 13544797,
+        "lfs": {
+          "oid": "9478e9dfe0c95a1ecea615ff6dc645c6bc8868d5b80166778135fd07e72ecf2a",
+          "size": 13544797,
+          "pointerSize": 133
+        },
+        "xetHash": "de0338fbc72ab457dd47a678b4a468562209748c7ce4a9d2918c5891f03aba64",
+        "path": "valid_en.json"
+      }
+    ]
+  },
+  {
+    "dataset": "zd21/ReST-MCTS_Llama3-8b-Instruct_ReST-EM-CoT_1st",
+    "info": {
+      "_id": "67738b5560e8870ad1ed4cdb",
+      "id": "zd21/ReST-MCTS_Llama3-8b-Instruct_ReST-EM-CoT_1st",
+      "author": "zd21",
+      "sha": "e6f575bc15dd1e3e4e89055d7a0b347e035c6353",
+      "lastModified": "2024-12-31T06:14:02.000Z",
+      "private": false,
+      "gated": false,
+      "disabled": false,
+      "tags": [
+        "license:cc-by-4.0",
+        "size_categories:10K<n<100K",
+        "format:json",
+        "modality:text",
+        "library:datasets",
+        "library:pandas",
+        "library:mlcroissant",
+        "library:polars",
+        "region:us"
+      ],
+      "downloads": 13,
+      "likes": 0,
+      "cardData": {
+        "license": "cc-by-4.0"
+      },
+      "siblings": [
+        {
+          "rfilename": ".gitattributes"
+        },
+        {
+          "rfilename": "README.md"
+        },
+        {
+          "rfilename": "ReST-MCTS_Llama3-8b-Instruct_ReST-EM-CoT_1st.json"
+        }
+      ],
+      "createdAt": "2024-12-31T06:12:37.000Z",
+      "usedStorage": 80577451
+    },
+    "files": [
+      {
+        "type": "file",
+        "oid": "3ac445325370cef504d26fa5864bd78c1057c05d",
+        "size": 2547,
+        "path": ".gitattributes"
+      },
+      {
+        "type": "file",
+        "oid": "7da79263d0e701a53a0d662d245c4fc3db39b287",
+        "size": 30,
+        "path": "README.md"
+      },
+      {
+        "type": "file",
+        "oid": "9ae784750c36ca5d5d11403a63d123827e07aaa4",
+        "size": 65861448,
+        "lfs": {
+          "oid": "30654e5c6da041a0df3d8fb7b88cb5046f0936dad926ad3d1ec9b13e533c41e4",
+          "size": 65861448,
+          "pointerSize": 133
+        },
+        "xetHash": "229f6b72ba77f047ae66a1c0204be2e9b05ef7349057ecb8cb1ddc89da4d70a9",
+        "path": "ReST-MCTS_Llama3-8b-Instruct_ReST-EM-CoT_1st.json"
+      }
+    ]
+  },
+  {
+    "dataset": "zd21/ReST-MCTS_Llama3-8b-Instruct_ReST-EM-CoT_2nd",
+    "info": {
+      "_id": "67739328b8df35b9c86c3d02",
+      "id": "zd21/ReST-MCTS_Llama3-8b-Instruct_ReST-EM-CoT_2nd",
+      "author": "zd21",
+      "sha": "80239655d307e9c04d3170774f293643dbb3f83f",
+      "lastModified": "2024-12-31T06:46:22.000Z",
+      "private": false,
+      "gated": false,
+      "disabled": false,
+      "tags": [
+        "license:cc-by-4.0",
+        "size_categories:10K<n<100K",
+        "format:json",
+        "modality:text",
+        "library:datasets",
+        "library:pandas",
+        "library:mlcroissant",
+        "library:polars",
+        "region:us"
+      ],
+      "downloads": 22,
+      "likes": 0,
+      "cardData": {
+        "license": "cc-by-4.0"
+      },
+      "siblings": [
+        {
+          "rfilename": ".gitattributes"
+        },
+        {
+          "rfilename": "README.md"
+        },
+        {
+          "rfilename": "ReST-MCTS_Llama3-8b-Instruct_ReST-EM-CoT_2nd.json"
+        }
+      ],
+      "createdAt": "2024-12-31T06:46:00.000Z",
+      "usedStorage": 25521992
+    },
+    "files": [
+      {
+        "type": "file",
+        "oid": "955931cd516037dc114662da1ff0b973de303703",
+        "size": 2547,
+        "path": ".gitattributes"
+      },
+      {
+        "type": "file",
+        "oid": "7da79263d0e701a53a0d662d245c4fc3db39b287",
+        "size": 30,
+        "path": "README.md"
+      },
+      {
+        "type": "file",
+        "oid": "8e25105b56a28c9f53a698fc965fb84e26804eef",
+        "size": 20640910,
+        "lfs": {
+          "oid": "77c715608ac54356eb89d0c84cf2cd8dbec6fa716191de34736869fa8b26bb35",
+          "size": 20640910,
+          "pointerSize": 133
+        },
+        "xetHash": "991ede7ecbe85a6da56e998a63199138aa6f88a4955294f3339f279101603e37",
+        "path": "ReST-MCTS_Llama3-8b-Instruct_ReST-EM-CoT_2nd.json"
+      }
+    ]
+  },
+  {
+    "dataset": "zd21/ReST-MCTS_Llama3-8b-Instruct_ReST-MCTS_Policy_1st",
+    "info": {
+      "_id": "67738bdcfa7017bbd4bb184b",
+      "id": "zd21/ReST-MCTS_Llama3-8b-Instruct_ReST-MCTS_Policy_1st",
+      "author": "zd21",
+      "sha": "df0e56ab5d6584a75522b122d6bc59f7b9e1ae7d",
+      "lastModified": "2024-12-31T06:15:10.000Z",
+      "private": false,
+      "gated": false,
+      "disabled": false,
+      "tags": [
+        "license:cc-by-4.0",
+        "size_categories:10K<n<100K",
+        "format:json",
+        "modality:text",
+        "library:datasets",
+        "library:pandas",
+        "library:mlcroissant",
+        "library:polars",
+        "region:us"
+      ],
+      "downloads": 12,
+      "likes": 0,
+      "cardData": {
+        "license": "cc-by-4.0"
+      },
+      "siblings": [
+        {
+          "rfilename": ".gitattributes"
+        },
+        {
+          "rfilename": "README.md"
+        },
+        {
+          "rfilename": "ReST-MCTS_Llama3-8b-Instruct_ReST-MCTS_Policy_1st.json"
+        }
+      ],
+      "createdAt": "2024-12-31T06:14:52.000Z",
+      "usedStorage": 29575385
+    },
+    "files": [
+      {
+        "type": "file",
+        "oid": "4424f56099ae8d84094e7f8c69c8045cc60e2a4e",
+        "size": 2552,
+        "path": ".gitattributes"
+      },
+      {
+        "type": "file",
+        "oid": "7da79263d0e701a53a0d662d245c4fc3db39b287",
+        "size": 30,
+        "path": "README.md"
+      },
+      {
+        "type": "file",
+        "oid": "03731f597c7b07fb84e125a6b0b7d286d79e73a6",
+        "size": 24034975,
+        "lfs": {
+          "oid": "c91be320d4462e8c570ff82d3d25ee7fe7f20802f7ef3ecada4ae9452d1c7100",
+          "size": 24034975,
+          "pointerSize": 133
+        },
+        "xetHash": "18411b63e86e859091b6e0e4cf7a8ba094e930ef4e6296ce629f1189353640e3",
+        "path": "ReST-MCTS_Llama3-8b-Instruct_ReST-MCTS_Policy_1st.json"
+      }
+    ]
+  },
+  {
+    "dataset": "zd21/ReST-MCTS_Llama3-8b-Instruct_ReST-MCTS_Policy_2nd",
+    "info": {
+      "_id": "6773937344102408fca74d0c",
+      "id": "zd21/ReST-MCTS_Llama3-8b-Instruct_ReST-MCTS_Policy_2nd",
+      "author": "zd21",
+      "sha": "cd41836e87f03a4cd7009e9da6894bf7a1bddf10",
+      "lastModified": "2024-12-31T06:47:40.000Z",
+      "private": false,
+      "gated": false,
+      "disabled": false,
+      "tags": [
+        "license:cc-by-4.0",
+        "size_categories:10K<n<100K",
+        "format:json",
+        "modality:text",
+        "library:datasets",
+        "library:pandas",
+        "library:mlcroissant",
+        "library:polars",
+        "region:us"
+      ],
+      "downloads": 13,
+      "likes": 0,
+      "cardData": {
+        "license": "cc-by-4.0"
+      },
+      "siblings": [
+        {
+          "rfilename": ".gitattributes"
+        },
+        {
+          "rfilename": "README.md"
+        },
+        {
+          "rfilename": "ReST-MCTS_Llama3-8b-Instruct_ReST-MCTS_Policy_2nd.json"
+        }
+      ],
+      "createdAt": "2024-12-31T06:47:15.000Z",
+      "usedStorage": 27084017
+    },
+    "files": [
+      {
+        "type": "file",
+        "oid": "52cd1ecd8a2cd2bc57dd252536337ed514e12b25",
+        "size": 2552,
+        "path": ".gitattributes"
+      },
+      {
+        "type": "file",
+        "oid": "7da79263d0e701a53a0d662d245c4fc3db39b287",
+        "size": 30,
+        "path": "README.md"
+      },
+      {
+        "type": "file",
+        "oid": "fe4d19d2eba3b96666fa9b89487cb1e7bda26152",
+        "size": 22185728,
+        "lfs": {
+          "oid": "092a871174993ea51dd0485e36bd82909e14fcc909cdaf586b998a82bebd7785",
+          "size": 22185728,
+          "pointerSize": 133
+        },
+        "xetHash": "1e2a31a348cce7bd4c9787ca81505dc44752e10b83c8d66e156846df96c13339",
+        "path": "ReST-MCTS_Llama3-8b-Instruct_ReST-MCTS_Policy_2nd.json"
+      }
+    ]
+  },
+  {
+    "dataset": "zd21/ReST-MCTS_Llama3-8b-Instruct_Self-Rewarding-DPO_1st",
+    "info": {
+      "_id": "67738c156efc27a4c3d6c616",
+      "id": "zd21/ReST-MCTS_Llama3-8b-Instruct_Self-Rewarding-DPO_1st",
+      "author": "zd21",
+      "sha": "5aabf7b405fe561fbd385c673c24f72edecf4d09",
+      "lastModified": "2024-12-31T06:16:26.000Z",
+      "private": false,
+      "gated": false,
+      "disabled": false,
+      "tags": [
+        "license:cc-by-4.0",
+        "size_categories:n<1K",
+        "format:json",
+        "modality:text",
+        "library:datasets",
+        "library:pandas",
+        "library:mlcroissant",
+        "library:polars",
+        "region:us"
+      ],
+      "downloads": 8,
+      "likes": 0,
+      "cardData": {
+        "license": "cc-by-4.0"
+      },
+      "siblings": [
+        {
+          "rfilename": ".gitattributes"
+        },
+        {
+          "rfilename": "README.md"
+        },
+        {
+          "rfilename": "ReST-MCTS_Llama3-8b-Instruct_Self-Rewarding-DPO_1st.json"
+        }
+      ],
+      "createdAt": "2024-12-31T06:15:49.000Z",
+      "usedStorage": 74144449
+    },
+    "files": [
+      {
+        "type": "file",
+        "oid": "e4e230abdbca893e4ddb5136e39d1a86a2b2a135",
+        "size": 2554,
+        "path": ".gitattributes"
+      },
+      {
+        "type": "file",
+        "oid": "7da79263d0e701a53a0d662d245c4fc3db39b287",
+        "size": 30,
+        "path": "README.md"
+      },
+      {
+        "type": "file",
+        "oid": "b20c082eb907fd6ba53094247cd98b0ea0159016",
+        "size": 55504329,
+        "lfs": {
+          "oid": "4472eefa52f6dbb86eaac580ebc2780a18cf0971c0fd5ea7c3bddcf6ca7768dc",
+          "size": 55504329,
+          "pointerSize": 133
+        },
+        "xetHash": "fe59bc0ce2132f1d6827302f14ce07eb549651e8ca673145d17ff76fea5e75f7",
+        "path": "ReST-MCTS_Llama3-8b-Instruct_Self-Rewarding-DPO_1st.json"
+      }
+    ]
+  },
+  {
+    "dataset": "zd21/ReST-MCTS_Llama3-8b-Instruct_Self-Rewarding-DPO_2nd",
+    "info": {
+      "_id": "677393d15a14f2e61582fa11",
+      "id": "zd21/ReST-MCTS_Llama3-8b-Instruct_Self-Rewarding-DPO_2nd",
+      "author": "zd21",
+      "sha": "cf2b9dadc33709095bcb61711dc78669b2b5676f",
+      "lastModified": "2024-12-31T06:49:09.000Z",
+      "private": false,
+      "gated": false,
+      "disabled": false,
+      "tags": [
+        "license:cc-by-4.0",
+        "size_categories:n<1K",
+        "format:json",
+        "modality:text",
+        "library:datasets",
+        "library:pandas",
+        "library:mlcroissant",
+        "library:polars",
+        "region:us"
+      ],
+      "downloads": 11,
+      "likes": 0,
+      "cardData": {
+        "license": "cc-by-4.0"
+      },
+      "siblings": [
+        {
+          "rfilename": ".gitattributes"
+        },
+        {
+          "rfilename": "README.md"
+        },
+        {
+          "rfilename": "ReST-MCTS_Llama3-8b-Instruct_Self-Rewarding-DPO_2nd.json"
+        }
+      ],
+      "createdAt": "2024-12-31T06:48:49.000Z",
+      "usedStorage": 19186062
+    },
+    "files": [
+      {
+        "type": "file",
+        "oid": "70c5e716f94a50a4624bbbf2792755ce2541925a",
+        "size": 2554,
+        "path": ".gitattributes"
+      },
+      {
+        "type": "file",
+        "oid": "7da79263d0e701a53a0d662d245c4fc3db39b287",
+        "size": 30,
+        "path": "README.md"
+      },
+      {
+        "type": "file",
+        "oid": "37a1a7c2fda0605c6a3aa10a915107a0cebc85a0",
+        "size": 14110233,
+        "lfs": {
+          "oid": "cffe983c4912eaee9241e90d2fcb09a5890c5efa7890a50f2543b63809824244",
+          "size": 14110233,
+          "pointerSize": 133
+        },
+        "xetHash": "dfa32c5513fd5f359aa5cb027ed51d1f23ed46b3c0a4017af2e4f7277bd115d7",
+        "path": "ReST-MCTS_Llama3-8b-Instruct_Self-Rewarding-DPO_2nd.json"
+      }
+    ]
+  },
+  {
+    "dataset": "zd21/ReST-MCTS_Mistral-MetaMATH-7b-Instruct_ReST-EM-CoT_1st",
+    "info": {
+      "_id": "67738c76068b3b4fc849f661",
+      "id": "zd21/ReST-MCTS_Mistral-MetaMATH-7b-Instruct_ReST-EM-CoT_1st",
+      "author": "zd21",
+      "sha": "0366b4c05ba105d37b09981b7f88b47f198436fe",
+      "lastModified": "2024-12-31T06:17:52.000Z",
+      "private": false,
+      "gated": false,
+      "disabled": false,
+      "tags": [
+        "license:cc-by-4.0",
+        "size_categories:10K<n<100K",
+        "format:json",
+        "modality:text",
+        "library:datasets",
+        "library:pandas",
+        "library:mlcroissant",
+        "library:polars",
+        "region:us"
+      ],
+      "downloads": 11,
+      "likes": 0,
+      "cardData": {
+        "license": "cc-by-4.0"
+      },
+      "siblings": [
+        {
+          "rfilename": ".gitattributes"
+        },
+        {
+          "rfilename": "README.md"
+        },
+        {
+          "rfilename": "ReST-MCTS_Mistral-MetaMATH-7b-Instruct_ReST-EM-CoT_1st.json"
+        }
+      ],
+      "createdAt": "2024-12-31T06:17:26.000Z",
+      "usedStorage": 61760942
+    },
+    "files": [
+      {
+        "type": "file",
+        "oid": "b59d935193401c8906eaf7458400c52d0dcf42ee",
+        "size": 2557,
+        "path": ".gitattributes"
+      },
+      {
+        "type": "file",
+        "oid": "7da79263d0e701a53a0d662d245c4fc3db39b287",
+        "size": 30,
+        "path": "README.md"
+      },
+      {
+        "type": "file",
+        "oid": "2764091741f8c3fca1b69123b1736aa6f76d30c4",
+        "size": 51957334,
+        "lfs": {
+          "oid": "7c648509fe1c87b7c6a0ceb0ab6a7cca8e80f57efcc6a1ca677c2c0c2d40cc22",
+          "size": 51957334,
+          "pointerSize": 133
+        },
+        "xetHash": "5ac14bd7566dff2f42b6f537b410973c33eb71dfe9aa1550fe5939e50862acc1",
+        "path": "ReST-MCTS_Mistral-MetaMATH-7b-Instruct_ReST-EM-CoT_1st.json"
+      }
+    ]
+  },
+  {
+    "dataset": "zd21/ReST-MCTS_Mistral-MetaMATH-7b-Instruct_ReST-EM-CoT_2nd",
+    "info": {
+      "_id": "6773944bc10fe3cd924b8b6f",
+      "id": "zd21/ReST-MCTS_Mistral-MetaMATH-7b-Instruct_ReST-EM-CoT_2nd",
+      "author": "zd21",
+      "sha": "b7d81acfc0d47d94037b7e76559a17b0c1bf7080",
+      "lastModified": "2024-12-31T06:51:13.000Z",
+      "private": false,
+      "gated": false,
+      "disabled": false,
+      "tags": [
+        "license:cc-by-4.0",
+        "size_categories:10K<n<100K",
+        "format:json",
+        "modality:text",
+        "library:datasets",
+        "library:pandas",
+        "library:mlcroissant",
+        "library:polars",
+        "region:us"
+      ],
+      "downloads": 22,
+      "likes": 0,
+      "cardData": {
+        "license": "cc-by-4.0"
+      },
+      "siblings": [
+        {
+          "rfilename": ".gitattributes"
+        },
+        {
+          "rfilename": "README.md"
+        },
+        {
+          "rfilename": "ReST-MCTS_Mistral-MetaMATH-7b-Instruct_ReST-EM-CoT_2nd.json"
+        }
+      ],
+      "createdAt": "2024-12-31T06:50:51.000Z",
+      "usedStorage": 31529977
+    },
+    "files": [
+      {
+        "type": "file",
+        "oid": "3ab2d7c3723ce090f473d57e472b710026d4042e",
+        "size": 2557,
+        "path": ".gitattributes"
+      },
+      {
+        "type": "file",
+        "oid": "7da79263d0e701a53a0d662d245c4fc3db39b287",
+        "size": 30,
+        "path": "README.md"
+      },
+      {
+        "type": "file",
+        "oid": "e8e459422f49d5fceb778298d5bd59d4f8212d20",
+        "size": 26045688,
+        "lfs": {
+          "oid": "2846d59ea9385ec0694d0f6c71d5e33ab537195ff4797612c3024721177b00df",
+          "size": 26045688,
+          "pointerSize": 133
+        },
+        "xetHash": "6dab7c62abd7a8a8f54d7dfe201d9d90942aeb6fbe3e011bd64806f70ed135ad",
+        "path": "ReST-MCTS_Mistral-MetaMATH-7b-Instruct_ReST-EM-CoT_2nd.json"
+      }
+    ]
+  },
+  {
+    "dataset": "zd21/ReST-MCTS_Mistral-MetaMATH-7b-Instruct_ReST-MCTS_1st",
+    "info": {
+      "_id": "67738cb23cd7faf7e8f75776",
+      "id": "zd21/ReST-MCTS_Mistral-MetaMATH-7b-Instruct_ReST-MCTS_1st",
+      "author": "zd21",
+      "sha": "6e47b2fa78e2799ab7859a407adca1081731410c",
+      "lastModified": "2024-12-31T06:18:46.000Z",
+      "private": false,
+      "gated": false,
+      "disabled": false,
+      "tags": [
+        "license:cc-by-4.0",
+        "size_categories:10K<n<100K",
+        "format:json",
+        "modality:text",
+        "library:datasets",
+        "library:pandas",
+        "library:mlcroissant",
+        "library:polars",
+        "region:us"
+      ],
+      "downloads": 25,
+      "likes": 0,
+      "cardData": {
+        "license": "cc-by-4.0"
+      },
+      "siblings": [
+        {
+          "rfilename": ".gitattributes"
+        },
+        {
+          "rfilename": "README.md"
+        },
+        {
+          "rfilename": "ReST-MCTS_Mistral-MetaMATH-7b-Instruct_ReST-MCTS_1st.json"
+        }
+      ],
+      "createdAt": "2024-12-31T06:18:26.000Z",
+      "usedStorage": 44188447
+    },
+    "files": [
+      {
+        "type": "file",
+        "oid": "59f0821929c72aa8ebb3a2dbf8cf77870c931fa5",
+        "size": 2555,
+        "path": ".gitattributes"
+      },
+      {
+        "type": "file",
+        "oid": "7da79263d0e701a53a0d662d245c4fc3db39b287",
+        "size": 30,
+        "path": "README.md"
+      },
+      {
+        "type": "file",
+        "oid": "f2a5be0f9c5c45eaebad2b7a77103a269ed297ff",
+        "size": 37166756,
+        "lfs": {
+          "oid": "8a7c807458103e6cae5f5f2c0e50c79952600ade17d58696d84856dda341d4ca",
+          "size": 37166756,
+          "pointerSize": 133
+        },
+        "xetHash": "7879f4e939294c261ac5e7aca09af279230245b9d16b45a46e72d9f894eced11",
+        "path": "ReST-MCTS_Mistral-MetaMATH-7b-Instruct_ReST-MCTS_1st.json"
+      }
+    ]
+  },
+  {
+    "dataset": "zd21/ReST-MCTS_Mistral-MetaMATH-7b-Instruct_ReST-MCTS_2nd",
+    "info": {
+      "_id": "6773947644102408fca7992f",
+      "id": "zd21/ReST-MCTS_Mistral-MetaMATH-7b-Instruct_ReST-MCTS_2nd",
+      "author": "zd21",
+      "sha": "4f7fcc3acd8efc391d264e1e0dad23d2d2f093d8",
+      "lastModified": "2024-12-31T06:51:53.000Z",
+      "private": false,
+      "gated": false,
+      "disabled": false,
+      "tags": [
+        "license:cc-by-4.0",
+        "size_categories:10K<n<100K",
+        "format:json",
+        "modality:text",
+        "library:datasets",
+        "library:pandas",
+        "library:mlcroissant",
+        "library:polars",
+        "region:us"
+      ],
+      "downloads": 18,
+      "likes": 0,
+      "cardData": {
+        "license": "cc-by-4.0"
+      },
+      "siblings": [
+        {
+          "rfilename": ".gitattributes"
+        },
+        {
+          "rfilename": "README.md"
+        },
+        {
+          "rfilename": "ReST-MCTS_Mistral-MetaMATH-7b-Instruct_ReST-MCTS_2nd.json"
+        }
+      ],
+      "createdAt": "2024-12-31T06:51:34.000Z",
+      "usedStorage": 23578236
+    },
+    "files": [
+      {
+        "type": "file",
+        "oid": "109421d47f4ebe5ec0e88e24a8d3a8525c582a63",
+        "size": 2555,
+        "path": ".gitattributes"
+      },
+      {
+        "type": "file",
+        "oid": "7da79263d0e701a53a0d662d245c4fc3db39b287",
+        "size": 30,
+        "path": "README.md"
+      },
+      {
+        "type": "file",
+        "oid": "e4f8040e561bb9dc5ec27c83d6f44c7da17c57a3",
+        "size": 19361812,
+        "lfs": {
+          "oid": "13dedf3f959218256d3258eb102dcaeddb453f7df5441cdabc4e4918af45bf1d",
+          "size": 19361812,
+          "pointerSize": 133
+        },
+        "xetHash": "02630628037fb564b1d6b9a894ab11b8b75e553d6afa25cf4f919fe5e6f25a65",
+        "path": "ReST-MCTS_Mistral-MetaMATH-7b-Instruct_ReST-MCTS_2nd.json"
+      }
+    ]
+  },
+  {
+    "dataset": "zd21/ReST-MCTS_Mistral-MetaMATH-7b-Instruct_Self-Rewarding-DPO_1st",
+    "info": {
+      "_id": "67738cc9b8df35b9c86a7493",
+      "id": "zd21/ReST-MCTS_Mistral-MetaMATH-7b-Instruct_Self-Rewarding-DPO_1st",
+      "author": "zd21",
+      "sha": "398a673b8ceaea965285d52d98d3b151c191d458",
+      "lastModified": "2024-12-31T06:19:10.000Z",
+      "private": false,
+      "gated": false,
+      "disabled": false,
+      "tags": [
+        "license:cc-by-4.0",
+        "size_categories:n<1K",
+        "format:json",
+        "modality:text",
+        "library:datasets",
+        "library:pandas",
+        "library:mlcroissant",
+        "library:polars",
+        "region:us"
+      ],
+      "downloads": 9,
+      "likes": 0,
+      "cardData": {
+        "license": "cc-by-4.0"
+      },
+      "siblings": [
+        {
+          "rfilename": ".gitattributes"
+        },
+        {
+          "rfilename": "README.md"
+        },
+        {
+          "rfilename": "ReST-MCTS_Mistral-MetaMATH-7b-Instruct_Self-Rewarding-DPO_1st.json"
+        }
+      ],
+      "createdAt": "2024-12-31T06:18:49.000Z",
+      "usedStorage": 40867306
+    },
+    "files": [
+      {
+        "type": "file",
+        "oid": "ebb0abeac4281c9e720f75afe2e63a84dc80b75a",
+        "size": 2564,
+        "path": ".gitattributes"
+      },
+      {
+        "type": "file",
+        "oid": "7da79263d0e701a53a0d662d245c4fc3db39b287",
+        "size": 30,
+        "path": "README.md"
+      },
+      {
+        "type": "file",
+        "oid": "14c81ecac894c28b828d72a01a6dc9c6788796de",
+        "size": 30633397,
+        "lfs": {
+          "oid": "b7c02fc801452daefcc52ea24f9cc4a1fd474553d83ccc6c188e493e29388f7d",
+          "size": 30633397,
+          "pointerSize": 133
+        },
+        "xetHash": "3077b4388fa1952f05e52f835c78c210fcbc6556beb4bb2f80993f35cb23cd1a",
+        "path": "ReST-MCTS_Mistral-MetaMATH-7b-Instruct_Self-Rewarding-DPO_1st.json"
+      }
+    ]
+  },
+  {
+    "dataset": "zd21/ReST-MCTS_Mistral-MetaMATH-7b-Instruct_Self-Rewarding-DPO_2nd",
+    "info": {
+      "_id": "677394ab08289c83599c33d8",
+      "id": "zd21/ReST-MCTS_Mistral-MetaMATH-7b-Instruct_Self-Rewarding-DPO_2nd",
+      "author": "zd21",
+      "sha": "d97b11b19a7f2901974c097866bb72ad2f9c1004",
+      "lastModified": "2024-12-31T06:52:49.000Z",
+      "private": false,
+      "gated": false,
+      "disabled": false,
+      "tags": [
+        "license:cc-by-4.0",
+        "size_categories:n<1K",
+        "format:json",
+        "modality:text",
+        "library:datasets",
+        "library:pandas",
+        "library:mlcroissant",
+        "library:polars",
+        "region:us"
+      ],
+      "downloads": 12,
+      "likes": 0,
+      "cardData": {
+        "license": "cc-by-4.0"
+      },
+      "siblings": [
+        {
+          "rfilename": ".gitattributes"
+        },
+        {
+          "rfilename": "README.md"
+        },
+        {
+          "rfilename": "ReST-MCTS_Mistral-MetaMATH-7b-Instruct_Self-Rewarding-DPO_2nd.json"
+        }
+      ],
+      "createdAt": "2024-12-31T06:52:27.000Z",
+      "usedStorage": 40867306
+    },
+    "files": [
+      {
+        "type": "file",
+        "oid": "8c5e8f02c3933914558c674286bf30ad4882ca6b",
+        "size": 2564,
+        "path": ".gitattributes"
+      },
+      {
+        "type": "file",
+        "oid": "7da79263d0e701a53a0d662d245c4fc3db39b287",
+        "size": 30,
+        "path": "README.md"
+      },
+      {
+        "type": "file",
+        "oid": "14c81ecac894c28b828d72a01a6dc9c6788796de",
+        "size": 30633397,
+        "lfs": {
+          "oid": "b7c02fc801452daefcc52ea24f9cc4a1fd474553d83ccc6c188e493e29388f7d",
+          "size": 30633397,
+          "pointerSize": 133
+        },
+        "xetHash": "3077b4388fa1952f05e52f835c78c210fcbc6556beb4bb2f80993f35cb23cd1a",
+        "path": "ReST-MCTS_Mistral-MetaMATH-7b-Instruct_Self-Rewarding-DPO_2nd.json"
+      }
+    ]
+  },
+  {
+    "dataset": "zd21/ReST-MCTS_SciGLM-6B_ReST-EM-CoT_1st",
+    "info": {
+      "_id": "67738d5b14389b82539d2a58",
+      "id": "zd21/ReST-MCTS_SciGLM-6B_ReST-EM-CoT_1st",
+      "author": "zd21",
+      "sha": "0119d196a7926998b1aef6d75896547bb9a3313f",
+      "lastModified": "2024-12-31T06:21:38.000Z",
+      "private": false,
+      "gated": false,
+      "disabled": false,
+      "tags": [
+        "license:cc-by-4.0",
+        "size_categories:10K<n<100K",
+        "format:json",
+        "modality:text",
+        "library:datasets",
+        "library:pandas",
+        "library:mlcroissant",
+        "library:polars",
+        "region:us"
+      ],
+      "downloads": 11,
+      "likes": 0,
+      "cardData": {
+        "license": "cc-by-4.0"
+      },
+      "siblings": [
+        {
+          "rfilename": ".gitattributes"
+        },
+        {
+          "rfilename": "README.md"
+        },
+        {
+          "rfilename": "ReST-MCTS_SciGLM-6B_ReST-EM-CoT_1st.json"
+        }
+      ],
+      "createdAt": "2024-12-31T06:21:15.000Z",
+      "usedStorage": 51881796
+    },
+    "files": [
+      {
+        "type": "file",
+        "oid": "08f73335a5cf6ce0caab19a99e113258eebd59e3",
+        "size": 2538,
+        "path": ".gitattributes"
+      },
+      {
+        "type": "file",
+        "oid": "7da79263d0e701a53a0d662d245c4fc3db39b287",
+        "size": 30,
+        "path": "README.md"
+      },
+      {
+        "type": "file",
+        "oid": "02d0381118c392847f46b51b65db941da2a45d59",
+        "size": 41550255,
+        "lfs": {
+          "oid": "5a471e591d4b5158350441161bc3a48db07384cf0086e555a13d306d96c00f6f",
+          "size": 41550255,
+          "pointerSize": 133
+        },
+        "xetHash": "ce013fc497bfa998259bb70415ad8ec1866990abe168a166bf1f1d12459c733f",
+        "path": "ReST-MCTS_SciGLM-6B_ReST-EM-CoT_1st.json"
+      }
+    ]
+  },
+  {
+    "dataset": "zd21/ReST-MCTS_SciGLM-6B_ReST-EM-CoT_2nd",
+    "info": {
+      "_id": "677394cfb2a660efd309dc53",
+      "id": "zd21/ReST-MCTS_SciGLM-6B_ReST-EM-CoT_2nd",
+      "author": "zd21",
+      "sha": "48c8fdb41a9a96e0608cb74fa594483ea2e5ed18",
+      "lastModified": "2024-12-31T06:53:26.000Z",
+      "private": false,
+      "gated": false,
+      "disabled": false,
+      "tags": [
+        "license:cc-by-4.0",
+        "size_categories:10K<n<100K",
+        "format:json",
+        "modality:text",
+        "library:datasets",
+        "library:pandas",
+        "library:mlcroissant",
+        "library:polars",
+        "region:us"
+      ],
+      "downloads": 9,
+      "likes": 0,
+      "cardData": {
+        "license": "cc-by-4.0"
+      },
+      "siblings": [
+        {
+          "rfilename": ".gitattributes"
+        },
+        {
+          "rfilename": "README.md"
+        },
+        {
+          "rfilename": "ReST-MCTS_SciGLM-6B_ReST-EM-CoT_2nd.json"
+        }
+      ],
+      "createdAt": "2024-12-31T06:53:03.000Z",
+      "usedStorage": 20531959
+    },
+    "files": [
+      {
+        "type": "file",
+        "oid": "37b1fe799713f54573f9f9cad52c070c1d4b5f3b",
+        "size": 2538,
+        "path": ".gitattributes"
+      },
+      {
+        "type": "file",
+        "oid": "7da79263d0e701a53a0d662d245c4fc3db39b287",
+        "size": 30,
+        "path": "README.md"
+      },
+      {
+        "type": "file",
+        "oid": "8af59f09ca688775c6270a767f86e804757884c9",
+        "size": 16089822,
+        "lfs": {
+          "oid": "87497f5c914362aca7d011eb854e495d4379da573ad53d3e472cc25e6238bcb0",
+          "size": 16089822,
+          "pointerSize": 133
+        },
+        "xetHash": "9c6f121380f463ea6dabc35e5acf6a458fe12438c9c2fdad17047e1a1a792179",
+        "path": "ReST-MCTS_SciGLM-6B_ReST-EM-CoT_2nd.json"
+      }
+    ]
+  },
+  {
+    "dataset": "zd21/ReST-MCTS_SciGLM-6B_ReST-MCTS_Policy_1st",
+    "info": {
+      "_id": "67738d77dde305d7f2ad22ce",
+      "id": "zd21/ReST-MCTS_SciGLM-6B_ReST-MCTS_Policy_1st",
+      "author": "zd21",
+      "sha": "95c2103912c33c2dffce015dbf6a3b448f9cdc8f",
+      "lastModified": "2024-12-31T06:22:03.000Z",
+      "private": false,
+      "gated": false,
+      "disabled": false,
+      "tags": [
+        "license:cc-by-4.0",
+        "size_categories:10K<n<100K",
+        "format:json",
+        "modality:text",
+        "library:datasets",
+        "library:pandas",
+        "library:mlcroissant",
+        "library:polars",
+        "region:us"
+      ],
+      "downloads": 5,
+      "likes": 0,
+      "cardData": {
+        "license": "cc-by-4.0"
+      },
+      "siblings": [
+        {
+          "rfilename": ".gitattributes"
+        },
+        {
+          "rfilename": "README.md"
+        },
+        {
+          "rfilename": "ReST-MCTS_SciGLM-6B_ReST-MCTS_Policy_1st.json"
+        }
+      ],
+      "createdAt": "2024-12-31T06:21:43.000Z",
+      "usedStorage": 19555655
+    },
+    "files": [
+      {
+        "type": "file",
+        "oid": "f703daae7c71adf59327430eae4c1f012c4c4dc1",
+        "size": 2543,
+        "path": ".gitattributes"
+      },
+      {
+        "type": "file",
+        "oid": "7da79263d0e701a53a0d662d245c4fc3db39b287",
+        "size": 30,
+        "path": "README.md"
+      },
+      {
+        "type": "file",
+        "oid": "05448b98075e3df2f2721eb21187d6bec24992ae",
+        "size": 16086691,
+        "lfs": {
+          "oid": "6e0dc7ba29309c23a022baca718a5b6e6e39f1e70ebc2605b1e94f740c128b69",
+          "size": 16086691,
+          "pointerSize": 133
+        },
+        "xetHash": "7b31db07335d014c1fbfc112e3dd1936a94e7884bcea5a39b5fd46ccb14c04e7",
+        "path": "ReST-MCTS_SciGLM-6B_ReST-MCTS_Policy_1st.json"
+      }
+    ]
+  },
+  {
+    "dataset": "zd21/ReST-MCTS_SciGLM-6B_ReST-MCTS_Policy_2nd",
+    "info": {
+      "_id": "67739515acb49d1ace36efee",
+      "id": "zd21/ReST-MCTS_SciGLM-6B_ReST-MCTS_Policy_2nd",
+      "author": "zd21",
+      "sha": "953ce4fc2b04d6fc0f4887d28cb509f206b84494",
+      "lastModified": "2024-12-31T06:54:33.000Z",
+      "private": false,
+      "gated": false,
+      "disabled": false,
+      "tags": [
+        "license:cc-by-4.0",
+        "size_categories:10K<n<100K",
+        "format:json",
+        "modality:text",
+        "library:datasets",
+        "library:pandas",
+        "library:mlcroissant",
+        "library:polars",
+        "region:us"
+      ],
+      "downloads": 31,
+      "likes": 0,
+      "cardData": {
+        "license": "cc-by-4.0"
+      },
+      "siblings": [
+        {
+          "rfilename": ".gitattributes"
+        },
+        {
+          "rfilename": "README.md"
+        },
+        {
+          "rfilename": "ReST-MCTS_SciGLM-6B_ReST-MCTS_Policy_2nd.json"
+        }
+      ],
+      "createdAt": "2024-12-31T06:54:13.000Z",
+      "usedStorage": 25129966
+    },
+    "files": [
+      {
+        "type": "file",
+        "oid": "d512cad95e128492f6565a7896420cb5a1b28d8c",
+        "size": 2543,
+        "path": ".gitattributes"
+      },
+      {
+        "type": "file",
+        "oid": "7da79263d0e701a53a0d662d245c4fc3db39b287",
+        "size": 30,
+        "path": "README.md"
+      },
+      {
+        "type": "file",
+        "oid": "1e702fd1555ce98247afc6b7c994900d9bbec99a",
+        "size": 21209008,
+        "lfs": {
+          "oid": "67e912b1a7c2fd6ea29ec49d76c2a2c7cd1ddd6d52b3112559ee6d04a65d68ce",
+          "size": 21209008,
+          "pointerSize": 133
+        },
+        "xetHash": "78177737dd30b4b5f2d1f8b79d3b359f5ee795abbdf53eff3d45e28a54c80eaa",
+        "path": "ReST-MCTS_SciGLM-6B_ReST-MCTS_Policy_2nd.json"
+      }
+    ]
+  },
+  {
+    "dataset": "zd21/ReST-MCTS_SciGLM-6B_Self-Rewarding-DPO_1st",
+    "info": {
+      "_id": "67738dc1599518417356fabc",
+      "id": "zd21/ReST-MCTS_SciGLM-6B_Self-Rewarding-DPO_1st",
+      "author": "zd21",
+      "sha": "98b4b2ad9708838bd83ac4ba4c7806abbeda0ba2",
+      "lastModified": "2024-12-31T06:23:36.000Z",
+      "private": false,
+      "gated": false,
+      "disabled": false,
+      "tags": [
+        "license:cc-by-4.0",
+        "size_categories:10K<n<100K",
+        "format:json",
+        "modality:text",
+        "library:datasets",
+        "library:pandas",
+        "library:mlcroissant",
+        "library:polars",
+        "region:us"
+      ],
+      "downloads": 11,
+      "likes": 0,
+      "cardData": {
+        "license": "cc-by-4.0"
+      },
+      "siblings": [
+        {
+          "rfilename": ".gitattributes"
+        },
+        {
+          "rfilename": "README.md"
+        },
+        {
+          "rfilename": "ReST-MCTS_SciGLM-6B_Self-Rewarding-DPO_1st.json"
+        }
+      ],
+      "createdAt": "2024-12-31T06:22:57.000Z",
+      "usedStorage": 63704618
+    },
+    "files": [
+      {
+        "type": "file",
+        "oid": "2ece72fc239b649a630b0c8391500f4a5ac3dada",
+        "size": 2545,
+        "path": ".gitattributes"
+      },
+      {
+        "type": "file",
+        "oid": "7da79263d0e701a53a0d662d245c4fc3db39b287",
+        "size": 30,
+        "path": "README.md"
+      },
+      {
+        "type": "file",
+        "oid": "9d76e945d94f4e5415c8d0188d00fb511ee01328",
+        "size": 48067649,
+        "lfs": {
+          "oid": "f054049db2b3b5439220d05f87f982a7da6cec9c5f3de3624de32cd0ad49e295",
+          "size": 48067649,
+          "pointerSize": 133
+        },
+        "xetHash": "736043de6d747c4575f4e994b30addab17f464cf8d56ed5e0966b3f022cf0d3c",
+        "path": "ReST-MCTS_SciGLM-6B_Self-Rewarding-DPO_1st.json"
+      }
+    ]
+  },
+  {
+    "dataset": "zd21/ReST-MCTS_SciGLM-6B_Self-Rewarding-DPO_2nd",
+    "info": {
+      "_id": "67739543acb49d1ace36fdf4",
+      "id": "zd21/ReST-MCTS_SciGLM-6B_Self-Rewarding-DPO_2nd",
+      "author": "zd21",
+      "sha": "3851fda926813e8b847e4ad45f0fa18ecc6d78bd",
+      "lastModified": "2024-12-31T06:55:16.000Z",
+      "private": false,
+      "gated": false,
+      "disabled": false,
+      "tags": [
+        "license:cc-by-4.0",
+        "size_categories:n<1K",
+        "format:json",
+        "modality:text",
+        "library:datasets",
+        "library:pandas",
+        "library:mlcroissant",
+        "library:polars",
+        "region:us"
+      ],
+      "downloads": 15,
+      "likes": 0,
+      "cardData": {
+        "license": "cc-by-4.0"
+      },
+      "siblings": [
+        {
+          "rfilename": ".gitattributes"
+        },
+        {
+          "rfilename": "README.md"
+        },
+        {
+          "rfilename": "ReST-MCTS_SciGLM-6B_Self-Rewarding-DPO_2nd.json"
+        }
+      ],
+      "createdAt": "2024-12-31T06:54:59.000Z",
+      "usedStorage": 21389746
+    },
+    "files": [
+      {
+        "type": "file",
+        "oid": "fb77b89a4734c16ef69c6456aa4af64ce05d8ebc",
+        "size": 2545,
+        "path": ".gitattributes"
+      },
+      {
+        "type": "file",
+        "oid": "7da79263d0e701a53a0d662d245c4fc3db39b287",
+        "size": 30,
+        "path": "README.md"
+      },
+      {
+        "type": "file",
+        "oid": "0c22ff94fb674e78c30bb9bfad57f6dd14e00c3d",
+        "size": 15851002,
+        "lfs": {
+          "oid": "4ad4e3e0e189a3c8de8c38d1eedcf20f58052c8c8b053d57c45964220b661d6f",
+          "size": 15851002,
+          "pointerSize": 133
+        },
+        "xetHash": "4cb00178ca772c0af40bc9c6b2a086b08ea623b9009645cbab1e621cada3b790",
+        "path": "ReST-MCTS_SciGLM-6B_Self-Rewarding-DPO_2nd.json"
+      }
+    ]
+  },
+  {
+    "dataset": "SWE-bench/SWE-smith-trajectories",
+    "info": {
+      "_id": "681139f166e75cf56190c341",
+      "id": "SWE-bench/SWE-smith-trajectories",
+      "author": "SWE-bench",
+      "sha": "08e109b4a59eaeebf80e4675cd125d42e7ac99a4",
+      "lastModified": "2025-07-19T01:18:16.000Z",
+      "private": false,
+      "gated": false,
+      "disabled": false,
+      "tags": [
+        "task_categories:text-generation",
+        "language:en",
+        "license:mit",
+        "size_categories:10K<n<100K",
+        "format:parquet",
+        "modality:text",
+        "library:datasets",
+        "library:dask",
+        "library:mlcroissant",
+        "library:polars",
+        "arxiv:2504.21798",
+        "region:us",
+        "code",
+        "agents",
+        "software-engineering"
+      ],
+      "description": "\n  \n    \n    SWE-smith Trajectories\n  \n\n\nCode\n\u2022\nPaper\n\u2022\nSite\n\n\nThis dataset contains the 5017 trajectories we fine-tuned Qwen 2.5 Coder Instruct on, leading to\nSWE-agent-LM-32B, a coding LM agent that\nachieve 40.2% on SWE-bench Verified (no verifiers or multiple rollouts, just 1 attempt per instance).\nTrajectories were generated by running SWE-agent + Claude 3.7 Sonnet on task instances from\nthe SWE-smith dataset.\n",
+      "downloads": 13015,
+      "likes": 79,
+      "cardData": {
+        "language": [
+          "en"
+        ],
+        "license": "mit",
+        "size_categories": [
+          "1K<n<10K"
+        ],
+        "task_categories": [
+          "text-generation"
+        ],
+        "dataset_info": {
+          "features": [
+            {
+              "name": "messages",
+              "dtype": "string"
+            },
+            {
+              "name": "instance_id",
+              "dtype": "string"
+            },
+            {
+              "name": "resolved",
+              "dtype": "bool"
+            },
+            {
+              "name": "model",
+              "dtype": "string"
+            },
+            {
+              "name": "traj_id",
+              "dtype": "string"
+            },
+            {
+              "name": "patch",
+              "dtype": "string"
+            }
+          ],
+          "splits": [
+            {
+              "name": "tool",
+              "num_bytes": 3731934842,
+              "num_examples": 24100
+            },
+            {
+              "name": "xml",
+              "num_bytes": 3576244171,
+              "num_examples": 26076
+            },
+            {
+              "name": "ticks",
+              "num_bytes": 3419797680,
+              "num_examples": 25826
+            }
+          ],
+          "download_size": 3171137897,
+          "dataset_size": 10727976693
+        },
+        "configs": [
+          {
+            "config_name": "default",
+            "data_files": [
+              {
+                "split": "tool",
+                "path": "data/tool-*"
+              },
+              {
+                "split": "xml",
+                "path": "data/xml-*"
+              },
+              {
+                "split": "ticks",
+                "path": "data/ticks-*"
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "code",
+          "agents",
+          "software-engineering"
+        ]
+      },
+      "siblings": [
+        {
+          "rfilename": ".gitattributes"
+        },
+        {
+          "rfilename": "README.md"
+        },
+        {
+          "rfilename": "data/ticks-00000-of-00008.parquet"
+        },
+        {
+          "rfilename": "data/ticks-00001-of-00008.parquet"
+        },
+        {
+          "rfilename": "data/ticks-00002-of-00008.parquet"
+        },
+        {
+          "rfilename": "data/ticks-00003-of-00008.parquet"
+        },
+        {
+          "rfilename": "data/ticks-00004-of-00008.parquet"
+        },
+        {
+          "rfilename": "data/ticks-00005-of-00008.parquet"
+        },
+        {
+          "rfilename": "data/ticks-00006-of-00008.parquet"
+        },
+        {
+          "rfilename": "data/ticks-00007-of-00008.parquet"
+        },
+        {
+          "rfilename": "data/tool-00000-of-00008.parquet"
+        },
+        {
+          "rfilename": "data/tool-00001-of-00008.parquet"
+        },
+        {
+          "rfilename": "data/tool-00002-of-00008.parquet"
+        },
+        {
+          "rfilename": "data/tool-00003-of-00008.parquet"
+        },
+        {
+          "rfilename": "data/tool-00004-of-00008.parquet"
+        },
+        {
+          "rfilename": "data/tool-00005-of-00008.parquet"
+        },
+        {
+          "rfilename": "data/tool-00006-of-00008.parquet"
+        },
+        {
+          "rfilename": "data/tool-00007-of-00008.parquet"
+        },
+        {
+          "rfilename": "data/train-00000-of-00008.parquet"
+        },
+        {
+          "rfilename": "data/train-00001-of-00008.parquet"
+        },
+        {
+          "rfilename": "data/train-00002-of-00008.parquet"
+        },
+        {
+          "rfilename": "data/train-00003-of-00008.parquet"
+        },
+        {
+          "rfilename": "data/train-00004-of-00008.parquet"
+        },
+        {
+          "rfilename": "data/train-00005-of-00008.parquet"
+        },
+        {
+          "rfilename": "data/train-00006-of-00008.parquet"
+        },
+        {
+          "rfilename": "data/train-00007-of-00008.parquet"
+        },
+        {
+          "rfilename": "data/xml-00000-of-00008.parquet"
+        },
+        {
+          "rfilename": "data/xml-00001-of-00008.parquet"
+        },
+        {
+          "rfilename": "data/xml-00002-of-00008.parquet"
+        },
+        {
+          "rfilename": "data/xml-00003-of-00008.parquet"
+        },
+        {
+          "rfilename": "data/xml-00004-of-00008.parquet"
+        },
+        {
+          "rfilename": "data/xml-00005-of-00008.parquet"
+        },
+        {
+          "rfilename": "data/xml-00006-of-00008.parquet"
+        },
+        {
+          "rfilename": "data/xml-00007-of-00008.parquet"
+        }
+      ],
+      "createdAt": "2025-04-29T20:43:29.000Z",
+      "usedStorage": 8777676392
+    },
+    "files": [
+      {
+        "type": "directory",
+        "oid": "8894858937e31d7579ae2642133044e1e068aefa",
+        "size": 0,
+        "path": "data"
+      },
+      {
+        "type": "file",
+        "oid": "1ef325f1b111266a6b26e0196871bd78baa8c2f3",
+        "size": 2461,
+        "path": ".gitattributes"
+      },
+      {
+        "type": "file",
+        "oid": "45c3393577f392756de3f08aced5cfd18b7c9fad",
+        "size": 1675,
+        "path": "README.md"
+      },
+      {
+        "type": "file",
+        "oid": "aca9c2967657cac59034eeec91f62be0f43bfca3",
+        "size": 113912058,
+        "lfs": {
+          "oid": "4c8932359650337d396c9b3019f312f97f2db7761b7e1324cc23ce54d4b56090",
+          "size": 113912058,
+          "pointerSize": 134
+        },
+        "xetHash": "7d900bb8c5b03b73da64cf7016699aa2f41e06b9692899b1e6da6e9398c955fe",
+        "path": "data/ticks-00000-of-00008.parquet"
+      },
+      {
+        "type": "file",
+        "oid": "2a30e6c167f9fc3d4ed73f8ebf69322ae1b3ba3c",
+        "size": 94554660,
+        "lfs": {
+          "oid": "3af8307e3e198602b152fab538c68131c1f49b8c8ee6c400c6143ad92751903d",
+          "size": 94554660,
+          "pointerSize": 133
+        },
+        "xetHash": "8248cdfa19a71ae297a6033d09d92e67c3cd2d86bc0e61855cedef1cd69bfd51",
+        "path": "data/ticks-00001-of-00008.parquet"
+      },
+      {
+        "type": "file",
+        "oid": "6697cf85635aef332f70d4de3d6467e8e9549298",
+        "size": 111837011,
+        "lfs": {
+          "oid": "7dde9b3e7f3ff47d467a7992fa8db5ba704eee4145eb6046204f8b3a8b3c7e76",
+          "size": 111837011,
+          "pointerSize": 134
+        },
+        "xetHash": "0c556f4fec69634100a8038b368bfc91864ca8ccd3e91f227c4b8c5eaa5ed07e",
+        "path": "data/ticks-00002-of-00008.parquet"
+      },
+      {
+        "type": "file",
+        "oid": "8a94fbe0c302484e9a0015a94992feef2cdb4b4c",
+        "size": 143312101,
+        "lfs": {
+          "oid": "f77f88efc19c01f5507c7e0d4569c89f705b0d589d7a6650b871e5cac93b0b9f",
+          "size": 143312101,
+          "pointerSize": 134
+        },
+        "xetHash": "68e065d96cca1b46b693fc78d8a12dfb022e2c0ad586d1c0f2027699e7f90d9b",
+        "path": "data/ticks-00003-of-00008.parquet"
+      },
+      {
+        "type": "file",
+        "oid": "5631df3d9dd5babc6063e8839513129a5909e85f",
+        "size": 110237523,
+        "lfs": {
+          "oid": "5ceadc30c5d093b9f6e62cb84dc18e88d11679f946306d1e13a8b20eff744c8d",
+          "size": 110237523,
+          "pointerSize": 134
+        },
+        "xetHash": "e525098d6247d0db1210100fdb5d2abfeccf1dd11afbd382626caa1b6f877803",
+        "path": "data/ticks-00004-of-00008.parquet"
+      },
+      {
+        "type": "file",
+        "oid": "e156fed2e556640e5037920471f9594207b88f25",
+        "size": 95669393,
+        "lfs": {
+          "oid": "aa63a55a5b960dc745904b56082078d0facccd2209e6b5017b8a9fbbe92064e1",
+          "size": 95669393,
+          "pointerSize": 133
+        },
+        "xetHash": "f5f1ab0f80e6eca7a8adfc84e4685d026b3c317845f6199fce8a17b4f9afef31",
+        "path": "data/ticks-00005-of-00008.parquet"
+      },
+      {
+        "type": "file",
+        "oid": "90ffac57777d54eb2a47b0f284ea5e4746016378",
+        "size": 119695672,
+        "lfs": {
+          "oid": "5522d7404a3a575300951bcfc0fd7f9da0984f47beba5a0d983a571ac60154a0",
+          "size": 119695672,
+          "pointerSize": 134
+        },
+        "xetHash": "8115c2168e0db8ae0ecf64dadda340414883a8a137d2af04d8eadbdff61078d0",
+        "path": "data/ticks-00006-of-00008.parquet"
+      },
+      {
+        "type": "file",
+        "oid": "545c8522f52952af8eb01b9c1d2e25e642333c8e",
+        "size": 229493008,
+        "lfs": {
+          "oid": "61085c94ea66d31dc93e958afa32938a280ebe7265ea8796f419dab1171ec316",
+          "size": 229493008,
+          "pointerSize": 134
+        },
+        "xetHash": "1bb902609481d554497a85176981c9f085d718c368b4c3b3f4a332e69f8b4df4",
+        "path": "data/ticks-00007-of-00008.parquet"
+      },
+      {
+        "type": "file",
+        "oid": "6f9130896b9ed11ae0691c51ea1ae64a6b0a7749",
+        "size": 248851790,
+        "lfs": {
+          "oid": "ac76e9efe75978f83d4daec98a55604587dd58b0f1509364893b8778cbf5b487",
+          "size": 248851790,
+          "pointerSize": 134
+        },
+        "xetHash": "4f544bef814f3d434b9a11ce7657a375a90f239bc54b0d932ab2189fd0581aa3",
+        "path": "data/tool-00000-of-00008.parquet"
+      },
+      {
+        "type": "file",
+        "oid": "a4f31dfa15122af58771482b618ae614a92084d6",
+        "size": 115563238,
+        "lfs": {
+          "oid": "2d3a4fcdb89bf4ec4485a1abc41d92645a446d115705cbe882dd5fe148afec3a",
+          "size": 115563238,
+          "pointerSize": 134
+        },
+        "xetHash": "bfb48cdd63eef40804cfca8d383232107a0da7f53bdad81b36382a8337b9e352",
+        "path": "data/tool-00001-of-00008.parquet"
+      },
+      {
+        "type": "file",
+        "oid": "3d85c27fe173d94f96be3f71a5425bfba97823f1",
+        "size": 99575331,
+        "lfs": {
+          "oid": "13a95587cfc2fac8e2d6130b25167c02362add1cf969888574328a49dc8ad319",
+          "size": 99575331,
+          "pointerSize": 133
+        },
+        "xetHash": "f8e47385c9613731e141637533a9659ab7aeafbd9a6d5f3e414bda3318a97db9",
+        "path": "data/tool-00002-of-00008.parquet"
+      },
+      {
+        "type": "file",
+        "oid": "9f7da0509ecde563d6f27578df9fd75b1a619d29",
+        "size": 138356054,
+        "lfs": {
+          "oid": "677831f640fb14e5b7bc02fd2aa729c05cd2068750777eaf877084de03157594",
+          "size": 138356054,
+          "pointerSize": 134
+        },
+        "xetHash": "d674768f1007e12752ba4272f4e8ca71f18cd1ad8e42aa38ef8855ca4faf5a93",
+        "path": "data/tool-00003-of-00008.parquet"
+      },
+      {
+        "type": "file",
+        "oid": "202ae5800f5d8c0bb515fe62973707dab7095d8e",
+        "size": 77754558,
+        "lfs": {
+          "oid": "e41ffbd3f9d1571917ac5b9f4d0108ded4799d9776f597a054203467135a5715",
+          "size": 77754558,
+          "pointerSize": 133
+        },
+        "xetHash": "53042a28c280e7b81ecf06d1a768d99676ec7f0ecb5f55800fb6dbcd18b3f07f",
+        "path": "data/tool-00004-of-00008.parquet"
+      },
+      {
+        "type": "file",
+        "oid": "6e383a33621bdeadb0681d53d4ff6a7c3c71259c",
+        "size": 122628947,
+        "lfs": {
+          "oid": "487a3a6bc8d00c4d2e6ace23da10a82c03349ada8b0f6758d5abf8c7f7fa61d4",
+          "size": 122628947,
+          "pointerSize": 134
+        },
+        "xetHash": "38310a5847573c3a63897f11f3d246ab1fc4d7ef96f322f518f8470e31867c62",
+        "path": "data/tool-00005-of-00008.parquet"
+      },
+      {
+        "type": "file",
+        "oid": "3a6d130980924ef5ba9680ddbad4bd26405db800",
+        "size": 152807260,
+        "lfs": {
+          "oid": "c20d2fc45e67af5d5c6d4c91ca7dfeac69cbaf40442bc2bfe7bac528a99e4b59",
+          "size": 152807260,
+          "pointerSize": 134
+        },
+        "xetHash": "8ffeb548052708dd34c9bc3df8d4f724a8561d38541b5b966616ef2ac2f6d553",
+        "path": "data/tool-00006-of-00008.parquet"
+      },
+      {
+        "type": "file",
+        "oid": "886d0dd95dbd98e04beed470afa29620b31f0620",
+        "size": 121734685,
+        "lfs": {
+          "oid": "29b684a990ec25345e9c7ade1b8287a6e41fa7fbabd4734f45420ed29280c868",
+          "size": 121734685,
+          "pointerSize": 134
+        },
+        "xetHash": "6c3191a4bcceb96ece38072f3ef8ff6ee5ae8b81cf8beecf0403b712bf9ec85c",
+        "path": "data/tool-00007-of-00008.parquet"
+      },
+      {
+        "type": "file",
+        "oid": "e0feab65b5e6d30a0aed53e93864a0ebfe9f9cb5",
+        "size": 102759501,
+        "lfs": {
+          "oid": "b2ed3306388214a938193f22bcc945dfed299f5c61009a6c7594a1af38ebf081",
+          "size": 102759501,
+          "pointerSize": 134
+        },
+        "xetHash": "16b19ce648ef1b19c862de7cdbeea5aa1c0b9c5388ae130f900fb9d07880d30e",
+        "path": "data/train-00000-of-00008.parquet"
+      },
+      {
+        "type": "file",
+        "oid": "4b62dbab25c8cba54b22a7784d8d0364050e4a27",
+        "size": 117771443,
+        "lfs": {
+          "oid": "abf72854ab2a0888247a31849c1b675d91a62ed09b80c3dd8e355622fdf9bfa1",
+          "size": 117771443,
+          "pointerSize": 134
+        },
+        "xetHash": "6b9a295b0f08914d01f199bb73396064ba2b538769d6a48c6d75b1e194f055cf",
+        "path": "data/train-00001-of-00008.parquet"
+      },
+      {
+        "type": "file",
+        "oid": "5d72bb31bee041d7264013eabe89835b63d3e248",
+        "size": 112075262,
+        "lfs": {
+          "oid": "cffb5eb4ff84a9674fef2e625fea5b55bdb8d4e83f5ccc3fc43d0b664410047d",
+          "size": 112075262,
+          "pointerSize": 134
+        },
+        "xetHash": "20453e3d2261304055a7552a51aab5e29affe4ea21df6ec29295ee9f6d254f9b",
+        "path": "data/train-00002-of-00008.parquet"
+      },
+      {
+        "type": "file",
+        "oid": "256da8fb9c1773a69d9e8886e9fdcaf7aa7b4652",
+        "size": 140249623,
+        "lfs": {
+          "oid": "c1dcee885ae25b31a842df1e85c2fb02a3599c5ec990a3378f7796dbf223bb7b",
+          "size": 140249623,
+          "pointerSize": 134
+        },
+        "xetHash": "4f1c8625842951ce201def79e1ad2300c3de19ffd2f43bcabe4efee6f9db4c8e",
+        "path": "data/train-00003-of-00008.parquet"
+      },
+      {
+        "type": "file",
+        "oid": "8cdd2436fcaafaeada19b17b21aaee0100e13bf1",
+        "size": 123631125,
+        "lfs": {
+          "oid": "4311a9a790b941453a0a32002b1ad800046474902f357a4efb1a306186213ed1",
+          "size": 123631125,
+          "pointerSize": 134
+        },
+        "xetHash": "2de47412408805d8e0b943b326e813183cdd1efbb5a5aedfb423f20a754d6e1b",
+        "path": "data/train-00004-of-00008.parquet"
+      },
+      {
+        "type": "file",
+        "oid": "4122e6993d5b821e0b91a42b1983685b80b2a1e1",
+        "size": 241523549,
+        "lfs": {
+          "oid": "c96df2b712f864e706e54cff3563514237a7f736e96e2dd668f0023bf3e98ab8",
+          "size": 241523549,
+          "pointerSize": 134
+        },
+        "xetHash": "4ff455606cf769e2f170b3c3b82c672e51981b1dac9fde1b400a207e18942c78",
+        "path": "data/train-00005-of-00008.parquet"
+      },
+      {
+        "type": "file",
+        "oid": "4360f365e4a75997f2b59b9357fc8265af9f21ec",
+        "size": 110276367,
+        "lfs": {
+          "oid": "a4ad14f62d59933e193f7d81a34915a2a0d674fbfc0544eb531c7626038c2181",
+          "size": 110276367,
+          "pointerSize": 134
+        },
+        "xetHash": "e9f18af83f20cff7d6ba7c31f19b93a4e818704af752e002b91ac56b39b2623a",
+        "path": "data/train-00006-of-00008.parquet"
+      },
+      {
+        "type": "file",
+        "oid": "ead4af4728660c35b1f0f2b4030119101b7cf801",
+        "size": 104417017,
+        "lfs": {
+          "oid": "608c84a92487b648fa528219488cd32fe02d33563f68f29f863b43efa5d8fc4d",
+          "size": 104417017,
+          "pointerSize": 134
+        },
+        "xetHash": "c1802dcd6765c474874dc5e8613ed3c486341778613b9f665bebedb3e13e9ab8",
+        "path": "data/train-00007-of-00008.parquet"
+      },
+      {
+        "type": "file",
+        "oid": "3c51ab846bbdc57a92544bfe4d0acbf91d12ad51",
+        "size": 105531809,
+        "lfs": {
+          "oid": "094264cf8d9803a669b8d663b52bb8f2be3feab4b160e82ec5f6deea725de6b3",
+          "size": 105531809,
+          "pointerSize": 134
+        },
+        "xetHash": "c2490be338994899e16d88f1b547c8cbd3d8b4cc1b4c9b7e735149b37dfc5800",
+        "path": "data/xml-00000-of-00008.parquet"
+      },
+      {
+        "type": "file",
+        "oid": "5f4f6dff27b800a482a690eaa23d57afe6510767",
+        "size": 120512063,
+        "lfs": {
+          "oid": "e5232aa06727b748f111a47382e85364b710aa02485962e12d4795a26e46be2c",
+          "size": 120512063,
+          "pointerSize": 134
+        },
+        "xetHash": "48569fb3d10bdabcc7ef74d1926cd66718b95ec3dca9afc0d671d56c37c856da",
+        "path": "data/xml-00001-of-00008.parquet"
+      },
+      {
+        "type": "file",
+        "oid": "05119410b4c789eab3a8ac4c0d99c729ef1c21d2",
+        "size": 115266864,
+        "lfs": {
+          "oid": "74d7f8f34f27204ed849182e1c8be796cd760291d697acad4e4bc820b7a00732",
+          "size": 115266864,
+          "pointerSize": 134
+        },
+        "xetHash": "f2322936c178371756e801d31246ba019d05e0ef4158739c731168bd901099ef",
+        "path": "data/xml-00002-of-00008.parquet"
+      },
+      {
+        "type": "file",
+        "oid": "a9670322f955c0fbb28aa92a67b2e33a714d4cb4",
+        "size": 143562585,
+        "lfs": {
+          "oid": "f7e4fd065ee320493cc9b9ee89997955bd1e61826c888dfa1b56dce463b5b2af",
+          "size": 143562585,
+          "pointerSize": 134
+        },
+        "xetHash": "20006d32c20df5bc8ea496e66613789fe6a1aee49839979f0d3246c61c88533c",
+        "path": "data/xml-00003-of-00008.parquet"
+      },
+      {
+        "type": "file",
+        "oid": "da8b28e4ed407e6ab3b56d5bb0b7639cccd3718e",
+        "size": 126290943,
+        "lfs": {
+          "oid": "38ffb17191935937e74ea34ecec686f7d7d407d5a273554a6d53a693a2fb118d",
+          "size": 126290943,
+          "pointerSize": 134
+        },
+        "xetHash": "d4a88dc7cb424082bbb4bc6479e43ef85836115f45242ef997868ee68874a7d7",
+        "path": "data/xml-00004-of-00008.parquet"
+      },
+      {
+        "type": "file",
+        "oid": "977301ff76b66e58b6699ebc72ba8393cc8f2384",
+        "size": 244101081,
+        "lfs": {
+          "oid": "f94b7e7a6869b0c92b5e9181919dc7f376fb12d4a085aa7c2680a4f676038a7c",
+          "size": 244101081,
+          "pointerSize": 134
+        },
+        "xetHash": "69cdf5bf81f00dc67a32085b98e88a3d6480098ec6919c5205602af810d14060",
+        "path": "data/xml-00005-of-00008.parquet"
+      },
+      {
+        "type": "file",
+        "oid": "68968eb3754f256534a25bba9a789c60ab76d335",
+        "size": 112771234,
+        "lfs": {
+          "oid": "6006adc2b0dcc0d76e22d51a58dd1970fe4d1ee2c93434c4f7db1009aa9d25ff",
+          "size": 112771234,
+          "pointerSize": 134
+        },
+        "xetHash": "22766c303f1776140028333d57d9de5d8a049672312a43db021f58eb56e85c1f",
+        "path": "data/xml-00006-of-00008.parquet"
+      },
+      {
+        "type": "file",
+        "oid": "f35b0bd30681758e913002d2664eb703cdd49360",
+        "size": 107118029,
+        "lfs": {
+          "oid": "bb3abe6b680abc935d78686549392c31ecb851304e26897c84f23935de7ca80e",
+          "size": 107118029,
+          "pointerSize": 134
+        },
+        "xetHash": "981299d88bf1544d6403d501f4cf97d7328cb3e1b673248613f359c970bda6e2",
+        "path": "data/xml-00007-of-00008.parquet"
+      }
+    ]
+  }
+]

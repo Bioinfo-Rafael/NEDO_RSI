@@ -1,0 +1,218 @@
+[
+  {
+    "source": "swe_agent",
+    "dataset": "SWE-bench/SWE-smith-trajectories",
+    "url": "https://huggingface.co/datasets/SWE-bench/SWE-smith-trajectories/resolve/08e109b4a59eaeebf80e4675cd125d42e7ac99a4/data/ticks-00000-of-00008.parquet",
+    "path": "raw/swe_agent/SWE-bench__SWE-smith-trajectories/data/ticks-00000-of-00008.parquet",
+    "sha256": "4c8932359650337d396c9b3019f312f97f2db7761b7e1324cc23ce54d4b56090",
+    "bytes": 113912058,
+    "revision": "08e109b4a59eaeebf80e4675cd125d42e7ac99a4"
+  },
+  {
+    "source": "swe_agent",
+    "dataset": "SWE-bench/SWE-smith-trajectories",
+    "url": "https://huggingface.co/datasets/SWE-bench/SWE-smith-trajectories/resolve/08e109b4a59eaeebf80e4675cd125d42e7ac99a4/data/ticks-00001-of-00008.parquet",
+    "path": "raw/swe_agent/SWE-bench__SWE-smith-trajectories/data/ticks-00001-of-00008.parquet",
+    "sha256": "3af8307e3e198602b152fab538c68131c1f49b8c8ee6c400c6143ad92751903d",
+    "bytes": 94554660,
+    "revision": "08e109b4a59eaeebf80e4675cd125d42e7ac99a4"
+  },
+  {
+    "source": "swe_agent",
+    "dataset": "SWE-bench/SWE-smith-trajectories",
+    "url": "https://huggingface.co/datasets/SWE-bench/SWE-smith-trajectories/resolve/08e109b4a59eaeebf80e4675cd125d42e7ac99a4/data/ticks-00002-of-00008.parquet",
+    "path": "raw/swe_agent/SWE-bench__SWE-smith-trajectories/data/ticks-00002-of-00008.parquet",
+    "sha256": "7dde9b3e7f3ff47d467a7992fa8db5ba704eee4145eb6046204f8b3a8b3c7e76",
+    "bytes": 111837011,
+    "revision": "08e109b4a59eaeebf80e4675cd125d42e7ac99a4"
+  },
+  {
+    "source": "swe_agent",
+    "dataset": "SWE-bench/SWE-smith-trajectories",
+    "url": "https://huggingface.co/datasets/SWE-bench/SWE-smith-trajectories/resolve/08e109b4a59eaeebf80e4675cd125d42e7ac99a4/data/ticks-00003-of-00008.parquet",
+    "path": "raw/swe_agent/SWE-bench__SWE-smith-trajectories/data/ticks-00003-of-00008.parquet",
+    "sha256": "f77f88efc19c01f5507c7e0d4569c89f705b0d589d7a6650b871e5cac93b0b9f",
+    "bytes": 143312101,
+    "revision": "08e109b4a59eaeebf80e4675cd125d42e7ac99a4"
+  },
+  {
+    "source": "swe_agent",
+    "dataset": "SWE-bench/SWE-smith-trajectories",
+    "url": "https://huggingface.co/datasets/SWE-bench/SWE-smith-trajectories/resolve/08e109b4a59eaeebf80e4675cd125d42e7ac99a4/data/ticks-00004-of-00008.parquet",
+    "path": "raw/swe_agent/SWE-bench__SWE-smith-trajectories/data/ticks-00004-of-00008.parquet",
+    "sha256": "5ceadc30c5d093b9f6e62cb84dc18e88d11679f946306d1e13a8b20eff744c8d",
+    "bytes": 110237523,
+    "revision": "08e109b4a59eaeebf80e4675cd125d42e7ac99a4"
+  },
+  {
+    "source": "swe_agent",
+    "dataset": "SWE-bench/SWE-smith-trajectories",
+    "url": "https://huggingface.co/datasets/SWE-bench/SWE-smith-trajectories/resolve/08e109b4a59eaeebf80e4675cd125d42e7ac99a4/data/ticks-00005-of-00008.parquet",
+    "path": "raw/swe_agent/SWE-bench__SWE-smith-trajectories/data/ticks-00005-of-00008.parquet",
+    "sha256": "aa63a55a5b960dc745904b56082078d0facccd2209e6b5017b8a9fbbe92064e1",
+    "bytes": 95669393,
+    "revision": "08e109b4a59eaeebf80e4675cd125d42e7ac99a4"
+  },
+  {
+    "source": "swe_agent",
+    "dataset": "SWE-bench/SWE-smith-trajectories",
+    "url": "https://huggingface.co/datasets/SWE-bench/SWE-smith-trajectories/resolve/08e109b4a59eaeebf80e4675cd125d42e7ac99a4/data/ticks-00006-of-00008.parquet",
+    "path": "raw/swe_agent/SWE-bench__SWE-smith-trajectories/data/ticks-00006-of-00008.parquet",
+    "sha256": "5522d7404a3a575300951bcfc0fd7f9da0984f47beba5a0d983a571ac60154a0",
+    "bytes": 119695672,
+    "revision": "08e109b4a59eaeebf80e4675cd125d42e7ac99a4"
+  },
+  {
+    "source": "swe_agent",
+    "dataset": "SWE-bench/SWE-smith-trajectories",
+    "url": "https://huggingface.co/datasets/SWE-bench/SWE-smith-trajectories/resolve/08e109b4a59eaeebf80e4675cd125d42e7ac99a4/data/ticks-00007-of-00008.parquet",
+    "path": "raw/swe_agent/SWE-bench__SWE-smith-trajectories/data/ticks-00007-of-00008.parquet",
+    "sha256": "61085c94ea66d31dc93e958afa32938a280ebe7265ea8796f419dab1171ec316",
+    "bytes": 229493008,
+    "revision": "08e109b4a59eaeebf80e4675cd125d42e7ac99a4"
+  },
+  {
+    "source": "swe_agent",
+    "dataset": "SWE-bench/SWE-smith-trajectories",
+    "url": "https://huggingface.co/datasets/SWE-bench/SWE-smith-trajectories/resolve/08e109b4a59eaeebf80e4675cd125d42e7ac99a4/data/train-00000-of-00008.parquet",
+    "path": "raw/swe_agent/SWE-bench__SWE-smith-trajectories/data/train-00000-of-00008.parquet",
+    "sha256": "b2ed3306388214a938193f22bcc945dfed299f5c61009a6c7594a1af38ebf081",
+    "bytes": 102759501,
+    "revision": "08e109b4a59eaeebf80e4675cd125d42e7ac99a4"
+  },
+  {
+    "source": "swe_agent",
+    "dataset": "SWE-bench/SWE-smith-trajectories",
+    "url": "https://huggingface.co/datasets/SWE-bench/SWE-smith-trajectories/resolve/08e109b4a59eaeebf80e4675cd125d42e7ac99a4/data/train-00001-of-00008.parquet",
+    "path": "raw/swe_agent/SWE-bench__SWE-smith-trajectories/data/train-00001-of-00008.parquet",
+    "sha256": "abf72854ab2a0888247a31849c1b675d91a62ed09b80c3dd8e355622fdf9bfa1",
+    "bytes": 117771443,
+    "revision": "08e109b4a59eaeebf80e4675cd125d42e7ac99a4"
+  },
+  {
+    "source": "swe_agent",
+    "dataset": "SWE-bench/SWE-smith-trajectories",
+    "url": "https://huggingface.co/datasets/SWE-bench/SWE-smith-trajectories/resolve/08e109b4a59eaeebf80e4675cd125d42e7ac99a4/data/train-00002-of-00008.parquet",
+    "path": "raw/swe_agent/SWE-bench__SWE-smith-trajectories/data/train-00002-of-00008.parquet",
+    "sha256": "cffb5eb4ff84a9674fef2e625fea5b55bdb8d4e83f5ccc3fc43d0b664410047d",
+    "bytes": 112075262,
+    "revision": "08e109b4a59eaeebf80e4675cd125d42e7ac99a4"
+  },
+  {
+    "source": "swe_agent",
+    "dataset": "SWE-bench/SWE-smith-trajectories",
+    "url": "https://huggingface.co/datasets/SWE-bench/SWE-smith-trajectories/resolve/08e109b4a59eaeebf80e4675cd125d42e7ac99a4/data/train-00003-of-00008.parquet",
+    "path": "raw/swe_agent/SWE-bench__SWE-smith-trajectories/data/train-00003-of-00008.parquet",
+    "sha256": "c1dcee885ae25b31a842df1e85c2fb02a3599c5ec990a3378f7796dbf223bb7b",
+    "bytes": 140249623,
+    "revision": "08e109b4a59eaeebf80e4675cd125d42e7ac99a4"
+  },
+  {
+    "source": "swe_agent",
+    "dataset": "SWE-bench/SWE-smith-trajectories",
+    "url": "https://huggingface.co/datasets/SWE-bench/SWE-smith-trajectories/resolve/08e109b4a59eaeebf80e4675cd125d42e7ac99a4/data/train-00004-of-00008.parquet",
+    "path": "raw/swe_agent/SWE-bench__SWE-smith-trajectories/data/train-00004-of-00008.parquet",
+    "sha256": "4311a9a790b941453a0a32002b1ad800046474902f357a4efb1a306186213ed1",
+    "bytes": 123631125,
+    "revision": "08e109b4a59eaeebf80e4675cd125d42e7ac99a4"
+  },
+  {
+    "source": "swe_agent",
+    "dataset": "SWE-bench/SWE-smith-trajectories",
+    "url": "https://huggingface.co/datasets/SWE-bench/SWE-smith-trajectories/resolve/08e109b4a59eaeebf80e4675cd125d42e7ac99a4/data/train-00005-of-00008.parquet",
+    "path": "raw/swe_agent/SWE-bench__SWE-smith-trajectories/data/train-00005-of-00008.parquet",
+    "sha256": "c96df2b712f864e706e54cff3563514237a7f736e96e2dd668f0023bf3e98ab8",
+    "bytes": 241523549,
+    "revision": "08e109b4a59eaeebf80e4675cd125d42e7ac99a4"
+  },
+  {
+    "source": "swe_agent",
+    "dataset": "SWE-bench/SWE-smith-trajectories",
+    "url": "https://huggingface.co/datasets/SWE-bench/SWE-smith-trajectories/resolve/08e109b4a59eaeebf80e4675cd125d42e7ac99a4/data/train-00006-of-00008.parquet",
+    "path": "raw/swe_agent/SWE-bench__SWE-smith-trajectories/data/train-00006-of-00008.parquet",
+    "sha256": "a4ad14f62d59933e193f7d81a34915a2a0d674fbfc0544eb531c7626038c2181",
+    "bytes": 110276367,
+    "revision": "08e109b4a59eaeebf80e4675cd125d42e7ac99a4"
+  },
+  {
+    "source": "swe_agent",
+    "dataset": "SWE-bench/SWE-smith-trajectories",
+    "url": "https://huggingface.co/datasets/SWE-bench/SWE-smith-trajectories/resolve/08e109b4a59eaeebf80e4675cd125d42e7ac99a4/data/train-00007-of-00008.parquet",
+    "path": "raw/swe_agent/SWE-bench__SWE-smith-trajectories/data/train-00007-of-00008.parquet",
+    "sha256": "608c84a92487b648fa528219488cd32fe02d33563f68f29f863b43efa5d8fc4d",
+    "bytes": 104417017,
+    "revision": "08e109b4a59eaeebf80e4675cd125d42e7ac99a4"
+  },
+  {
+    "source": "swe_agent",
+    "dataset": "SWE-bench/SWE-smith-trajectories",
+    "url": "https://huggingface.co/datasets/SWE-bench/SWE-smith-trajectories/resolve/08e109b4a59eaeebf80e4675cd125d42e7ac99a4/data/xml-00000-of-00008.parquet",
+    "path": "raw/swe_agent/SWE-bench__SWE-smith-trajectories/data/xml-00000-of-00008.parquet",
+    "sha256": "094264cf8d9803a669b8d663b52bb8f2be3feab4b160e82ec5f6deea725de6b3",
+    "bytes": 105531809,
+    "revision": "08e109b4a59eaeebf80e4675cd125d42e7ac99a4"
+  },
+  {
+    "source": "swe_agent",
+    "dataset": "SWE-bench/SWE-smith-trajectories",
+    "url": "https://huggingface.co/datasets/SWE-bench/SWE-smith-trajectories/resolve/08e109b4a59eaeebf80e4675cd125d42e7ac99a4/data/xml-00001-of-00008.parquet",
+    "path": "raw/swe_agent/SWE-bench__SWE-smith-trajectories/data/xml-00001-of-00008.parquet",
+    "sha256": "e5232aa06727b748f111a47382e85364b710aa02485962e12d4795a26e46be2c",
+    "bytes": 120512063,
+    "revision": "08e109b4a59eaeebf80e4675cd125d42e7ac99a4"
+  },
+  {
+    "source": "swe_agent",
+    "dataset": "SWE-bench/SWE-smith-trajectories",
+    "url": "https://huggingface.co/datasets/SWE-bench/SWE-smith-trajectories/resolve/08e109b4a59eaeebf80e4675cd125d42e7ac99a4/data/xml-00002-of-00008.parquet",
+    "path": "raw/swe_agent/SWE-bench__SWE-smith-trajectories/data/xml-00002-of-00008.parquet",
+    "sha256": "74d7f8f34f27204ed849182e1c8be796cd760291d697acad4e4bc820b7a00732",
+    "bytes": 115266864,
+    "revision": "08e109b4a59eaeebf80e4675cd125d42e7ac99a4"
+  },
+  {
+    "source": "swe_agent",
+    "dataset": "SWE-bench/SWE-smith-trajectories",
+    "url": "https://huggingface.co/datasets/SWE-bench/SWE-smith-trajectories/resolve/08e109b4a59eaeebf80e4675cd125d42e7ac99a4/data/xml-00003-of-00008.parquet",
+    "path": "raw/swe_agent/SWE-bench__SWE-smith-trajectories/data/xml-00003-of-00008.parquet",
+    "sha256": "f7e4fd065ee320493cc9b9ee89997955bd1e61826c888dfa1b56dce463b5b2af",
+    "bytes": 143562585,
+    "revision": "08e109b4a59eaeebf80e4675cd125d42e7ac99a4"
+  },
+  {
+    "source": "swe_agent",
+    "dataset": "SWE-bench/SWE-smith-trajectories",
+    "url": "https://huggingface.co/datasets/SWE-bench/SWE-smith-trajectories/resolve/08e109b4a59eaeebf80e4675cd125d42e7ac99a4/data/xml-00004-of-00008.parquet",
+    "path": "raw/swe_agent/SWE-bench__SWE-smith-trajectories/data/xml-00004-of-00008.parquet",
+    "sha256": "38ffb17191935937e74ea34ecec686f7d7d407d5a273554a6d53a693a2fb118d",
+    "bytes": 126290943,
+    "revision": "08e109b4a59eaeebf80e4675cd125d42e7ac99a4"
+  },
+  {
+    "source": "swe_agent",
+    "dataset": "SWE-bench/SWE-smith-trajectories",
+    "url": "https://huggingface.co/datasets/SWE-bench/SWE-smith-trajectories/resolve/08e109b4a59eaeebf80e4675cd125d42e7ac99a4/data/xml-00005-of-00008.parquet",
+    "path": "raw/swe_agent/SWE-bench__SWE-smith-trajectories/data/xml-00005-of-00008.parquet",
+    "sha256": "f94b7e7a6869b0c92b5e9181919dc7f376fb12d4a085aa7c2680a4f676038a7c",
+    "bytes": 244101081,
+    "revision": "08e109b4a59eaeebf80e4675cd125d42e7ac99a4"
+  },
+  {
+    "source": "swe_agent",
+    "dataset": "SWE-bench/SWE-smith-trajectories",
+    "url": "https://huggingface.co/datasets/SWE-bench/SWE-smith-trajectories/resolve/08e109b4a59eaeebf80e4675cd125d42e7ac99a4/data/xml-00006-of-00008.parquet",
+    "path": "raw/swe_agent/SWE-bench__SWE-smith-trajectories/data/xml-00006-of-00008.parquet",
+    "sha256": "6006adc2b0dcc0d76e22d51a58dd1970fe4d1ee2c93434c4f7db1009aa9d25ff",
+    "bytes": 112771234,
+    "revision": "08e109b4a59eaeebf80e4675cd125d42e7ac99a4"
+  },
+  {
+    "source": "swe_agent",
+    "dataset": "SWE-bench/SWE-smith-trajectories",
+    "url": "https://huggingface.co/datasets/SWE-bench/SWE-smith-trajectories/resolve/08e109b4a59eaeebf80e4675cd125d42e7ac99a4/data/xml-00007-of-00008.parquet",
+    "path": "raw/swe_agent/SWE-bench__SWE-smith-trajectories/data/xml-00007-of-00008.parquet",
+    "sha256": "bb3abe6b680abc935d78686549392c31ecb851304e26897c84f23935de7ca80e",
+    "bytes": 107118029,
+    "revision": "08e109b4a59eaeebf80e4675cd125d42e7ac99a4"
+  }
+]

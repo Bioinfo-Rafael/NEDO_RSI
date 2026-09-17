@@ -1,0 +1,71 @@
+{
+  "source": "openevolve",
+  "runs": 5,
+  "nodes": 587,
+  "edges": 582,
+  "roots": 5,
+  "action": 570,
+  "result": 587,
+  "score": 505,
+  "provenance": 587,
+  "cycles": 0,
+  "duplicate_ids": 0,
+  "invalid_parents": 0,
+  "fake_scores": 0,
+  "unknown_parents": 0,
+  "raw_events": 3933,
+  "max_depth": 16,
+  "unbound_events": 229,
+  "branching_histogram": {
+    "7": 5,
+    "1": 119,
+    "0": 325,
+    "2": 64,
+    "4": 29,
+    "6": 9,
+    "3": 29,
+    "5": 5,
+    "10": 1,
+    "8": 1
+  },
+  "datasets_nodes": {
+    "ypwang61/MyOpenEvolve/circle_packing": 587
+  },
+  "splits": {
+    "development": {
+      "runs": 3,
+      "nodes": 403,
+      "edges": 400,
+      "roots": 3,
+      "action": 388,
+      "result": 403,
+      "score": 383,
+      "provenance": 403,
+      "cycles": 0,
+      "duplicate_ids": 0,
+      "invalid_parents": 0,
+      "fake_scores": 0,
+      "unknown_parents": 0,
+      "raw_events": 2497,
+      "max_depth": 16
+    },
+    "held_out": {
+      "runs": 2,
+      "nodes": 184,
+      "edges": 182,
+      "roots": 2,
+      "action": 182,
+      "result": 184,
+      "score": 122,
+      "provenance": 184,
+      "cycles": 0,
+      "duplicate_ids": 0,
+      "invalid_parents": 0,
+      "fake_scores": 0,
+      "unknown_parents": 0,
+      "raw_events": 1207,
+      "max_depth": 11
+    }
+  },
+  "seconds": 3.1318860054016113
+}

@@ -1,0 +1,71 @@
+{
+  "source": "searchagents",
+  "runs": 892,
+  "nodes": 18099,
+  "edges": 11878,
+  "roots": 6221,
+  "action": 16920,
+  "result": 3201,
+  "score": 16818,
+  "provenance": 18099,
+  "cycles": 0,
+  "duplicate_ids": 0,
+  "invalid_parents": 0,
+  "fake_scores": 0,
+  "unknown_parents": 5329,
+  "raw_events": 21800,
+  "max_depth": 6,
+  "branching_histogram": {
+    "5": 884,
+    "0": 13814,
+    "1": 1898,
+    "4": 314,
+    "2": 576,
+    "10": 113,
+    "3": 378,
+    "6": 39,
+    "8": 35,
+    "9": 19,
+    "7": 29
+  },
+  "datasets_nodes": {
+    "kohjingyu/search-agents/GPT-4o": 18099
+  },
+  "splits": {
+    "development": {
+      "runs": 721,
+      "nodes": 14675,
+      "edges": 9595,
+      "roots": 5080,
+      "action": 13726,
+      "result": 2591,
+      "score": 13646,
+      "provenance": 14675,
+      "cycles": 0,
+      "duplicate_ids": 0,
+      "invalid_parents": 0,
+      "fake_scores": 0,
+      "unknown_parents": 4359,
+      "raw_events": 17676,
+      "max_depth": 6
+    },
+    "held_out": {
+      "runs": 171,
+      "nodes": 3424,
+      "edges": 2283,
+      "roots": 1141,
+      "action": 3194,
+      "result": 610,
+      "score": 3172,
+      "provenance": 3424,
+      "cycles": 0,
+      "duplicate_ids": 0,
+      "invalid_parents": 0,
+      "fake_scores": 0,
+      "unknown_parents": 970,
+      "raw_events": 4124,
+      "max_depth": 6
+    }
+  },
+  "seconds": 8.480401992797852
+}

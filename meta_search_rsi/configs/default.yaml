@@ -1,0 +1,18 @@
+{
+  "max_nodes": 5000,
+  "budget": 8,
+  "seed": 17,
+  "retrieval_k": 6,
+  "context_chars": 800,
+  "history_nodes": 2,
+  "bm25_k1": 1.2,
+  "bm25_b": 0.75,
+  "score_weight": 1.0,
+  "depth_weight": 0.05,
+  "diversity_weight": 0.3,
+  "memory_weight": 0.25,
+  "plateau_rounds": 2,
+  "rank_cost": 0.01,
+  "candidate_timeout": 2,
+  "entity_slots": {}
+}

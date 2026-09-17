@@ -1,0 +1,41 @@
+{
+  "searchagents": {
+    "development": {
+      "nodes": 14675,
+      "edges": 9595,
+      "roots": 5080,
+      "action": 13726,
+      "result": 2591,
+      "score": 13646,
+      "provenance": 14675,
+      "cycles": 0,
+      "duplicate_ids": 0,
+      "invalid_parents": 0,
+      "fake_scores": 0,
+      "unknown_parents": 4359,
+      "raw_events": 17676,
+      "max_depth": 6,
+      "objective": 2.814855195911414
+    },
+    "held_out": {
+      "nodes": 3424,
+      "edges": 2283,
+      "roots": 1141,
+      "action": 3194,
+      "result": 610,
+      "score": 3172,
+      "provenance": 3424,
+      "cycles": 0,
+      "duplicate_ids": 0,
+      "invalid_parents": 0,
+      "fake_scores": 0,
+      "unknown_parents": 970,
+      "raw_events": 4124,
+      "max_depth": 6,
+      "objective": 2.8276869158878504
+    },
+    "runs_evaluated": 892,
+    "errors": [],
+    "seconds": 8.19493293762207
+  }
+}

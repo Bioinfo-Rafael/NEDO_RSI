@@ -1,0 +1,246 @@
+
+OpenEvolve
+run_id=openevolve::MyOpenEvolve::21d972d0-0b7d-49dd-8f88-f98a26dbc6ee
+21d972d0-0b7d-49dd-8f88-f98a26dbc6ee score=0.8079175873292506 [action NULL]
+├── 2b17ce47-fc47-47af-82ab-1e23bbd2c98d score=0.7624992945137835 ["```python\n# EVOLVE-BLOCK-START\n\"\"\"Constructor-based circle packing for n=26 circles
+│   └── 54080351-29c7-4ee9-881d-9360474bba4e score=0.0 ["```python\n# EVOLVE-BLOCK-START\n\"\"\"Constructor-based circle packing for n=26 circles
+│       └── 4c6988f5-7ce0-46c7-8aca-057aaeaa62ec score=0.608104246331414 ["I'll rewrite the program to significantly improve the circle packing performance. The cu
+├── fbfb14bd-e817-4f4b-ac16-37acb7c42ffd score=0.0 ["```python\n# EVOLVE-BLOCK-START\n\"\"\"Constructor-based circle packing for n=26 circles
+├── 4fe6b99b-dee8-4cc5-bba1-ce17e89f68cf score=None ["Looking at the current program, I can see that we're using a construction-based approach
+├── 5cc3fb4e-e7f8-44f0-88d0-5372d86cb803 score=0.7345846659046279 ["```python\n# EVOLVE-BLOCK-START\n\"\"\"Constructor-based circle packing for n=26 circles
+├── 917b1372-57df-4f0e-a46b-4a16fd1a782a score=-0.4517407839658784 ["```python\n# EVOLVE-BLOCK-START\n\"\"\"Constructor-based circle packing for n=26 circles
+│   └── 9c8676b3-626c-4782-8849-905e75e0db39 score=0.6241753644464206 ["```python\n# EVOLVE-BLOCK-START\n\"\"\"Constructor-based circle packing for n=26 circles
+├── df58c6ac-9eea-4a45-ba62-e6a75e7822ad score=0.779190228691646 ["```python\n# EVOLVE-BLOCK-START\n\"\"\"Advanced circle packing for n=26 circles in a uni
+└── b2ae2c74-435a-4dcc-b610-ddbdf4d5c515 score=0.0 ["```python\n# EVOLVE-BLOCK-START\n\"\"\"Advanced circle packing for n=26 circles in a uni
+注意: parent=NULLは真のrootと未復元parentの両方を含み得る。
+
+Evo-MCTS
+run_id=evomcts::run1_april_2025
+1 score=-926.368983875657 i2
+2 score=-919.7015409676726 i2_1
+3 score=-732.6085080007961 i2_2
+4 score=-593.6572939502232 i2_3
+5 score=-591.2591670084839 i2_4
+6 score=-591.2591670084839 i2_5
+7 score=-590.0054367762502 i2_6
+8 score=-914.4903465878733 i2_7
+9 score=None m6
+10 score=None m6
+11 score=None m6
+12 score=-936.510434993707 m7
+├── 28 score=-933.6917695618722 {"operator":"SC","thinking":"Okay, let's tackle this problem step by step. The user wants 
+│   ├── 32 score=-933.1761819079355 e3
+│   ├── 34 score=-849.8913732558035 e3
+│   ├── 35 score=-790.8361300491299 {"operator":"PC","thinking":null,"reflection":" \n1. **Parameter Stabilization in Spectrog
+│   ├── 40 score=-939.8999098834676 {"operator":"PC","thinking":null,"reflection":" \n1. **Dynamic Window Constraint Enforceme
+│   ├── 41 score=-898.0651582043115 s2
+│   ├── 42 score=-920.9674448158534 s3
+│   ├── 43 score=-871.2669513810465 {"operator":"SC","thinking":"Okay, let's tackle this. The user wants optimization hints fo
+│   ├── 44 score=-946.0436471564675 {"operator":"PM","thinking":null,"reflection":"A hybrid gravitational wave detection pipel
+│   │   ├── 46 score=-942.9966081252157 e3
+│   │   ├── 47 score=-995.3174021943528 {"operator":"PC","thinking":null,"reflection":" \n1. **Non-linear Gain Modulation**: Repla
+│   │   │   ├── 62 score=-851.9901017231184 e3
+│   │   │   ├── 63 score=-28.57164715355036 e3
+│   │   │   ├── 64 score=-1001.1411468108793 e3
+│   │   │   ├── 65 score=-974.0213708199992 e3
+│   │   │   ├── 66 score=-738.1669622349665 e3
+│   │   │   ├── 67 score=-1001.8964725888071 {"operator":"s2","thinking":"Okay, let's tackle this. The user wants me to analyze these f
+│   │   │   ├── 68 score=-975.0579006253728 s3
+│   │   │   ├── 69 score=-1635.0042585907559 {"operator":"SC","thinking":"Okay, let's tackle this problem. The user wants me to generat
+│   │   │   └── 74 score=-1877.6294829075696 {"operator":"PM","thinking":"Okay, let's tackle this problem. The user wants optimized tec
+│   │   │       ├── 75 score=-134.60394801778872 e3
+│   │   │       ├── 76 score=-132.36100073207885 e3
+│   │   │       ├── 78 score=-103.85582305948272 {"operator":"PC","thinking":null,"reflection":" \n1. **Enforce Fixed-Length Spectral Estim
+│   │   │       ├── 79 score=-551.5862808182128 e3
+│   │   │       ├── 80 score=-134.60394801778872 s2
+│   │   │       ├── 81 score=-1255.0410211973594 {"operator":"s3","thinking":"Okay, let's tackle this problem. The user wants me to analyze
+│   │   │       │   ├── 93 score=-1079.5761776621848 e3
+│   │   │       │   ├── 94 score=-1311.9259753719566 {"operator":"PC","thinking":null,"reflection":" \n1. **Adaptive Spectral Gain Modulation**
+│   │   │       │   ├── 99 score=-1800.2322860801178 {"operator":"s2","thinking":"Okay, let's tackle this step by step. The user wants me to an
+│   │   │       │   │   ├── 107 score=-412.8318327976483 e3
+│   │   │       │   │   ├── 113 score=-1722.286963099359 {"operator":"PC","thinking":null,"reflection":" \n1. **Cross-spectral Phase Coherence Simp
+│   │   │       │   │   │   ├── 123 score=-1800.5647269560548 e3
+│   │   │       │   │   │   ├── 126 score=-1773.316486000683 e3
+│   │   │       │   │   │   ├── 137 score=-2184.7856427622855 s2
+│   │   │       │   │   │   ├── 138 score=-1768.4684239547018 {"operator":"s3","thinking":"Okay, so I need to analyze these three algorithms and figure 
+│   │   │       │   │   │   ├── 140 score=-2241.9593230056944 {"operator":"SC","thinking":"Okay, let's tackle this problem. The user wants me to generat
+│   │   │       │   │   │   │   ├── 145 score=-1211.9661430677315 e3
+│   │   │       │   │   │   │   ├── 146 score=-2169.5229579804222 e3
+│   │   │       │   │   │   │   ├── 150 score=-2241.1098356308903 e3
+│   │   │       │   │   │   │   ├── 151 score=-2612.7704715063637 {"operator":"PC","thinking":null,"reflection":" \n1. **Exponential Gain Formulation Stabil
+│   │   │       │   │   │   │   ├── 153 score=-2213.482951871768 s2
+│   │   │       │   │   │   │   ├── 154 score=-935.5891533670242 s3
+│   │   │       │   │   │   │   ├── 159 score=-1177.9328888539985 m6
+│   │   │       │   │   │   │   └── 161 score=-991.0999859386966 m7
+│   │   │       │   │   │   ├── 141 score=-1897.8198471642042 m6
+│   │   │       │   │   │   └── 142 score=-1002.7902447730992 m7
+│   │   │       │   │   ├── 114 score=-1721.26125394064 e3
+│   │   │       │   │   ├── 117 score=-573.9147774228716 s2
+│   │   │       │   │   ├── 118 score=-1675.8009953205 s3
+│   │   │       │   │   ├── 120 score=-1685.4726101118904 m3
+│   │   │       │   │   ├── 121 score=-132.36100073207885 m6
+│   │   │       │   │   └── 122 score=-800.3424455344472 m7
+│   │   │       │   ├── 100 score=-268.3555972283582 s3
+│   │   │       │   ├── 101 score=-724.8854180139815 m3
+│   │   │       │   ├── 102 score=-132.36100073207885 m6
+│   │   │       │   └── 103 score=-134.60394801778872 m7
+│   │   │       ├── 82 score=-134.60394801778872 m3
+│   │   │       └── 86 score=-141.18010306026653 m7
+│   │   ├── 48 score=-831.2458263075808 e3
+│   │   ├── 55 score=-947.0704470816579 s2
+│   │   ├── 56 score=-965.1270901754203 s3
+│   │   ├── 60 score=-973.3282763184877 m6
+│   │   └── 61 score=-850.8935263719865 m7
+│   └── 45 score=-889.2971117652423 m7
+├── 29 score=-811.6627955418086 {"operator":"PM","thinking":null,"reflection":"A hybrid gravitational wave detection pipel
+├── 31 score=-737.921440595997 m7
+├── 174 score=-849.7390319596946 e3
+├── 175 score=-828.8608720244216 m3
+... 546 nodes omitted from display; full tree is in DB
+注意: parent=NULLは真のrootと未復元parentの両方を含み得る。
+
+ReST-MCTS
+run_id=restmcts::0b794df39c5d66dc2d5d::1-chosen
+1 score=None To find the intersections of the two equations, we can solve the system of equations: \[x+
+注意: parent=NULLは真のrootと未復元parentの両方を含み得る。
+
+SWE-agent / SWE-smith
+run_id=sweagent::SWE-smith::Cog-Creators__Red-DiscordBot.33e0eac7.combine_file__1tzqbvbn.2ocrdqst
+0 score=None I'll help you implement the necessary changes to fix the issues described in the PR descri
+└── 1 score=None Based on the PR description, we need to focus on the alias cog. Let's examine the relevant
+    └── 2 score=None Let's look at the specific parts of the code that might be causing the issues. First, let'
+        └── 3 score=None Now let's look at the translation function: <function=str_replace_editor> <parameter=comma
+            └── 4 score=None Let's also check the alias_entry.py file to understand how aliases are processed: <functio
+                └── 5 score=None Now let's look at the add alias command implementation: <function=str_replace_editor> <par
+                    └── 6 score=None <function=str_replace_editor> <parameter=command>view</parameter> <parameter=path>/testbed
+                        └── 7 score=None Based on my analysis, I've identified two issues: 1. In the `is_valid_alias_name` method (
+                            └── 8 score=None Let's run the script to confirm the issues: <function=bash> <parameter=command>cd /testbed
+                                └── 9 score=None It seems we need to mock more components for our test script. Let's modify our approach an
+                                    └── 10 score=None 2. Now, let's fix the `translate_alias_message` method: <function=str_replace_editor> <par
+                                        └── 11 score=None Now let's create a more comprehensive test script to verify our fixes: <function=str_repla
+                                            └── 12 score=None Let's run our verification script: <function=bash> <parameter=command>cd /testbed && pytho
+                                                └── 13 score=None Great! Our fixes are working as expected: 1. The alias name validation now correctly accep
+                                                    └── 14 score=None <function=str_replace_editor> <parameter=command>str_replace</parameter> <parameter=path>/
+                                                        └── 15 score=None Let's run our enhanced verification script: <function=bash> <parameter=command>cd /testbed
+                                                            └── 16 score=None Perfect! Our fixes are working correctly for all the test cases: 1. Alias name validation:
+                                                                └── 17 score=None The error message says "Alias names may not contain spaces", but our validation logic now 
+                                                                    └── 18 score=None Let's also update the same error message in the global alias add command: <function=str_re
+                                                                        └── 19 score=None <function=str_replace_editor> <parameter=command>view</parameter> <parameter=path>/testbed
+                                                                            └── 20 score=None <function=str_replace_editor> <parameter=command>str_replace</parameter> <parameter=path>/
+                                                                                └── 21 score=None Let's also check if we need to update the same error message in the edit alias commands: <
+                                                                                    └── 22 score=None The edit alias commands don't check the alias name validity since they're editing existing
+                                                                                        └── 23 score=None Let's remove our test scripts and submit again: <function=bash> <parameter=command>rm /tes
+                                                                                            └── 24 score=None <function=submit> </function>
+注意: parent=NULLは真のrootと未復元parentの両方を含み得る。
+
+Search Agents
+run_id=searchagents::classifieds::render_0
+initial_observation score=None [action NULL]
+├── b0c0 score=0.4 Let's think step-by-step. The objective is to find the cheapest blue kayak on the site. Th
+├── b0c1 score=0.475 Let's think step-by-step. The objective is to find the cheapest blue kayak on this site. I
+│   ├── b0c10 score=0.2 Let's think step-by-step. The objective is to find the cheapest blue kayak. From the obser
+│   ├── b0c11 score=0.725 Let's think step-by-step. The objective is to find the cheapest blue kayak on this site. T
+│   │   └── b0c16 score=0.975 Let's think step-by-step. The objective is to find the cheapest blue kayak on this site. F
+│   ├── b0c17 score=0.025 Let's think step-by-step. This page lists items related to a search for "blue kayak". To r
+│   ├── b0c18 score=0.0 Let's think step-by-step. We are currently seeing search results for "blue kayak" which is
+│   └── b0c19 score=0.1 The task now is to find the cheapest blue kayak on this site. To do this, I need to refine
+├── b0c2 score=0.55 Let's think step-by-step. The objective is to find the cheapest blue kayak on this site. F
+│   ├── b0c3 score=0.875 Let's think step-by-step. The objective is to find the cheapest blue kayak on the site. Th
+│   ├── b0c4 score=0.45 Let's think step-by-step. To find the cheapest blue kayak, I will need to look through the
+│   ├── b0c5 score=0.425 Let's think step-by-step. The objective is to find the cheapest blue kayak on the site. Fr
+│   ├── b0c6 score=0.55 Let's think step-by-step. The objective is to find the cheapest blue kayak on this page. F
+│   └── b0c7 score=0.675 Let's think step-by-step. Given that the objective is to find the cheapest blue kayak, I c
+├── b0c8 score=0.375 Let's think step-by-step. The objective is to find the cheapest blue kayak on the site. Th
+└── b0c9 score=0.475 Let's think step-by-step. The objective is to find the cheapest blue kayak on this site. T
+b0c12 score=0.45 Let's think step-by-step. The objective is to find the cheapest blue kayak on the site. Ba
+b0c13 score=0.775 Let's think step-by-step. I need to identify the cheapest blue kayak from the search resul
+b0c14 score=0.3 Let's think step-by-step. The objective is to find the cheapest blue kayak on the site. Ba
+b0c15 score=0.775 Let's think step-by-step. The objective is to find the cheapest blue kayak on the site. Ba
+注意: parent=NULLは真のrootと未復元parentの両方を含み得る。
+
+Dream-RSI
+unavailable: 公開実履歴なし
+
+Tree of Thoughts（追加）
+run_id=treeofthoughts::186d87573414dd768fde::900
+0-0 score=3.0 4 + 5 = 9 (left: 6 9 10)
+├── 1-0 score=2.001 6 + 9 = 15 (left: 10 15)
+│   ├── 2-7 score=0.002 10 + 15 = 25 (left: 25)
+│   ├── 2-8 score=1.002 15 - 10 = 5 (left: 5 10)
+│   │   ├── 3-10 score=0.003 5 + 10 = 15 (left: 15)
+│   │   ├── 3-11 score=0.0 10 - 5 = 5 (left: 5 5)
+│   │   ├── 3-12 score=0.0 10 / 5 = 2 (left: 2 5)
+│   │   └── 3-13 score=0.0 5 * 10 = 50 (left: 50)
+│   ├── 2-9 score=2.001 15 / 10 = 1.5 (left: 1.5 10)
+│   │   ├── 3-6 score=0.001 1.5 + 10 = 11.5 (left: 11.5)
+│   │   ├── 3-7 score=0.003 10 - 1.5 = 8.5 (left: 8.5)
+│   │   ├── 3-8 score=0.001 10 / 1.5 ≈ 6.67 (left: 6.67)
+│   │   └── 3-9 score=0.003 1.5 * 10 = 15 (left: 15)
+│   ├── 2-10 score=0.003 10 - 15 = -5 (left: -5 15)
+│   └── 2-11 score=3.0 10 / 15 = 0.666 (left: 0.666 15)
+│       ├── 3-2 score=0.0 0.666 + 15 = 15.666 (left: 15.666)
+│       ├── 3-3 score=0.0 15 * 0.666 = 9.99 (left: 9.99)
+│       ├── 3-4 score=0.0 15 - 0.666 = 14.334 (left: 14.334)
+│       └── 3-5 score=0.0 15 / 0.666 = 22.523 (left: 22.523)
+├── 1-1 score=1.002 9 - 6 = 3 (left: 3 10)
+├── 1-2 score=1.002 10 - 6 = 4 (left: 4 9)
+├── 1-3 score=0.003 10 - 9 = 1 (left: 1 6)
+├── 1-4 score=0.003 6 * 9 = 54 (left: 10 54)
+├── 1-5 score=1.002 6 / 9 = 2/3 (left: 2/3 10)
+├── 1-6 score=2.001 9 / 6 = 1.5 (left: 1.5 10)
+│   ├── 2-12 score=0.001 1.5 + 10 = 11.5 (left: 11.5)
+│   ├── 2-13 score=0.003 10 - 1.5 = 8.5 (left: 8.5)
+│   ├── 2-14 score=0.003 1.5 * 10 = 15 (left: 15)
+│   └── 2-15 score=0.001 10 / 1.5 = 6.67 (approx.) (left: 6.67)
+├── 1-7 score=1.002 10 / 6 = 1.666 (left: 1.666 9)
+└── 1-8 score=0.003 10 / 9 = 1.111 (left: 1.111 6)
+0-1 score=3.0 5 + 6 = 11 (left: 4 10 11)
+├── 1-9 score=0.003 4 + 10 = 14 (left: 11 14)
+├── 1-10 score=0.003 10 - 4 = 6 (left: 6 11)
+├── 1-11 score=2.001 11 - 4 = 7 (left: 7 10)
+│   ├── 2-16 score=0.003 7 + 10 = 17 (left: 17)
+│   ├── 2-17 score=0.003 10 - 7 = 3 (left: 3 7)
+│   └── 2-18 score=0.003 7 * 10 = 70 (left: 70)
+├── 1-12 score=0.003 11 - 10 = 1 (left: 1 4)
+├── 1-13 score=0.003 4 * 10 = 40 (left: 11 40)
+├── 1-14 score=0.003 4 * 11 = 44 (left: 10 44)
+└── 1-15 score=0.003 10 * 11 = 110 (left: 4 110)
+0-2 score=3.0 6 + 10 = 16 (left: 4 5 16)
+├── 1-16 score=0.003 4 + 5 = 9 (left: 9 16)
+├── 1-17 score=0.003 5 - 4 = 1 (left: 1 16)
+├── 1-18 score=0.003 16 - 5 = 11 (left: 4 11)
+├── 1-19 score=2.001 16 - 4 = 12 (left: 5 12)
+├── 1-20 score=0.003 16 / 4 = 4 (left: 4 5)
+├── 1-21 score=0.003 5 * 4 = 20 (left: 20)
+└── 1-22 score=0.003 4 * 5 = 20 (left: 20)
+0-3 score=3.0 4 * 5 = 20 (left: 6 10 20)
+├── 1-23 score=0.003 6 + 10 = 16 (left: 16 20)
+├── 1-24 score=60.0 10 - 6 = 4 (left: 4 20)
+│   ├── 2-0 score=60.0 4 + 20 = 24 (left: 24)
+│   │   └── 3-0 score=60.0 Answer: (4 * 5) + (10 - 6) = 24
+│   ├── 2-1 score=0.002 20 - 4 = 16 (left: 16)
+│   ├── 2-2 score=0.0 20 / 4 = 5 (left: 5)
+│   └── 2-3 score=0.003 4 * 20 = 80 (left: 80)
+├── 1-25 score=2.001 20 - 10 = 10 (left: 6 10)
+├── 1-26 score=60.0 20 - 6 = 14 (left: 10 14)
+│   ├── 2-4 score=60.0 10 + 14 = 24 (left: 24)
+│   │   └── 3-1 score=60.0 Answer: (4 * 5) - 6 + 10 = 24
+│   ├── 2-5 score=0.002 14 - 10 = 4 (left: 4)
+│   └── 2-6 score=0.002 10 - 14 = -4 (left: -4)
+├── 1-27 score=0.003 6 * 10 = 60 (left: 20 60)
+├── 1-28 score=0.003 20 / 10 = 2 (left: 2 6)
+├── 1-29 score=2.001 20 / 6 = 3.33 (left: 3.33 10)
+└── 1-30 score=0.003 10 * 20 = 200 (left: 6 200)
+0-4 score=1.002 5 * 6 = 30 (left: 4 10 30)
+0-5 score=0.003 6 * 10 = 60 (left: 4 5 60)
+0-6 score=3.0 4 - 5 = -1 (left: -1 6 10)
+├── 1-31 score=1.002 6 + (-1) = 5 (left: 5 10)
+├── 1-32 score=2.001 10 + (-1) = 9 (left: 6 9)
+├── 1-33 score=2.001 6 - (-1) = 7 (left: 7 10)
+└── 1-34 score=0.003 10 - (-1) = 11 (left: 6 11)
+0-7 score=2.001 5 - 6 = -1 (left: 4 -1 10)
+0-8 score=3.0 10 - 6 = 4 (left: 4 4 5)
+0-9 score=3.0 10 - 4 = 6 (left: 5 6 6)
+0-10 score=3.0 10 / 5 = 2 (left: 2 4 6)
+0-11 score=3.0 6 / 4 = 1.5 (left: 1.5 5 10)
+注意: parent=NULLは真のrootと未復元parentの両方を含み得る。

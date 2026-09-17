@@ -1,0 +1,41 @@
+{
+  "evomcts": {
+    "development": {
+      "nodes": 976,
+      "edges": 292,
+      "roots": 684,
+      "action": 976,
+      "result": 976,
+      "score": 605,
+      "provenance": 976,
+      "cycles": 0,
+      "duplicate_ids": 0,
+      "invalid_parents": 0,
+      "fake_scores": 0,
+      "unknown_parents": 661,
+      "raw_events": 1268,
+      "max_depth": 9,
+      "objective": 3.3227459016393444
+    },
+    "held_out": {
+      "nodes": 1125,
+      "edges": 381,
+      "roots": 744,
+      "action": 1125,
+      "result": 1125,
+      "score": 683,
+      "provenance": 1125,
+      "cycles": 0,
+      "duplicate_ids": 0,
+      "invalid_parents": 0,
+      "fake_scores": 0,
+      "unknown_parents": 720,
+      "raw_events": 1550,
+      "max_depth": 9,
+      "objective": 3.36
+    },
+    "runs_evaluated": 5,
+    "errors": [],
+    "seconds": 0.4003140926361084
+  }
+}

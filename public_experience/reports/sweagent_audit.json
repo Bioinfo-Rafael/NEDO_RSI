@@ -1,0 +1,63 @@
+{
+  "source": "sweagent",
+  "runs": 49915,
+  "nodes": 1508707,
+  "edges": 1458792,
+  "roots": 49915,
+  "action": 1508707,
+  "result": 1458795,
+  "score": 0,
+  "provenance": 1508707,
+  "cycles": 0,
+  "duplicate_ids": 0,
+  "invalid_parents": 0,
+  "fake_scores": 0,
+  "unknown_parents": 0,
+  "raw_events": 1508707,
+  "max_depth": 150,
+  "branching_histogram": {
+    "1": 1458792,
+    "0": 49915
+  },
+  "datasets_nodes": {
+    "SWE-agent/demonstrations": 205,
+    "SWE-bench/SWE-smith-trajectories": 1508502
+  },
+  "splits": {
+    "development": {
+      "runs": 39936,
+      "nodes": 1207281,
+      "edges": 1167345,
+      "roots": 39936,
+      "action": 1207281,
+      "result": 1167346,
+      "score": 0,
+      "provenance": 1207281,
+      "cycles": 0,
+      "duplicate_ids": 0,
+      "invalid_parents": 0,
+      "fake_scores": 0,
+      "unknown_parents": 0,
+      "raw_events": 1207281,
+      "max_depth": 150
+    },
+    "held_out": {
+      "runs": 9979,
+      "nodes": 301426,
+      "edges": 291447,
+      "roots": 9979,
+      "action": 301426,
+      "result": 291449,
+      "score": 0,
+      "provenance": 301426,
+      "cycles": 0,
+      "duplicate_ids": 0,
+      "invalid_parents": 0,
+      "fake_scores": 0,
+      "unknown_parents": 0,
+      "raw_events": 301426,
+      "max_depth": 150
+    }
+  },
+  "seconds": 1349.3658769130707
+}

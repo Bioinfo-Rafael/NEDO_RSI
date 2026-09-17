@@ -1,0 +1,3678 @@
+[
+  {
+    "path": "gpt4o_search_trajectories/",
+    "size": 0
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/",
+    "size": 0
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/",
+    "size": 0
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/",
+    "size": 0
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_208.html",
+    "size": 1617844
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_121.html",
+    "size": 3007227
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_434.html",
+    "size": 3891105
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_176.html",
+    "size": 2580707
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_463.html",
+    "size": 4770027
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_199.html",
+    "size": 2111754
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_249.html",
+    "size": 6788218
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_160.html",
+    "size": 4823860
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_137.html",
+    "size": 3621950
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_422.html",
+    "size": 4780963
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_265.html",
+    "size": 2717502
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_71.html",
+    "size": 1880178
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_3.html",
+    "size": 3073688
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_320.html",
+    "size": 3356992
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_459.html",
+    "size": 1571719
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_26.html",
+    "size": 3023903
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_398.html",
+    "size": 3633426
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_232.html",
+    "size": 2064134
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_377.html",
+    "size": 5845342
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_224.html",
+    "size": 3410058
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_30.html",
+    "size": 3024980
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_361.html",
+    "size": 6363590
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_418.html",
+    "size": 2820558
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_67.html",
+    "size": 2067093
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_273.html",
+    "size": 3588627
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_88.html",
+    "size": 1419439
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_336.html",
+    "size": 4209575
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_438.html",
+    "size": 5743713
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_341.html",
+    "size": 5263420
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_204.html",
+    "size": 1277799
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_10.html",
+    "size": 8206709
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_195.html",
+    "size": 1252641
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_316.html",
+    "size": 1105940
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_47.html",
+    "size": 5417649
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_253.html",
+    "size": 5120382
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_183.html",
+    "size": 4048447
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_300.html",
+    "size": 322266
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_245.html",
+    "size": 3727903
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_51.html",
+    "size": 1225574
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_357.html",
+    "size": 2141987
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_212.html",
+    "size": 2401981
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_455.html",
+    "size": 1687185
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_140.html",
+    "size": 2056210
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_269.html",
+    "size": 6767585
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_286.html",
+    "size": 4187652
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_92.html",
+    "size": 3639862
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_402.html",
+    "size": 4999396
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_117.html",
+    "size": 4813966
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_394.html",
+    "size": 3815398
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_414.html",
+    "size": 4746411
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_101.html",
+    "size": 4185199
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_382.html",
+    "size": 1256585
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_228.html",
+    "size": 3056805
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_443.html",
+    "size": 3051122
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_156.html",
+    "size": 2618515
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_84.html",
+    "size": 4102095
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_290.html",
+    "size": 2223327
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_85.html",
+    "size": 3157008
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_291.html",
+    "size": 3608831
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_442.html",
+    "size": 2883543
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_157.html",
+    "size": 3430126
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_383.html",
+    "size": 1276262
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_229.html",
+    "size": 9578393
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_415.html",
+    "size": 2540676
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_100.html",
+    "size": 4279574
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_395.html",
+    "size": 1455033
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_403.html",
+    "size": 1552431
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_116.html",
+    "size": 3098516
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_268.html",
+    "size": 6193355
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_287.html",
+    "size": 2537955
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_93.html",
+    "size": 4974956
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_454.html",
+    "size": 5937256
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_141.html",
+    "size": 1926018
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_356.html",
+    "size": 1304863
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_213.html",
+    "size": 5914413
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_301.html",
+    "size": 2143704
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_244.html",
+    "size": 4065068
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_50.html",
+    "size": 2437782
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_182.html",
+    "size": 1338578
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_317.html",
+    "size": 1314823
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_46.html",
+    "size": 7030819
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_252.html",
+    "size": 3512018
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_194.html",
+    "size": 1410834
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_340.html",
+    "size": 3317723
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_205.html",
+    "size": 4867621
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_11.html",
+    "size": 3198443
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_439.html",
+    "size": 7428060
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_66.html",
+    "size": 2859702
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_272.html",
+    "size": 3036518
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_89.html",
+    "size": 2673765
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_337.html",
+    "size": 7722729
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_419.html",
+    "size": 5575584
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_225.html",
+    "size": 4346777
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_31.html",
+    "size": 5903739
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_360.html",
+    "size": 6563316
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_27.html",
+    "size": 3102278
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_399.html",
+    "size": 9298838
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_233.html",
+    "size": 8985183
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_376.html",
+    "size": 6965243
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_458.html",
+    "size": 6840363
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_264.html",
+    "size": 3189949
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_70.html",
+    "size": 2652991
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_2.html",
+    "size": 6904908
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_321.html",
+    "size": 8622243
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_136.html",
+    "size": 1688166
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_423.html",
+    "size": 2567717
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_161.html",
+    "size": 1459268
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_248.html",
+    "size": 5543415
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_177.html",
+    "size": 2539965
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_462.html",
+    "size": 2960952
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_198.html",
+    "size": 931299
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_120.html",
+    "size": 3457077
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_435.html",
+    "size": 8175616
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_209.html",
+    "size": 2345712
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_347.html",
+    "size": 3186348
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_202.html",
+    "size": 3345033
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_16.html",
+    "size": 915254
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_193.html",
+    "size": 1543509
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_310.html",
+    "size": 976499
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_41.html",
+    "size": 2573831
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_255.html",
+    "size": 4809105
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_185.html",
+    "size": 7900286
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_306.html",
+    "size": 3498738
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_243.html",
+    "size": 4312151
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_57.html",
+    "size": 1576989
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_428.html",
+    "size": 6667015
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_351.html",
+    "size": 7003358
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_214.html",
+    "size": 7959072
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_453.html",
+    "size": 3797091
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_146.html",
+    "size": 2926432
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_9.html",
+    "size": 8626637
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_280.html",
+    "size": 7562463
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_94.html",
+    "size": 1350618
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_404.html",
+    "size": 1861336
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_111.html",
+    "size": 3301619
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_238.html",
+    "size": 6417747
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_392.html",
+    "size": 6521233
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_412.html",
+    "size": 2999615
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_107.html",
+    "size": 3002235
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_384.html",
+    "size": 10973191
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_445.html",
+    "size": 4026671
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_150.html",
+    "size": 2269091
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_279.html",
+    "size": 7988662
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_82.html",
+    "size": 4283119
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_296.html",
+    "size": 3161202
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_127.html",
+    "size": 3798261
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_432.html",
+    "size": 1608899
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_259.html",
+    "size": 5052339
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_170.html",
+    "size": 3457457
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_465.html",
+    "size": 1446718
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_166.html",
+    "size": 2713286
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_189.html",
+    "size": 8034007
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_218.html",
+    "size": 3601021
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_131.html",
+    "size": 2055404
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_424.html",
+    "size": 6365141
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_5.html",
+    "size": 3195158
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_263.html",
+    "size": 10551820
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_77.html",
+    "size": 4861993
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_98.html",
+    "size": 2686567
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_326.html",
+    "size": 5198786
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_20.html",
+    "size": 2907338
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_234.html",
+    "size": 5554000
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_371.html",
+    "size": 6301042
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_408.html",
+    "size": 3974262
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_222.html",
+    "size": 4395340
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_36.html",
+    "size": 1610796
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_388.html",
+    "size": 7090517
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_367.html",
+    "size": 2636507
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_61.html",
+    "size": 1843104
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_275.html",
+    "size": 1588788
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_330.html",
+    "size": 9230683
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_449.html",
+    "size": 10607876
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_448.html",
+    "size": 6719109
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_60.html",
+    "size": 1519603
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_274.html",
+    "size": 4249174
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_331.html",
+    "size": 6007435
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_223.html",
+    "size": 6519343
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_37.html",
+    "size": 1703019
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_389.html",
+    "size": 4255708
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_366.html",
+    "size": 7685486
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_409.html",
+    "size": 4697994
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_21.html",
+    "size": 2644228
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_235.html",
+    "size": 8335983
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_370.html",
+    "size": 8490023
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_4.html",
+    "size": 2938420
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_262.html",
+    "size": 6117576
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_76.html",
+    "size": 967648
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_99.html",
+    "size": 1190790
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_327.html",
+    "size": 5570348
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_130.html",
+    "size": 6083414
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_425.html",
+    "size": 4492211
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_219.html",
+    "size": 2253899
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_167.html",
+    "size": 6187181
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_188.html",
+    "size": 7160359
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_171.html",
+    "size": 3211409
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_464.html",
+    "size": 1710258
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_258.html",
+    "size": 3018665
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_126.html",
+    "size": 990
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_433.html",
+    "size": 8616389
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_278.html",
+    "size": 3891130
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_83.html",
+    "size": 1018765
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_297.html",
+    "size": 4013574
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_444.html",
+    "size": 893083
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_151.html",
+    "size": 1893658
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_385.html",
+    "size": 2904787
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_413.html",
+    "size": 5724475
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_106.html",
+    "size": 1510781
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_239.html",
+    "size": 6065179
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_393.html",
+    "size": 3746171
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_405.html",
+    "size": 3275495
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_110.html",
+    "size": 6269415
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/results.txt",
+    "size": 39159
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_8.html",
+    "size": 1745846
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_281.html",
+    "size": 1107574
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_95.html",
+    "size": 1373402
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_452.html",
+    "size": 5640019
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_147.html",
+    "size": 3808582
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_350.html",
+    "size": 4168502
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_215.html",
+    "size": 6256789
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_429.html",
+    "size": 4443788
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_307.html",
+    "size": 2938368
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_242.html",
+    "size": 4883564
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_56.html",
+    "size": 1047796
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_184.html",
+    "size": 5469318
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_311.html",
+    "size": 576467
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_40.html",
+    "size": 3067239
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_254.html",
+    "size": 3498492
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_192.html",
+    "size": 1165126
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_346.html",
+    "size": 3037372
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_203.html",
+    "size": 1810571
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_17.html",
+    "size": 878396
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_80.html",
+    "size": 1374959
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_294.html",
+    "size": 1471398
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_152.html",
+    "size": 2245949
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_447.html",
+    "size": 5493726
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_369.html",
+    "size": 7333776
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_386.html",
+    "size": 2982273
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_38.html",
+    "size": 1129254
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_105.html",
+    "size": 1042335
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_410.html",
+    "size": 3078082
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_390.html",
+    "size": 7427979
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_113.html",
+    "size": 5719035
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_406.html",
+    "size": 6963398
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_282.html",
+    "size": 4398286
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_328.html",
+    "size": 8577543
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_96.html",
+    "size": 3392745
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_79.html",
+    "size": 875517
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_144.html",
+    "size": 2277533
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_451.html",
+    "size": 5636591
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_216.html",
+    "size": 1410023
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_353.html",
+    "size": 1336557
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_241.html",
+    "size": 6003171
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_55.html",
+    "size": 1636679
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_304.html",
+    "size": 3963828
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_187.html",
+    "size": 4116590
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_168.html",
+    "size": 9527842
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_43.html",
+    "size": 3373712
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_257.html",
+    "size": 2842539
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_312.html",
+    "size": 1588302
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_191.html",
+    "size": 2860046
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_200.html",
+    "size": 1610849
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_14.html",
+    "size": 1322718
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_345.html",
+    "size": 2772652
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_129.html",
+    "size": 5925049
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_298.html",
+    "size": 5453629
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_332.html",
+    "size": 3050726
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_63.html",
+    "size": 1734148
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_277.html",
+    "size": 2841254
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_109.html",
+    "size": 7447052
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_365.html",
+    "size": 6534387
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_220.html",
+    "size": 2481780
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_34.html",
+    "size": 4813858
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_373.html",
+    "size": 2546877
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_22.html",
+    "size": 3505155
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_236.html",
+    "size": 1861165
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_148.html",
+    "size": 2986053
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_324.html",
+    "size": 1370697
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_261.html",
+    "size": 2540739
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_75.html",
+    "size": 2557859
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_7.html",
+    "size": 2949904
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_426.html",
+    "size": 4680067
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_133.html",
+    "size": 5323933
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_164.html",
+    "size": 2461149
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_59.html",
+    "size": 1589013
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_308.html",
+    "size": 9483126
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_172.html",
+    "size": 10474889
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_430.html",
+    "size": 1598620
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_125.html",
+    "size": 2735406
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_18.html",
+    "size": 2984078
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_349.html",
+    "size": 7206290
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_19.html",
+    "size": 2792819
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_348.html",
+    "size": 8861931
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_431.html",
+    "size": 5317797
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_124.html",
+    "size": 2503928
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_173.html",
+    "size": 3509391
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_58.html",
+    "size": 1187766
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_309.html",
+    "size": 2271176
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_165.html",
+    "size": 3906711
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_427.html",
+    "size": 5587313
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_132.html",
+    "size": 1318768
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_325.html",
+    "size": 7337968
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_260.html",
+    "size": 5415433
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_74.html",
+    "size": 9171861
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_6.html",
+    "size": 2447632
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_149.html",
+    "size": 2559252
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_372.html",
+    "size": 4946827
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_23.html",
+    "size": 6647672
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_237.html",
+    "size": 1721460
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_364.html",
+    "size": 7540136
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_221.html",
+    "size": 7559332
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_35.html",
+    "size": 8031402
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_108.html",
+    "size": 3924197
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_299.html",
+    "size": 3008587
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_333.html",
+    "size": 4113248
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_62.html",
+    "size": 1233749
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_276.html",
+    "size": 3242363
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_128.html",
+    "size": 3602058
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_201.html",
+    "size": 2056127
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_15.html",
+    "size": 1482351
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_344.html",
+    "size": 2828279
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_190.html",
+    "size": 6989039
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_42.html",
+    "size": 3022774
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_256.html",
+    "size": 7139051
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_313.html",
+    "size": 783191
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_186.html",
+    "size": 5153086
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_169.html",
+    "size": 2657689
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_240.html",
+    "size": 3606220
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_54.html",
+    "size": 2267065
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_305.html",
+    "size": 1281
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_217.html",
+    "size": 2025907
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_352.html",
+    "size": 2961292
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_145.html",
+    "size": 1008731
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_450.html",
+    "size": 5878646
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_283.html",
+    "size": 7442848
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_329.html",
+    "size": 3293333
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_97.html",
+    "size": 3415585
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_78.html",
+    "size": 3297834
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_112.html",
+    "size": 7498884
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_407.html",
+    "size": 4664441
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_391.html",
+    "size": 6265233
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_104.html",
+    "size": 1251770
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_411.html",
+    "size": 3747725
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_368.html",
+    "size": 1237114
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_387.html",
+    "size": 8953181
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_39.html",
+    "size": 1076470
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_153.html",
+    "size": 2740728
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_446.html",
+    "size": 876096
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_81.html",
+    "size": 1429087
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_295.html",
+    "size": 3781179
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_158.html",
+    "size": 4616362
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_334.html",
+    "size": 1603022
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_65.html",
+    "size": 1411314
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_271.html",
+    "size": 6894837
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_363.html",
+    "size": 3448686
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_226.html",
+    "size": 5097975
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_32.html",
+    "size": 7329572
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_119.html",
+    "size": 5553833
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_375.html",
+    "size": 7773902
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_24.html",
+    "size": 2619553
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_230.html",
+    "size": 1384749
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_322.html",
+    "size": 1316293
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_288.html",
+    "size": 1352316
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_1.html",
+    "size": 6582420
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_267.html",
+    "size": 3596351
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_73.html",
+    "size": 1113823
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_420.html",
+    "size": 3243669
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_135.html",
+    "size": 4770736
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_359.html",
+    "size": 1828817
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_162.html",
+    "size": 2558519
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_461.html",
+    "size": 2848866
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_174.html",
+    "size": 6737876
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_49.html",
+    "size": 1483363
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_318.html",
+    "size": 2726479
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_436.html",
+    "size": 2668331
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_123.html",
+    "size": 3333325
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_338.html",
+    "size": 3222467
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_86.html",
+    "size": 6809345
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_292.html",
+    "size": 1690103
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_69.html",
+    "size": 2088368
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_154.html",
+    "size": 1588132
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_441.html",
+    "size": 3009089
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_380.html",
+    "size": 8527332
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_103.html",
+    "size": 6369269
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_416.html",
+    "size": 2549968
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_379.html",
+    "size": 6047589
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_396.html",
+    "size": 4496567
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_28.html",
+    "size": 3023985
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_115.html",
+    "size": 6626950
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_400.html",
+    "size": 3046789
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_284.html",
+    "size": 10224402
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_90.html",
+    "size": 11524256
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_142.html",
+    "size": 4222522
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_457.html",
+    "size": 2953563
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_210.html",
+    "size": 2525556
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_355.html",
+    "size": 1261846
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_139.html",
+    "size": 1740491
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_247.html",
+    "size": 6658384
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_53.html",
+    "size": 1264464
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_302.html",
+    "size": 735079
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_181.html",
+    "size": 6437969
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_45.html",
+    "size": 6626203
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_251.html",
+    "size": 2938417
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_314.html",
+    "size": 2504081
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_197.html",
+    "size": 6484615
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_178.html",
+    "size": 4320179
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_206.html",
+    "size": 6586499
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_12.html",
+    "size": 3195977
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_343.html",
+    "size": 1589175
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_207.html",
+    "size": 1622430
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_13.html",
+    "size": 1589063
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_342.html",
+    "size": 2745772
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_196.html",
+    "size": 600687
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_179.html",
+    "size": 7011408
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_44.html",
+    "size": 2909088
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_250.html",
+    "size": 2307609
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_315.html",
+    "size": 1052289
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_180.html",
+    "size": 6506840
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_246.html",
+    "size": 5751195
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_52.html",
+    "size": 1462724
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_303.html",
+    "size": 2396539
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_138.html",
+    "size": 1773972
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_211.html",
+    "size": 2334360
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_354.html",
+    "size": 2594353
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_143.html",
+    "size": 2333948
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_456.html",
+    "size": 4841376
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_285.html",
+    "size": 4452447
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_91.html",
+    "size": 6424123
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_114.html",
+    "size": 5461945
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_401.html",
+    "size": 1714883
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_378.html",
+    "size": 7844666
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_397.html",
+    "size": 4073349
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_29.html",
+    "size": 3024155
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_102.html",
+    "size": 2774444
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_417.html",
+    "size": 6307905
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_381.html",
+    "size": 3095744
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_155.html",
+    "size": 2560426
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_440.html",
+    "size": 8896096
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_339.html",
+    "size": 3413350
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_87.html",
+    "size": 8241317
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_293.html",
+    "size": 2186552
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_68.html",
+    "size": 2565786
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_437.html",
+    "size": 2352656
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_122.html",
+    "size": 4446902
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_48.html",
+    "size": 6279949
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_319.html",
+    "size": 7302477
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_460.html",
+    "size": 5854431
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_175.html",
+    "size": 2903328
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_163.html",
+    "size": 3473097
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_358.html",
+    "size": 1460307
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_421.html",
+    "size": 3340484
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_134.html",
+    "size": 1288111
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_323.html",
+    "size": 2755904
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_289.html",
+    "size": 6169318
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_0.html",
+    "size": 6853404
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_266.html",
+    "size": 2984798
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_72.html",
+    "size": 2603548
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_374.html",
+    "size": 4721261
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_25.html",
+    "size": 2846165
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_231.html",
+    "size": 1384658
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_118.html",
+    "size": 4431329
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_362.html",
+    "size": 3954769
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_227.html",
+    "size": 5312175
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_33.html",
+    "size": 7075127
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_335.html",
+    "size": 7141405
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_64.html",
+    "size": 1739464
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_270.html",
+    "size": 3359577
+  },
+  {
+    "path": "gpt4o_search_trajectories/shopping/render_159.html",
+    "size": 4918583
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_208.html",
+    "size": 591630
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_121.html",
+    "size": 4167928
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_176.html",
+    "size": 3845479
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_199.html",
+    "size": 2225350
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_160.html",
+    "size": 3394282
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_137.html",
+    "size": 3910481
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_71.html",
+    "size": 4403870
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_3.html",
+    "size": 2886410
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_26.html",
+    "size": 1709852
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_30.html",
+    "size": 2756116
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_67.html",
+    "size": 587559
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_88.html",
+    "size": 2501
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_204.html",
+    "size": 649468
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_10.html",
+    "size": 1668266
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_195.html",
+    "size": 2392024
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_47.html",
+    "size": 3848320
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_183.html",
+    "size": 609436
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_51.html",
+    "size": 1300
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_140.html",
+    "size": 1587636
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_92.html",
+    "size": 1124462
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_117.html",
+    "size": 4210110
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_101.html",
+    "size": 1137461
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_156.html",
+    "size": 3921970
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_84.html",
+    "size": 4689649
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_85.html",
+    "size": 5252546
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_157.html",
+    "size": 2820550
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_100.html",
+    "size": 818082
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_116.html",
+    "size": 1241
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_93.html",
+    "size": 986
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_141.html",
+    "size": 3151125
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_50.html",
+    "size": 3633244
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_182.html",
+    "size": 1031774
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_46.html",
+    "size": 3745125
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_194.html",
+    "size": 2240665
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_205.html",
+    "size": 1463192
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_11.html",
+    "size": 1048632
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_66.html",
+    "size": 3874609
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_89.html",
+    "size": 1336810
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_31.html",
+    "size": 2682685
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_27.html",
+    "size": 789178
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_70.html",
+    "size": 3276440
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_2.html",
+    "size": 591889
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_136.html",
+    "size": 3921551
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_161.html",
+    "size": 1157221
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_177.html",
+    "size": 2092427
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_198.html",
+    "size": 2575338
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_120.html",
+    "size": 1593948
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_209.html",
+    "size": 610351
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_202.html",
+    "size": 1445039
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_16.html",
+    "size": 1280876
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_193.html",
+    "size": 2180381
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_41.html",
+    "size": 982399
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_185.html",
+    "size": 2181335
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_57.html",
+    "size": 1473
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_146.html",
+    "size": 746179
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_9.html",
+    "size": 11369826
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_94.html",
+    "size": 4415700
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_111.html",
+    "size": 3215974
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_107.html",
+    "size": 955019
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_150.html",
+    "size": 1528519
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_82.html",
+    "size": 4669065
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_127.html",
+    "size": 1881291
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_170.html",
+    "size": 2096594
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_166.html",
+    "size": 2599108
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_189.html",
+    "size": 1260610
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_131.html",
+    "size": 389482
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_5.html",
+    "size": 1041398
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_77.html",
+    "size": 2521043
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_98.html",
+    "size": 617622
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_20.html",
+    "size": 3681769
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_36.html",
+    "size": 1057701
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_61.html",
+    "size": 3314136
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_60.html",
+    "size": 2714342
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_37.html",
+    "size": 4146777
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_21.html",
+    "size": 3900152
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_4.html",
+    "size": 2058703
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_76.html",
+    "size": 3647812
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_99.html",
+    "size": 1810581
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_130.html",
+    "size": 764950
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_167.html",
+    "size": 4941457
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_188.html",
+    "size": 970808
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_171.html",
+    "size": 388507
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_126.html",
+    "size": 3188327
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_83.html",
+    "size": 6547535
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_151.html",
+    "size": 2914120
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_106.html",
+    "size": 1033995
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_110.html",
+    "size": 885416
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/results.txt",
+    "size": 17155
+  },
+  {
+    "path": "__MACOSX/gpt4o_search_trajectories/reddit/._results.txt",
+    "size": 176
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_8.html",
+    "size": 2038381
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_95.html",
+    "size": 2375366
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_147.html",
+    "size": 2509880
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_56.html",
+    "size": 1384
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_184.html",
+    "size": 590203
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_40.html",
+    "size": 262629
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_192.html",
+    "size": 811490
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_203.html",
+    "size": 1280412
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_17.html",
+    "size": 262300
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_80.html",
+    "size": 4907892
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_152.html",
+    "size": 2169492
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_38.html",
+    "size": 261714
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_105.html",
+    "size": 3133133
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_113.html",
+    "size": 1976
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_96.html",
+    "size": 2437400
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_79.html",
+    "size": 1669461
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_144.html",
+    "size": 1353362
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_55.html",
+    "size": 4378774
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_187.html",
+    "size": 3239016
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_168.html",
+    "size": 1825076
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_43.html",
+    "size": 6976387
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_191.html",
+    "size": 671577
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_200.html",
+    "size": 979486
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_14.html",
+    "size": 1088790
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_129.html",
+    "size": 698923
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_63.html",
+    "size": 1453
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_109.html",
+    "size": 3030275
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_34.html",
+    "size": 975699
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_22.html",
+    "size": 1705209
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_148.html",
+    "size": 1699610
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_75.html",
+    "size": 1714863
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_7.html",
+    "size": 1832099
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_133.html",
+    "size": 2967928
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_164.html",
+    "size": 1070671
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_59.html",
+    "size": 2682763
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_172.html",
+    "size": 16303246
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_125.html",
+    "size": 770517
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_18.html",
+    "size": 261882
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_19.html",
+    "size": 3152371
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_124.html",
+    "size": 2959860
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_173.html",
+    "size": 2248398
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_58.html",
+    "size": 1859279
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_165.html",
+    "size": 1832231
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_132.html",
+    "size": 1679091
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_74.html",
+    "size": 2639205
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_6.html",
+    "size": 1360189
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_149.html",
+    "size": 3854776
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_23.html",
+    "size": 1893255
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_35.html",
+    "size": 965029
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_108.html",
+    "size": 1414555
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_62.html",
+    "size": 3237256
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_128.html",
+    "size": 1219931
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_201.html",
+    "size": 1030084
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_15.html",
+    "size": 1061400
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_190.html",
+    "size": 1141
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_42.html",
+    "size": 1040025
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_186.html",
+    "size": 593687
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_169.html",
+    "size": 1865944
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_54.html",
+    "size": 3552352
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_145.html",
+    "size": 734091
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_97.html",
+    "size": 1668226
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_78.html",
+    "size": 1185
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_112.html",
+    "size": 2216199
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_104.html",
+    "size": 983218
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_39.html",
+    "size": 2646369
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_153.html",
+    "size": 4903340
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_81.html",
+    "size": 2765
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_158.html",
+    "size": 1047909
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_65.html",
+    "size": 4100706
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_32.html",
+    "size": 1203614
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_119.html",
+    "size": 3336458
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_24.html",
+    "size": 1703080
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_1.html",
+    "size": 2416127
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_73.html",
+    "size": 3987723
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_135.html",
+    "size": 4170583
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_162.html",
+    "size": 3127894
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_174.html",
+    "size": 1584697
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_49.html",
+    "size": 4561952
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_123.html",
+    "size": 2435836
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_86.html",
+    "size": 651255
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_69.html",
+    "size": 1277829
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_154.html",
+    "size": 3053473
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_103.html",
+    "size": 2473327
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_28.html",
+    "size": 2600546
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_115.html",
+    "size": 1086849
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_90.html",
+    "size": 1737590
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_142.html",
+    "size": 2584758
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_139.html",
+    "size": 849404
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_53.html",
+    "size": 3753037
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_181.html",
+    "size": 602147
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_45.html",
+    "size": 4636049
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_197.html",
+    "size": 939342
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_178.html",
+    "size": 3040975
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_206.html",
+    "size": 2705069
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_12.html",
+    "size": 1045021
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_207.html",
+    "size": 588198
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_13.html",
+    "size": 979773
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_196.html",
+    "size": 1741541
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_179.html",
+    "size": 2333069
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_44.html",
+    "size": 8091359
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_180.html",
+    "size": 2509886
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_52.html",
+    "size": 1313
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_138.html",
+    "size": 1955447
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_143.html",
+    "size": 1171342
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_91.html",
+    "size": 1746138
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_114.html",
+    "size": 477434
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_29.html",
+    "size": 1452407
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_102.html",
+    "size": 2220889
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_155.html",
+    "size": 824008
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_87.html",
+    "size": 806269
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_68.html",
+    "size": 4386887
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_122.html",
+    "size": 1112
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_48.html",
+    "size": 1426
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_175.html",
+    "size": 550840
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_163.html",
+    "size": 2912947
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_134.html",
+    "size": 2523497
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_0.html",
+    "size": 852234
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_72.html",
+    "size": 1647891
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_25.html",
+    "size": 1700777
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_118.html",
+    "size": 3058684
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_33.html",
+    "size": 2070436
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_64.html",
+    "size": 445914
+  },
+  {
+    "path": "gpt4o_search_trajectories/reddit/render_159.html",
+    "size": 4284080
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_208.html",
+    "size": 2364955
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_121.html",
+    "size": 1280765
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_176.html",
+    "size": 4452044
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_199.html",
+    "size": 713856
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_160.html",
+    "size": 3403512
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_137.html",
+    "size": 4499493
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_71.html",
+    "size": 2906639
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_3.html",
+    "size": 4689770
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_26.html",
+    "size": 6122440
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_232.html",
+    "size": 3276163
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_224.html",
+    "size": 2761949
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_30.html",
+    "size": 5504164
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_67.html",
+    "size": 2068226
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_88.html",
+    "size": 3441170
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_204.html",
+    "size": 2118628
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_10.html",
+    "size": 2051906
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_195.html",
+    "size": 2985178
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_47.html",
+    "size": 6601370
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_183.html",
+    "size": 2656987
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_51.html",
+    "size": 4260645
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_212.html",
+    "size": 3600463
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_140.html",
+    "size": 3414576
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_92.html",
+    "size": 2621480
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_117.html",
+    "size": 2098305
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_101.html",
+    "size": 1966273
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_228.html",
+    "size": 6471492
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_156.html",
+    "size": 5132872
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_84.html",
+    "size": 1335454
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_85.html",
+    "size": 1338642
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_157.html",
+    "size": 5490538
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_229.html",
+    "size": 1933
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_100.html",
+    "size": 2886012
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_116.html",
+    "size": 5778849
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_93.html",
+    "size": 1309453
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_141.html",
+    "size": 2650921
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_213.html",
+    "size": 979857
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_50.html",
+    "size": 1558698
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_182.html",
+    "size": 5664706
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_46.html",
+    "size": 1988826
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_194.html",
+    "size": 7640297
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_205.html",
+    "size": 4263993
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_11.html",
+    "size": 683283
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_66.html",
+    "size": 2392074
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_89.html",
+    "size": 4176889
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_225.html",
+    "size": 3258374
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_31.html",
+    "size": 5299451
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_27.html",
+    "size": 2020644
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_233.html",
+    "size": 1144732
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_70.html",
+    "size": 2035385
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_2.html",
+    "size": 3316165
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_136.html",
+    "size": 5196212
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_161.html",
+    "size": 2076564
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_177.html",
+    "size": 3651446
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_198.html",
+    "size": 3558450
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_120.html",
+    "size": 2639706
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_209.html",
+    "size": 1062279
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_202.html",
+    "size": 2692554
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_16.html",
+    "size": 1463528
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_193.html",
+    "size": 1297000
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_41.html",
+    "size": 1428842
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_185.html",
+    "size": 4021219
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_57.html",
+    "size": 6551042
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_214.html",
+    "size": 2005926
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_146.html",
+    "size": 4604109
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_9.html",
+    "size": 2679527
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_94.html",
+    "size": 637815
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_111.html",
+    "size": 2079912
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_107.html",
+    "size": 3945471
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_150.html",
+    "size": 2203318
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_82.html",
+    "size": 2701060
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_127.html",
+    "size": 3363336
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_170.html",
+    "size": 5164319
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_166.html",
+    "size": 639097
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_189.html",
+    "size": 3637114
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_218.html",
+    "size": 4015211
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_131.html",
+    "size": 2051390
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_5.html",
+    "size": 3078473
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_77.html",
+    "size": 5393862
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_98.html",
+    "size": 1990431
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_20.html",
+    "size": 1938908
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_222.html",
+    "size": 929909
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_36.html",
+    "size": 1215
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_61.html",
+    "size": 1965342
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_60.html",
+    "size": 2359134
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_223.html",
+    "size": 4527954
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_37.html",
+    "size": 6815760
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_21.html",
+    "size": 2010650
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_4.html",
+    "size": 4481338
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_76.html",
+    "size": 2908921
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_99.html",
+    "size": 2089126
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_130.html",
+    "size": 1369166
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_219.html",
+    "size": 5835011
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_167.html",
+    "size": 2346657
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_188.html",
+    "size": 2806759
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_171.html",
+    "size": 4540109
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_126.html",
+    "size": 2015962
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_83.html",
+    "size": 1640071
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_151.html",
+    "size": 1499371
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_106.html",
+    "size": 2246327
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_110.html",
+    "size": 6118904
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/results.txt",
+    "size": 20481
+  },
+  {
+    "path": "__MACOSX/gpt4o_search_trajectories/classifieds/._results.txt",
+    "size": 176
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_8.html",
+    "size": 2629080
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_95.html",
+    "size": 6269086
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_147.html",
+    "size": 6313460
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_215.html",
+    "size": 2700228
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_56.html",
+    "size": 2075491
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_184.html",
+    "size": 1983661
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_40.html",
+    "size": 3384269
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_192.html",
+    "size": 2634261
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_203.html",
+    "size": 4261967
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_17.html",
+    "size": 5072083
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_80.html",
+    "size": 2345631
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_152.html",
+    "size": 1242850
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_38.html",
+    "size": 2071952
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_105.html",
+    "size": 4335769
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_113.html",
+    "size": 4123918
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_96.html",
+    "size": 1271977
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_79.html",
+    "size": 1785192
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_144.html",
+    "size": 6456685
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_216.html",
+    "size": 2017644
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_55.html",
+    "size": 1980871
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_187.html",
+    "size": 1736531
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_168.html",
+    "size": 2028466
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_43.html",
+    "size": 1486428
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_191.html",
+    "size": 7074337
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_200.html",
+    "size": 2045411
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_14.html",
+    "size": 2190466
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_129.html",
+    "size": 2219357
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_63.html",
+    "size": 3592154
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_109.html",
+    "size": 2745757
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_220.html",
+    "size": 2082795
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_34.html",
+    "size": 4269433
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_22.html",
+    "size": 2813084
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_148.html",
+    "size": 3126711
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_75.html",
+    "size": 3404544
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_7.html",
+    "size": 4200080
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_133.html",
+    "size": 6732694
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_164.html",
+    "size": 699164
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_59.html",
+    "size": 2048988
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_172.html",
+    "size": 6502102
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_125.html",
+    "size": 1073089
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_18.html",
+    "size": 3980888
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_19.html",
+    "size": 4626912
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_124.html",
+    "size": 1073084
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_173.html",
+    "size": 1366419
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_58.html",
+    "size": 3022782
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_165.html",
+    "size": 1409068
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_132.html",
+    "size": 1435380
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_74.html",
+    "size": 2762461
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_6.html",
+    "size": 3401028
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_149.html",
+    "size": 2269106
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_23.html",
+    "size": 4689580
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_221.html",
+    "size": 830900
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_35.html",
+    "size": 2579084
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_108.html",
+    "size": 3062709
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_62.html",
+    "size": 2058443
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_128.html",
+    "size": 1053159
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_201.html",
+    "size": 2090444
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_15.html",
+    "size": 1791654
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_190.html",
+    "size": 4265666
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_42.html",
+    "size": 1268134
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_186.html",
+    "size": 2699150
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_169.html",
+    "size": 1978845
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_54.html",
+    "size": 2812966
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_217.html",
+    "size": 5739739
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_145.html",
+    "size": 5074535
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_97.html",
+    "size": 4645856
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_78.html",
+    "size": 662893
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_112.html",
+    "size": 2086619
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_104.html",
+    "size": 6973193
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_39.html",
+    "size": 2031629
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_153.html",
+    "size": 1277154
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_81.html",
+    "size": 2074656
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_158.html",
+    "size": 3185397
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_65.html",
+    "size": 1937029
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_226.html",
+    "size": 2849697
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_32.html",
+    "size": 5926041
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_119.html",
+    "size": 1840148
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_24.html",
+    "size": 2393182
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_230.html",
+    "size": 4532613
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_1.html",
+    "size": 2071421
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_73.html",
+    "size": 3258773
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_135.html",
+    "size": 4742121
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_162.html",
+    "size": 1977089
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_174.html",
+    "size": 2253214
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_49.html",
+    "size": 1521553
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_123.html",
+    "size": 1518189
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_86.html",
+    "size": 2127286
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_69.html",
+    "size": 2521103
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_154.html",
+    "size": 1914924
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_103.html",
+    "size": 2373254
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_28.html",
+    "size": 6038409
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_115.html",
+    "size": 2045531
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_90.html",
+    "size": 1762695
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_142.html",
+    "size": 2032756
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_210.html",
+    "size": 5392244
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_139.html",
+    "size": 2650794
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_53.html",
+    "size": 1334659
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_181.html",
+    "size": 3262782
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_45.html",
+    "size": 2081032
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_197.html",
+    "size": 3678960
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_178.html",
+    "size": 3488455
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_206.html",
+    "size": 3546736
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_12.html",
+    "size": 2006490
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_207.html",
+    "size": 3040488
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_13.html",
+    "size": 1992509
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_196.html",
+    "size": 5218728
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_179.html",
+    "size": 1959045
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_44.html",
+    "size": 2059868
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_180.html",
+    "size": 4695565
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_52.html",
+    "size": 3247871
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_138.html",
+    "size": 4549643
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_211.html",
+    "size": 1976175
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_143.html",
+    "size": 4795369
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_91.html",
+    "size": 2909574
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_114.html",
+    "size": 4614721
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_29.html",
+    "size": 1503177
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_102.html",
+    "size": 2714112
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_155.html",
+    "size": 4515280
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_87.html",
+    "size": 600413
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_68.html",
+    "size": 2363214
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_122.html",
+    "size": 2716809
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_48.html",
+    "size": 2607382
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_175.html",
+    "size": 2645300
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_163.html",
+    "size": 1361421
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_134.html",
+    "size": 7931457
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_0.html",
+    "size": 2755923
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_72.html",
+    "size": 2720093
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_25.html",
+    "size": 3380993
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_231.html",
+    "size": 3991499
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_118.html",
+    "size": 1093965
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_227.html",
+    "size": 2086475
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_33.html",
+    "size": 3365070
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_64.html",
+    "size": 3526768
+  },
+  {
+    "path": "gpt4o_search_trajectories/classifieds/render_159.html",
+    "size": 2696258
+  }
+]

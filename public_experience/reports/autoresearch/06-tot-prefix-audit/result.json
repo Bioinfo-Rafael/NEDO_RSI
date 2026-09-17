@@ -1,0 +1,41 @@
+{
+  "treeofthoughts": {
+    "development": {
+      "nodes": 10401,
+      "edges": 9196,
+      "roots": 1205,
+      "action": 10401,
+      "result": 10401,
+      "score": 10401,
+      "provenance": 10401,
+      "cycles": 0,
+      "duplicate_ids": 0,
+      "invalid_parents": 0,
+      "fake_scores": 0,
+      "unknown_parents": 0,
+      "raw_events": 10401,
+      "max_depth": 8,
+      "objective": 4.0
+    },
+    "held_out": {
+      "nodes": 2867,
+      "edges": 2554,
+      "roots": 313,
+      "action": 2867,
+      "result": 2867,
+      "score": 2867,
+      "provenance": 2867,
+      "cycles": 0,
+      "duplicate_ids": 0,
+      "invalid_parents": 0,
+      "fake_scores": 0,
+      "unknown_parents": 14,
+      "raw_events": 2867,
+      "max_depth": 8,
+      "objective": 3.99511684687827
+    },
+    "runs_evaluated": 240,
+    "errors": [],
+    "seconds": 1.4169719219207764
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "canonical_raw_files": 3872,
+  "canonical_raw_bytes": 8015222920,
+  "stored_raw_files_including_extraction": 4787,
+  "stored_raw_bytes_including_extraction": 11006714640,
+  "scope": "取得した履歴raw（cloneから選別copyした履歴を含む）。repoコード・.gitは除く。Search Agents ZIP展開を二重計上しないcanonical値と、展開後の保管値を区別。"
+}

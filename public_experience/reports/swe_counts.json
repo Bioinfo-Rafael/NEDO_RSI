@@ -1,0 +1,38 @@
+{
+  "shards": [
+    [
+      "public_experience/raw/swe_agent/SWE-bench__SWE-smith-trajectories/data/tool-00000-of-00008.parquet",
+      3013
+    ],
+    [
+      "public_experience/raw/swe_agent/SWE-bench__SWE-smith-trajectories/data/tool-00001-of-00008.parquet",
+      3013
+    ],
+    [
+      "public_experience/raw/swe_agent/SWE-bench__SWE-smith-trajectories/data/tool-00002-of-00008.parquet",
+      3013
+    ],
+    [
+      "public_experience/raw/swe_agent/SWE-bench__SWE-smith-trajectories/data/tool-00003-of-00008.parquet",
+      3013
+    ],
+    [
+      "public_experience/raw/swe_agent/SWE-bench__SWE-smith-trajectories/data/tool-00004-of-00008.parquet",
+      3012
+    ],
+    [
+      "public_experience/raw/swe_agent/SWE-bench__SWE-smith-trajectories/data/tool-00005-of-00008.parquet",
+      3012
+    ],
+    [
+      "public_experience/raw/swe_agent/SWE-bench__SWE-smith-trajectories/data/tool-00006-of-00008.parquet",
+      3012
+    ],
+    [
+      "public_experience/raw/swe_agent/SWE-bench__SWE-smith-trajectories/data/tool-00007-of-00008.parquet",
+      3012
+    ]
+  ],
+  "rows": 24100,
+  "unique_traj_ids": 24100
+}

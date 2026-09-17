@@ -1,0 +1,621 @@
+{
+  "rows_by_encoding": {
+    "ticks": 25826,
+    "tool": 24100,
+    "train": 26076,
+    "xml": 26076
+  },
+  "total_raw_rows": 102078,
+  "unique_trajectory_ids": 49897,
+  "metadata_conflicts": [],
+  "files": [
+    {
+      "path": "raw/swe_agent/SWE-bench__SWE-smith-trajectories/data/ticks-00000-of-00008.parquet",
+      "rows": 3229,
+      "columns": [
+        "messages",
+        "instance_id",
+        "resolved",
+        "model",
+        "traj_id",
+        "patch"
+      ],
+      "messages_type": "str",
+      "first_message_roles": [
+        "system",
+        "user",
+        "assistant",
+        "user"
+      ]
+    },
+    {
+      "path": "raw/swe_agent/SWE-bench__SWE-smith-trajectories/data/ticks-00001-of-00008.parquet",
+      "rows": 3229,
+      "columns": [
+        "messages",
+        "instance_id",
+        "resolved",
+        "model",
+        "traj_id",
+        "patch"
+      ],
+      "messages_type": "str",
+      "first_message_roles": [
+        "system",
+        "user",
+        "assistant",
+        "user"
+      ]
+    },
+    {
+      "path": "raw/swe_agent/SWE-bench__SWE-smith-trajectories/data/ticks-00002-of-00008.parquet",
+      "rows": 3228,
+      "columns": [
+        "messages",
+        "instance_id",
+        "resolved",
+        "model",
+        "traj_id",
+        "patch"
+      ],
+      "messages_type": "str",
+      "first_message_roles": [
+        "system",
+        "user",
+        "assistant",
+        "user"
+      ]
+    },
+    {
+      "path": "raw/swe_agent/SWE-bench__SWE-smith-trajectories/data/ticks-00003-of-00008.parquet",
+      "rows": 3228,
+      "columns": [
+        "messages",
+        "instance_id",
+        "resolved",
+        "model",
+        "traj_id",
+        "patch"
+      ],
+      "messages_type": "str",
+      "first_message_roles": [
+        "system",
+        "user",
+        "assistant",
+        "user"
+      ]
+    },
+    {
+      "path": "raw/swe_agent/SWE-bench__SWE-smith-trajectories/data/ticks-00004-of-00008.parquet",
+      "rows": 3228,
+      "columns": [
+        "messages",
+        "instance_id",
+        "resolved",
+        "model",
+        "traj_id",
+        "patch"
+      ],
+      "messages_type": "str",
+      "first_message_roles": [
+        "system",
+        "user",
+        "assistant",
+        "user"
+      ]
+    },
+    {
+      "path": "raw/swe_agent/SWE-bench__SWE-smith-trajectories/data/ticks-00005-of-00008.parquet",
+      "rows": 3228,
+      "columns": [
+        "messages",
+        "instance_id",
+        "resolved",
+        "model",
+        "traj_id",
+        "patch"
+      ],
+      "messages_type": "str",
+      "first_message_roles": [
+        "system",
+        "user",
+        "assistant",
+        "user"
+      ]
+    },
+    {
+      "path": "raw/swe_agent/SWE-bench__SWE-smith-trajectories/data/ticks-00006-of-00008.parquet",
+      "rows": 3228,
+      "columns": [
+        "messages",
+        "instance_id",
+        "resolved",
+        "model",
+        "traj_id",
+        "patch"
+      ],
+      "messages_type": "str",
+      "first_message_roles": [
+        "system",
+        "user",
+        "assistant",
+        "user"
+      ]
+    },
+    {
+      "path": "raw/swe_agent/SWE-bench__SWE-smith-trajectories/data/ticks-00007-of-00008.parquet",
+      "rows": 3228,
+      "columns": [
+        "messages",
+        "instance_id",
+        "resolved",
+        "model",
+        "traj_id",
+        "patch"
+      ],
+      "messages_type": "str",
+      "first_message_roles": [
+        "system",
+        "user",
+        "assistant",
+        "user"
+      ]
+    },
+    {
+      "path": "raw/swe_agent/SWE-bench__SWE-smith-trajectories/data/tool-00000-of-00008.parquet",
+      "rows": 3013,
+      "columns": [
+        "messages",
+        "instance_id",
+        "resolved",
+        "model",
+        "traj_id",
+        "patch"
+      ],
+      "messages_type": "str",
+      "first_message_roles": [
+        "system",
+        "user",
+        "assistant",
+        "tool"
+      ]
+    },
+    {
+      "path": "raw/swe_agent/SWE-bench__SWE-smith-trajectories/data/tool-00001-of-00008.parquet",
+      "rows": 3013,
+      "columns": [
+        "messages",
+        "instance_id",
+        "resolved",
+        "model",
+        "traj_id",
+        "patch"
+      ],
+      "messages_type": "str",
+      "first_message_roles": [
+        "system",
+        "user",
+        "assistant",
+        "user"
+      ]
+    },
+    {
+      "path": "raw/swe_agent/SWE-bench__SWE-smith-trajectories/data/tool-00002-of-00008.parquet",
+      "rows": 3013,
+      "columns": [
+        "messages",
+        "instance_id",
+        "resolved",
+        "model",
+        "traj_id",
+        "patch"
+      ],
+      "messages_type": "str",
+      "first_message_roles": [
+        "system",
+        "user",
+        "assistant",
+        "user"
+      ]
+    },
+    {
+      "path": "raw/swe_agent/SWE-bench__SWE-smith-trajectories/data/tool-00003-of-00008.parquet",
+      "rows": 3013,
+      "columns": [
+        "messages",
+        "instance_id",
+        "resolved",
+        "model",
+        "traj_id",
+        "patch"
+      ],
+      "messages_type": "str",
+      "first_message_roles": [
+        "system",
+        "user",
+        "assistant",
+        "tool"
+      ]
+    },
+    {
+      "path": "raw/swe_agent/SWE-bench__SWE-smith-trajectories/data/tool-00004-of-00008.parquet",
+      "rows": 3012,
+      "columns": [
+        "messages",
+        "instance_id",
+        "resolved",
+        "model",
+        "traj_id",
+        "patch"
+      ],
+      "messages_type": "str",
+      "first_message_roles": [
+        "system",
+        "user",
+        "assistant",
+        "user"
+      ]
+    },
+    {
+      "path": "raw/swe_agent/SWE-bench__SWE-smith-trajectories/data/tool-00005-of-00008.parquet",
+      "rows": 3012,
+      "columns": [
+        "messages",
+        "instance_id",
+        "resolved",
+        "model",
+        "traj_id",
+        "patch"
+      ],
+      "messages_type": "str",
+      "first_message_roles": [
+        "system",
+        "user",
+        "assistant",
+        "user"
+      ]
+    },
+    {
+      "path": "raw/swe_agent/SWE-bench__SWE-smith-trajectories/data/tool-00006-of-00008.parquet",
+      "rows": 3012,
+      "columns": [
+        "messages",
+        "instance_id",
+        "resolved",
+        "model",
+        "traj_id",
+        "patch"
+      ],
+      "messages_type": "str",
+      "first_message_roles": [
+        "system",
+        "user",
+        "assistant",
+        "user"
+      ]
+    },
+    {
+      "path": "raw/swe_agent/SWE-bench__SWE-smith-trajectories/data/tool-00007-of-00008.parquet",
+      "rows": 3012,
+      "columns": [
+        "messages",
+        "instance_id",
+        "resolved",
+        "model",
+        "traj_id",
+        "patch"
+      ],
+      "messages_type": "str",
+      "first_message_roles": [
+        "system",
+        "user",
+        "assistant",
+        "user"
+      ]
+    },
+    {
+      "path": "raw/swe_agent/SWE-bench__SWE-smith-trajectories/data/train-00000-of-00008.parquet",
+      "rows": 3260,
+      "columns": [
+        "messages",
+        "instance_id",
+        "resolved",
+        "model",
+        "traj_id",
+        "patch"
+      ],
+      "messages_type": "list",
+      "first_message_roles": [
+        "system",
+        "user",
+        "assistant",
+        "user"
+      ]
+    },
+    {
+      "path": "raw/swe_agent/SWE-bench__SWE-smith-trajectories/data/train-00001-of-00008.parquet",
+      "rows": 3260,
+      "columns": [
+        "messages",
+        "instance_id",
+        "resolved",
+        "model",
+        "traj_id",
+        "patch"
+      ],
+      "messages_type": "list",
+      "first_message_roles": [
+        "system",
+        "user",
+        "assistant",
+        "user"
+      ]
+    },
+    {
+      "path": "raw/swe_agent/SWE-bench__SWE-smith-trajectories/data/train-00002-of-00008.parquet",
+      "rows": 3260,
+      "columns": [
+        "messages",
+        "instance_id",
+        "resolved",
+        "model",
+        "traj_id",
+        "patch"
+      ],
+      "messages_type": "list",
+      "first_message_roles": [
+        "system",
+        "user",
+        "assistant",
+        "user"
+      ]
+    },
+    {
+      "path": "raw/swe_agent/SWE-bench__SWE-smith-trajectories/data/train-00003-of-00008.parquet",
+      "rows": 3260,
+      "columns": [
+        "messages",
+        "instance_id",
+        "resolved",
+        "model",
+        "traj_id",
+        "patch"
+      ],
+      "messages_type": "list",
+      "first_message_roles": [
+        "system",
+        "user",
+        "assistant",
+        "user"
+      ]
+    },
+    {
+      "path": "raw/swe_agent/SWE-bench__SWE-smith-trajectories/data/train-00004-of-00008.parquet",
+      "rows": 3259,
+      "columns": [
+        "messages",
+        "instance_id",
+        "resolved",
+        "model",
+        "traj_id",
+        "patch"
+      ],
+      "messages_type": "list",
+      "first_message_roles": [
+        "system",
+        "user",
+        "assistant",
+        "user"
+      ]
+    },
+    {
+      "path": "raw/swe_agent/SWE-bench__SWE-smith-trajectories/data/train-00005-of-00008.parquet",
+      "rows": 3259,
+      "columns": [
+        "messages",
+        "instance_id",
+        "resolved",
+        "model",
+        "traj_id",
+        "patch"
+      ],
+      "messages_type": "list",
+      "first_message_roles": [
+        "system",
+        "user",
+        "assistant",
+        "user"
+      ]
+    },
+    {
+      "path": "raw/swe_agent/SWE-bench__SWE-smith-trajectories/data/train-00006-of-00008.parquet",
+      "rows": 3259,
+      "columns": [
+        "messages",
+        "instance_id",
+        "resolved",
+        "model",
+        "traj_id",
+        "patch"
+      ],
+      "messages_type": "list",
+      "first_message_roles": [
+        "system",
+        "user",
+        "assistant",
+        "user"
+      ]
+    },
+    {
+      "path": "raw/swe_agent/SWE-bench__SWE-smith-trajectories/data/train-00007-of-00008.parquet",
+      "rows": 3259,
+      "columns": [
+        "messages",
+        "instance_id",
+        "resolved",
+        "model",
+        "traj_id",
+        "patch"
+      ],
+      "messages_type": "list",
+      "first_message_roles": [
+        "system",
+        "user",
+        "assistant",
+        "user"
+      ]
+    },
+    {
+      "path": "raw/swe_agent/SWE-bench__SWE-smith-trajectories/data/xml-00000-of-00008.parquet",
+      "rows": 3260,
+      "columns": [
+        "messages",
+        "instance_id",
+        "resolved",
+        "model",
+        "traj_id",
+        "patch"
+      ],
+      "messages_type": "str",
+      "first_message_roles": [
+        "system",
+        "user",
+        "assistant",
+        "user"
+      ]
+    },
+    {
+      "path": "raw/swe_agent/SWE-bench__SWE-smith-trajectories/data/xml-00001-of-00008.parquet",
+      "rows": 3260,
+      "columns": [
+        "messages",
+        "instance_id",
+        "resolved",
+        "model",
+        "traj_id",
+        "patch"
+      ],
+      "messages_type": "str",
+      "first_message_roles": [
+        "system",
+        "user",
+        "assistant",
+        "user"
+      ]
+    },
+    {
+      "path": "raw/swe_agent/SWE-bench__SWE-smith-trajectories/data/xml-00002-of-00008.parquet",
+      "rows": 3260,
+      "columns": [
+        "messages",
+        "instance_id",
+        "resolved",
+        "model",
+        "traj_id",
+        "patch"
+      ],
+      "messages_type": "str",
+      "first_message_roles": [
+        "system",
+        "user",
+        "assistant",
+        "user"
+      ]
+    },
+    {
+      "path": "raw/swe_agent/SWE-bench__SWE-smith-trajectories/data/xml-00003-of-00008.parquet",
+      "rows": 3260,
+      "columns": [
+        "messages",
+        "instance_id",
+        "resolved",
+        "model",
+        "traj_id",
+        "patch"
+      ],
+      "messages_type": "str",
+      "first_message_roles": [
+        "system",
+        "user",
+        "assistant",
+        "user"
+      ]
+    },
+    {
+      "path": "raw/swe_agent/SWE-bench__SWE-smith-trajectories/data/xml-00004-of-00008.parquet",
+      "rows": 3259,
+      "columns": [
+        "messages",
+        "instance_id",
+        "resolved",
+        "model",
+        "traj_id",
+        "patch"
+      ],
+      "messages_type": "str",
+      "first_message_roles": [
+        "system",
+        "user",
+        "assistant",
+        "user"
+      ]
+    },
+    {
+      "path": "raw/swe_agent/SWE-bench__SWE-smith-trajectories/data/xml-00005-of-00008.parquet",
+      "rows": 3259,
+      "columns": [
+        "messages",
+        "instance_id",
+        "resolved",
+        "model",
+        "traj_id",
+        "patch"
+      ],
+      "messages_type": "str",
+      "first_message_roles": [
+        "system",
+        "user",
+        "assistant",
+        "user"
+      ]
+    },
+    {
+      "path": "raw/swe_agent/SWE-bench__SWE-smith-trajectories/data/xml-00006-of-00008.parquet",
+      "rows": 3259,
+      "columns": [
+        "messages",
+        "instance_id",
+        "resolved",
+        "model",
+        "traj_id",
+        "patch"
+      ],
+      "messages_type": "str",
+      "first_message_roles": [
+        "system",
+        "user",
+        "assistant",
+        "user"
+      ]
+    },
+    {
+      "path": "raw/swe_agent/SWE-bench__SWE-smith-trajectories/data/xml-00007-of-00008.parquet",
+      "rows": 3259,
+      "columns": [
+        "messages",
+        "instance_id",
+        "resolved",
+        "model",
+        "traj_id",
+        "patch"
+      ],
+      "messages_type": "str",
+      "first_message_roles": [
+        "system",
+        "user",
+        "assistant",
+        "user"
+      ]
+    }
+  ]
+}
