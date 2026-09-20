@@ -1,0 +1,9 @@
+outputs/
+*.db
+*.xlsx
+!/branch_memory.db
+!/branch_memory.xlsx
+*.log
+__pycache__/
+node_modules
+.venv/
